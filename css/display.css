@@ -1,0 +1,15 @@
+/* Hang's CSS for displaying JSON */
+.jh-root, .jh-key, .jh-value, body{font-family: "Helvetica Neue"; font-weight: 300; border:none}
+.jh-key, .jh-value{height:40px; padding:0;}
+.jh-type-object > tbody > tr, .jh-type-array > tbody > tr{border:none;}
+th.jh-key{text-align:right; padding-right:1em;}
+.jh-key{text-transform: uppercase; font-size:0.9em;}
+.jh-type-string, .jh-type-number{font-weight:500; font-style: normal; color:#333}
+.jh-empty{font-weight:normal}
+h1{font-weight:300; font-size:1.6em; display:inline-block;}
+a{text-decoration: none; border: 1px solid #70CCF4; padding:0.5em 1em 0.5em 1em; color: white; background:#70CCF4; margin-left:1em;border-radius: 4px;}
+/*.jh-type-object > tbody > tr,  .jh-type-array > tbody > tr {border-left:1px solid #eee;}*/
+.jh-type-object > tbody > tr:last-child, .jh-type-array > tbody > tr:last-child{border:none;}
+.jh-object-key, .jh-array-key{vertical-align: middle}
+th.jh-key:first-child {width:250px;}
+.jh-type-object > tbody > tr:hover, .jh-type-array > tbody > tr:hover{border: 1px solid #70CCF4 !important}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Let's try this thing</title>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="src/json.human.js"></script>
+		<link rel="stylesheet" media="all" href="css/json.human.css" />
+		<link rel="stylesheet" media="all" href="css/demo.css" />
+		<link rel="stylesheet" media="all" href="css/display.css" />
+		<script>
+			$(document).ready(function(){
+				$('h1').html("Requesting");
+				request();
+			})
+			var jsonFile;
+
+			function request(){
+				var request = $.ajax({
+					url: "http://es-beta.d.radi.us:9200/radius/_search",
+					crossDomain: true,
+					data: {
+							  "query": {
+							    "filtered": {
+							      "query": {
+							        "match": {
+							          "_type": "place"
+							        }
+							      }
+							    }
+							  }
+					}
+				})
+
+				request.done(function (returnJson){
+					jsonFile = returnJson;
+					display(returnJson);
+				}) //end request done
+				
+			}
+
+			function getRandomArbitrary(min, max) {
+  					return Math.floor(Math.random() * (max - min) + min);
+			}
+
+			function display(returnJson){
+				//Randomize
+					var random = getRandomArbitrary(1, returnJson.hits.hits.length - 1);
+					var node = JsonHuman.format(returnJson.hits.hits[random]._source, {showArrayIndex: false});
+					$('h1').html(returnJson.hits.hits[random]._source.all_names[0] + " at index " + random);
+       				$("#output").html(node);
+			}
+
+
+		</script>
+	</head>
+	<body>
+		<h1>Fun Thing!</h1><a onclick="display(jsonFile)" href="#">Another one please</a>
+		<div id="output">
+		</div>
+	
+	</body>
+
+</html>
