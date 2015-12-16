@@ -1,0 +1,485 @@
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">   
+<head>
+  <title>Salesforce Lightning Design System Trailhead Module</title>
+  <link rel="stylesheet" type="text/css" href="salesforce-lightning-design-system-0.12.0/assets/styles/salesforce-lightning-design-system-vf.css" />
+  <script src="lib/svg4everybody.js"></script>
+<script>svg4everybody(); // run it now or whenever you are ready</script>
+</head>   
+<body>    
+
+  <!-- REQUIRED SLDS WRAPPER -->
+  <div class="slds">    
+
+    <!-- MASTHEAD -->
+    <p class="slds-text-heading--label slds-m-bottom--small">Salesforce Lightning Design System Trailhead Module</p>
+    <!-- / MASTHEAD -->    
+
+    <!-- PAGE HEADER -->
+<!-- PAGE HEADER -->
+<div class="slds-page-header" role="banner">
+
+  <!-- PAGE HEADER TOP ROW -->
+  <div class="slds-grid">
+
+    <!-- PAGE HEADER / ROW 1 / COLUMN 1 -->
+    <div class="slds-col">
+
+      <!-- HEADING AREA -->
+      <!-- MEDIA OBJECT = FIGURE + BODY -->
+      <div class="slds-media">
+
+        <div class="slds-media__figure">
+          <svg aria-hidden="true" class="slds-icon slds-icon--large slds-icon-standard-user">
+            <use xlink:href="{!URLFOR($Resource.SLDS090, 'assets/icons/standard-sprite/svg/symbols.svg#user')}"></use>
+          </svg>
+        </div>
+
+        <div class="slds-media__body">
+          <p class="slds-text-heading--label">Account</p>
+          <h1 class="slds-text-heading--medium">SLDS Inc.</h1>
+        </div>
+
+      </div>
+      <!-- / MEDIA OBJECT -->
+      <!-- HEADING AREA -->
+
+    </div>
+    <!-- / PAGE HEADER / ROW 1 / COLUMN 1 -->
+
+    <!-- PAGE HEADER / ROW 1 / COLUMN 2 -->
+    <div class="slds-col slds-no-flex slds-align-middle">
+      <div class="slds-button-group" role="group">
+        <button class="slds-button slds-button--neutral">
+          Contact
+        </button>
+        <button class="slds-button slds-button--neutral">
+          More
+        </button>
+      </div>
+    </div>
+    <!-- / PAGE HEADER / ROW 1 / COLUMN 2 -->
+
+  </div>
+  <!-- / PAGE HEADER TOP ROW -->
+
+  <!-- / PAGE HEADER DETAIL ROW -->
+
+    <!-- PAGE HEADER DETAIL ROW -->
+<div class="slds-grid slds-page-header__detail-row">
+
+  <!-- PAGE HEADER / ROW 2 / COLUMN 1 -->
+  <div class="slds-col--padded slds-size--1-of-4">
+    <dl>
+      <dt>
+        <p class="slds-text-heading--label slds-truncate">Field 1</p>
+      </dt>
+      <dd>
+        <p class="slds-text-body--regular slds-truncate">Description that demonstrates truncation with a long text field</p>
+      </dd>
+    </dl>
+  </div>
+
+  <!-- PAGE HEADER / ROW 2 / COLUMN 2 -->
+  <div class="slds-col--padded slds-size--1-of-4">
+    <dl>
+      <dt>
+        <p class="slds-text-heading--label slds-truncate">Field 2</p>
+      </dt>
+      <dd><a href="#">Hyperlink 2</a></dd>
+    </dl>
+  </div>
+
+  <!-- PAGE HEADER / ROW 2 / COLUMN 3 -->
+  <div class="slds-col--padded slds-size--1-of-4">
+    <dl>
+      <dt>
+        <p class="slds-text-heading--label slds-truncate">Field 3</p>
+      </dt>
+      <dd><a href="#">Hyperlink 3</a></dd>
+    </dl>
+  </div>
+
+  <!-- PAGE HEADER / ROW 2 / COLUMN 4 -->
+  <div class="slds-col--padded slds-size--1-of-4">
+    <dl>
+      <dt>
+        <p class="slds-text-heading--label slds-truncate">Field 4</p>
+      </dt>
+      <dd><a href="#">Hyperlink 4</a></dd>
+    </dl>
+  </div>
+
+</div>
+<!-- / PAGE HEADER DETAIL ROW -->
+  <!-- / PAGE HEADER DETAIL ROW -->
+
+</div>
+<!-- / PAGE HEADER -->
+
+
+    <!-- / PAGE HEADER -->    
+
+  <!-- PRIMARY CONTENT WRAPPER -->
+<div class="myapp">
+
+  <!-- RELATED LIST CARDS-->
+
+  <div class="slds-grid slds-m-top--large">
+<!-- MAIN CARD -->
+<div class="slds-col slds-col-rule--right slds-p-left--large slds-p-right--large slds-size--8-of-12">
+<!-- STARTING TAB -->
+<div class="slds-tabs--default">
+  <ul class="slds-tabs--default__nav" role="tablist">
+    <li class="slds-tabs--default__item slds-text-heading--label slds-active" title="Item One" role="presentation"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1">RELATED</a></li>
+    <li class="slds-tabs--default__item slds-text-heading--label" title="Item Two" role="presentation"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2">DETAILS</a></li>
+  </ul>
+  <div id="tab-default-1" class="slds-tabs--default__content slds-show" role="tabpanel">
+      <div class="slds-card">
+
+    <header class="slds-card__header slds-grid">
+      <div class="slds-col slds-media slds-media--center">
+        <div class="slds-media__figure">
+          <svg aria-hidden="true" class="slds-icon slds-icon-standard-contact slds-icon--small">
+            <use xlink:href="{!URLFOR($Resource.SLDS090, 'assets/icons/standard-sprite/svg/symbols.svg#contact')}"></use>
+          </svg>
+        </div>
+        <div class="slds-media__body">
+          <h3 class="slds-text-heading--small">Some Random Things Here</h3>
+        </div>
+      </div>
+      <div class="slds-col slds-no-flex">
+        <button class="slds-button slds-button--neutral slds-button--small">Add</button>
+      </div>
+    </header>
+
+
+    <!-- CARD BODY = TABLE -->
+    <section class="slds-card__body">
+      <div class="slds-scrollable--x">
+        <table class="slds-table slds-table--bordered slds-max-medium-table--stacked-horizontal">
+          <thead>
+            <tr class="slds-no-hover">
+              <th class="slds-text-heading--label slds-size--1-of-4" scope="col">Name</th>
+              <th class="slds-text-heading--label slds-size--1-of-4" scope="col">Company</th>
+              <th class="slds-text-heading--label slds-size--1-of-4" scope="col">Title</th>
+              <th class="slds-text-heading--label slds-size--1-of-4" scope="col">Email</th>
+              <th class="slds-row-action" scope="col">
+                <button class="slds-button slds-button--icon-border-filled slds-button--icon-border-small">
+                  <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                    <use xlink:href="{!URLFOR($Resource.SLDS090, 'assets/icons/utility-sprite/svg/symbols.svg#down')}"></use>
+                  </svg>
+                  <span class="slds-assistive-text">Show More</span>
+                </button>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="slds-hint-parent">
+              <td class="slds-size--1-of-4" data-label="Name">Adam Choi</td>
+              <td class="slds-size--1-of-4" data-label="Company">Company One</td>
+              <td class="slds-size--1-of-4" data-label="Title">Director of Operations</td>
+              <td class="slds-size--1-of-4" data-label="Email">adam@company.com</td>
+              <td>
+                <button class="slds-button slds-button--icon-border-filled slds-button--icon-border-small">
+                  <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                    <use xlink:href="{!URLFOR($Resource.SLDS090, 'assets/icons/utility-sprite/svg/symbols.svg#down')}"></use>
+                  </svg>
+                  <span class="slds-assistive-text">Show More</span>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </section>
+    <!-- / CARD BODY = SECTION + TABLE -->
+
+    <footer class="slds-card__footer">
+      <a href="#">View All</a>
+    </footer>
+  </div>
+  <!-- End Big card -->
+
+  <!-- CONNECT STUFF -->
+  <div class="slds-grid slds-grid--align-spread" style="margin-top:1rem">
+  <!-- CARD 1 -->
+  <div class="slds-col--padded slds-size--1-of-3" style="padding-left:0">
+  <div class="slds-card">
+  <div class="slds-card__header">
+    <h2 class="slds-text-heading--small slds-truncate">Via Vite</h2>
+  </div>
+  <!-- End Connect Card Header -->
+  <div class="slds-card__body">
+    <div class="slds-tile__detail">
+     <ul>
+      <li class="slds-tile slds-hint-parent">
+          <dl class="dl--horizontal slds-text-body--default">
+          
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#announcement"></use>
+                </svg>
+              </span>Nicolas Pietoso</p>
+
+      
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#bookmark"></use>
+                </svg>
+              </span>520 Vine St</p>
+       
+      
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#attach"></use>
+                </svg>
+              </span>(513) 721-8483</p>
+      
+     
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#brush"></use>
+                </svg>
+              </span>christian@viaviterestaurant.com</p>
+     
+            
+              
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#cases"></use>
+                </svg>
+              </span>Bars</p>
+        
+            
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#clear"></use>
+                </svg>
+              </span>Founded in 2005</p>
+         
+ 
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#company"></use>
+                </svg>
+              </span>50 to 99 employees</p>
+
+              <p class="slds-truncate"><span>
+                <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+                <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#connected_apps"></use>
+                </svg>
+              </span>$2.5 to 5 Million</p>
+
+
+          </dl>
+      </li>
+    </ul>
+        </div>
+   </div> 
+</div>
+</div>
+<!-- / CARD 1 -->
+
+<!-- CARD 2 -->
+ <div class="slds-col--padded slds-size--1-of-3">
+  <div class="slds-card">
+  <div class="slds-card__header">
+    <h2 class="slds-text-heading--small slds-truncate">Lead Profile Score</h2>
+  </div>
+  <!-- End Connect Card Header -->
+  <div class="slds-card__body">
+  <ul class="slds-list--vertical slds-has-selection">
+  <li class="slds-list__item slds-grid" style="border-bottom:1px solid #eee; ">
+    <div class="slds-media slds-tile slds-size--1-of-2" style="">
+      <div class="slds-media__figure">
+        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-text-default">
+          <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#inbox"></use>
+        </svg>
+      </div>
+      <div class="slds-media__body">
+        <p>Tech Savviness</p> 
+      </div>
+    </div>
+      <div class="slds-size--1-of-2" style="margin:8px; padding:8px">
+        <div class="" style="height:5px; width:95%;background-color:#2B84C6; margin-top:8px; margin-bottom:8px; display:flex;"></div>
+        <div class="" style="height:5px; width:40%;background-color:#0D4260; display:flex;"></div>
+  </div>
+  </li>
+
+  <li class="slds-list__item slds-grid" style="border-bottom:1px solid #eee;">
+    <div class="slds-media slds-tile slds-size--1-of-2">
+      <div class="slds-media__figure">
+        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-text-default">
+          <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#comments"></use>
+        </svg>
+      </div>
+      <div class="slds-media__body">
+        <p>Social Activity</p>
+      </div>
+      
+    </div> <div class="slds-size--1-of-2" style="margin:8px; padding:8px">
+        <div class="" style="height:5px; width:50%; background-color:#2B84C6; margin-top:8px; margin-bottom:8px; display:flex;"></div>
+        <div class="" style="height:5px; width:80%; background-color:#0D4260; display:flex;"></div>
+  </div>
+  </li>
+  <li class="slds-list__item  slds-grid" style="">
+    <div class="slds-media slds-tile slds-tile slds-size--1-of-2">
+      <div class="slds-media__figure">
+        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-text-default">
+          <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#like"></use>
+        </svg>
+      </div>
+      <div class="slds-media__body">
+        <p>Customer Rating</p>
+      </div>
+    </div>
+    <div class="slds-size--1-of-2" style="margin:8px; padding:8px">
+        <div class="" style="height:5px; width:60%; background-color:#2B84C6; margin-top:8px; margin-bottom:8px; display:flex;"></div>
+        <div class="" style="height:5px; width:20%; background-color:#0D4260; display:flex;"></div>
+  </div>
+  </li>
+</ul>
+   </div> 
+</div>
+</div>
+<!-- / CARD 2 -->
+
+<!-- CARD 3 -->
+ <div class="slds-col--padded slds-size--1-of-3" style="padding-right:0">
+  <div class="slds-card">
+  <div class="slds-card__header">
+    <h2 class="slds-text-heading--small slds-truncate">Similar Nearby</h2>
+  </div>
+  <!-- End Connect Card Header -->
+  <div class="slds-card__body ">
+    <div class="slds-tile__detail ">
+     <div class="slds-tile" style="border-bottom:1px solid #eee">
+  <p class="slds-tile__title slds-truncate"><a href="#">Fiesta Printed Product</a></p>
+  <div class="slds-tile__detail slds-text-body--small">
+  <p>
+     <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+          <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#checkin"></use>
+        </svg>
+    0.08 mi
+  </p>
+  </div>
+</div>
+
+<div class="slds-tile" style="border-bottom:1px solid #eee">
+  <p class="slds-tile__title slds-truncate"><a href="#">Fiesta Printed Product</a></p>
+  <div class="slds-tile__detail slds-text-body--small">
+  <p>
+     <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+          <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#checkin"></use>
+        </svg>
+    0.08 mi
+  </p>
+  </div>
+</div>
+
+<div class="slds-tile">
+  <p class="slds-tile__title slds-truncate"><a href="#">Fiesta Printed Product</a></p>
+  <div class="slds-tile__detail slds-text-body--small">
+  <p>
+     <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+          <use xlink:href="assets/icons/utility-sprite/svg/symbols.svg#checkin"></use>
+        </svg>
+    0.08 mi
+  </p>
+  </div>
+</div>
+
+        </div>
+   </div> 
+</div>
+</div>
+<!-- / CARD 3 -->
+</div>
+  <!-- /CONNECT STUFF -->
+  </div>
+  </div>
+  <div id="tab-default-2" class="slds-tabs--default__content slds-hide" role="tabpanel">
+    <h2>DETAILS</h2>
+  </div>
+</div>
+<!-- / ENDING TAB -->
+<!-- / MAIN CARD -->
+
+  <!-- RIGHT SIDE -->
+<div class="slds-col slds-p-left--large slds-size--4-of-12">
+
+  <div class="slds-tabs--default">
+  <ul class="slds-tabs--default__nav" role="tablist">
+    <li class="slds-tabs--default__item slds-text-heading--label slds-active" title="Item One" role="presentation"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1">ACTIVITY</a></li>
+    <li class="slds-tabs--default__item slds-text-heading--label" title="Item Two" role="presentation"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2">COLLABORATE</a></li>
+  </ul>
+  <div id="tab-default-1" class="slds-tabs--default__content slds-show" role="tabpanel">
+  <!-- START CONTACTS CARD -->
+   <div class="slds-card">
+
+    <header class="slds-card__header">
+      <div class="slds-media slds-media--center">
+        <div class="slds-media__figure">
+          <svg aria-hidden="true" class="slds-icon slds-icon-standard-lead slds-icon--small">
+            <use xlink:href="{!URLFOR($Resource.SLDS090, 'assets/icons/standard-sprite/svg/symbols.svg#lead')}"></use>
+          </svg>
+        </div>
+        <div class="slds-media__body">
+          <h3 class="slds-text-heading--small">Team</h3>
+        </div>
+      </div>
+    </header>
+
+    <section class="slds-card__body">
+      <!-- LIST WITH ONE ITEM -->
+      <ul>
+        <li class="slds-tile slds-hint-parent">
+
+          <p class="tile__title slds-truncate"><a href="#">Anne Choi</a></p>
+
+          <div class="tile__detail">
+            <dl class="dl--horizontal slds-text-body--small">
+              <dt class="slds-dl--horizontal__label">
+                <p class="slds-truncate">Email:</p>
+              </dt>
+              <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                <p class="slds-truncate">achoi@burlingtion.com</p>
+              </dd>
+            </dl>
+          </div>
+        </li>
+      </ul>
+      <!-- LIST WITH ONE ITEM -->
+    </section>
+
+    <footer class="slds-card__footer">
+      <a href="#">View All</a>
+    </footer>
+  </div>
+  <!-- / END CONTACTS CARD -->
+  <!-- / TAB 1 CONTENT -->
+  </div>
+
+</div>
+  </div>
+  <!-- / RELATED LIST CARDS -->
+
+</div>
+<!-- / PRIMARY CONTENT WRAPPER -->
+
+    <!-- FOOTER -->
+    <footer role="contentinfo" class="slds-p-around--large">
+      <!-- LAYOUT GRID -->
+      <div class="slds-grid slds-grid--align-spread">
+        <p class="slds-col">Salesforce Lightning Design System Example</p>
+        <p class="slds-col">&copy; Your Name Here</p>
+      </div>
+      <!-- / LAYOUT GRID -->
+    </footer>
+    <!-- / FOOTER --> 
+
+  </div>
+  <!-- / REQUIRED SLDS WRAPPER -->    
+
+</body>    
