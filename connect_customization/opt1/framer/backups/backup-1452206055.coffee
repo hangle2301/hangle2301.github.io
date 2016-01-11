@@ -1,5 +1,11 @@
 # Import file "0106-Prototype"
 sketch = Framer.Importer.load("imported/0106-Prototype@1x")
+scroll = new ScrollComponent
+    width: Framer.Device.screen.width
+    height: Framer.Device.screen.height
+scroll.mouseWheelEnabled = true
+# Include a Layer 
+sketch.superLayer = scroll.content
 
 # Array-ing layers
 labelLayers = sketch.LeftPanelList.subLayers

@@ -1,6 +1,11 @@
 # Import file "0107-Prototype-Option3"
 sketch = Framer.Importer.load("imported/0107-Prototype-Option3@1x")
-
+# Setup scroll
+scroll = new ScrollComponent
+    width: Framer.Device.screen.width
+    height: Framer.Device.screen.height
+sketch.Artboard1.superLayer = scroll.content
+scroll.mouseWheelEnabled = true
 # Array-ing layers
 labelLayers = sketch.LeftPanelLayers.subLayers
 dimOpacity = 0.6
@@ -38,6 +43,13 @@ displayTitleLeft()
 redisplayTop()
 redisplayBottom()
 sketch.LeftRect.originY = 0
+sketch.HelpOver.visible = false
+sketch.HelpOver.style =
+	"color" : "#fff"
+	"font-size" : "12px"
+	"padding" : "0px 5px 5px 5px"
+	"background-color" : "#393F46"
+labelNames = ["Best Contact", "Address", "Phone Number", "Best Email", "Type of Business", "Founded Year", "Employees Number", "Revenue Range", "Accepts Credit Card", "Type of Chain", "Check-ins Count", "Daily Deals Number", "Territory", "Vertical", "Ads & Web Technology", "External Links" ]
 
 # Animation & Clicking
 for layer, index in labelLayers
@@ -71,8 +83,10 @@ for layer, index in labelLayers
 				# Redisplay
 				redisplayBottom()
 				redisplayTop()
+	# Setting up Help text
 	layer.on Events.MouseOver, (event, layerOvered)->
-		sketch.HelpOver.visible = true
+		indexInBig = labelLayers.indexOf(layerOvered)
+		sketch.HelpOver.html = labelNames[indexInBig].toString		sketch.HelpOver.visible = true
 		sketch.HelpOver.x = event.clientX		
 		sketch.HelpOver.y = layerOvered.y + sketch.TopBackground.y + 15
 	layer.on Events.MouseOut, (event, layerOvered)->

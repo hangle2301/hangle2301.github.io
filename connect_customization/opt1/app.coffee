@@ -1,5 +1,11 @@
 # Import file "0106-Prototype"
 sketch = Framer.Importer.load("imported/0106-Prototype@1x")
+scroll = new ScrollComponent
+    width: Framer.Device.screen.width
+    height: Framer.Device.screen.height
+scroll.mouseWheelEnabled = true
+# Include a Layer 
+sketch.Artboard.superLayer = scroll.content
 
 # Array-ing layers
 labelLayers = sketch.LeftPanelList.subLayers
@@ -10,6 +16,7 @@ fullOpacity = 1
 # Setup initial state
 for layer, index in labelLayers[4..10]
 	layer.opacity = dimOpacity	
+	
 sketch.HelpOver.visible = false
 
 # Managing available labels
