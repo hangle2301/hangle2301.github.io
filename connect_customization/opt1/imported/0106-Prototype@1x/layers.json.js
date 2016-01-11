@@ -1204,9 +1204,9 @@ window.__imported__["0106-Prototype/layers.json.js"] = [
                 "id": "49AFB013-DED7-4551-8D61-C8408A3D43D1", 
                 "image": {
                     "frame": {
-                        "height": 71, 
-                        "width": 322, 
-                        "x": 559, 
+                        "height": 88, 
+                        "width": 326, 
+                        "x": 557, 
                         "y": 624
                     }, 
                     "path": "images/Layer-MiddleFlip-49AFB013-DED7-4551-8D61-C8408A3D43D1.png"
@@ -1214,9 +1214,9 @@ window.__imported__["0106-Prototype/layers.json.js"] = [
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 71, 
-                    "width": 322, 
-                    "x": 559, 
+                    "height": 88, 
+                    "width": 326, 
+                    "x": 557, 
                     "y": 624
                 }, 
                 "maskFrame": null, 
