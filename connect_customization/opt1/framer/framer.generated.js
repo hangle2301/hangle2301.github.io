@@ -43,20 +43,20 @@ window.__imported__["0106-Prototype/layers.json.js"] = [
                                 "id": "4F8C3E00-CF2F-43CC-9616-E762C18FD438", 
                                 "image": {
                                     "frame": {
-                                        "height": 14, 
+                                        "height": 15, 
                                         "width": 14, 
                                         "x": 1075, 
-                                        "y": 277
+                                        "y": 276
                                     }, 
                                     "path": "images/Layer-Rectangle_34_Copy_2__Line__Line-4F8C3E00-CF2F-43CC-9616-E762C18FD438.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 14, 
+                                    "height": 15, 
                                     "width": 14, 
                                     "x": 1075, 
-                                    "y": 277
+                                    "y": 276
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -133,7 +133,7 @@ window.__imported__["0106-Prototype/layers.json.js"] = [
                     "opacity": 1
                 }, 
                 "name": "PreviewScreen", 
-                "visible": false
+                "visible": true
             }, 
             {
                 "children": [], 
