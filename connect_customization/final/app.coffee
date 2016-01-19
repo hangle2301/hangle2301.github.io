@@ -50,7 +50,7 @@ sketch.QuickFactsTitle.style =
 	"color" : "#969DA3"
 	"font-size" : "14px"
 	"font-style" : "Italic"
-	"font-family" : "ApexNew-Book"
+	"font-family" : "Apex New"
 displayTitleLeft = () ->
 	sketch.QuickFactsTitle.html = "(" + currentLeft + "/" + maxLeft + " Maximum Signals" + ")"
 	
@@ -105,7 +105,7 @@ sketch.ComparisonTitle.style =
 	"color" : "#969DA3"
 	"font-size" : "14px"
 	"font-style" : "Italic"
-	"font-family" : "Apex New Book"
+	"font-family" : "Apex New"
 displayTitleMiddle = () ->
 	sketch.ComparisonTitle.html = "(" + currentMiddle + "/" + maxMiddle + " Maximum Signals" + ")"
 	
