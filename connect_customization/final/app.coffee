@@ -167,13 +167,15 @@ for layer, index in tooltips
 # ----- NEARBY TITLE INTERACTION ---- #		
 nearbyCursor = sketch.NearbyCursor
 nearbyEdit = sketch.NearbyEdit
-nearbyCursor.opacity = 0
+nearbyCursor.visible = false
 
 nearbyEdit.on Events.Click, (event, layerClicked)->
-	if (nearbyCursor.opacity == 0)
-		nearbyCursor.opacity = 1
-	else
-		nearbyCursor.opacity = 0
+	if (!nearbyCursor.visible)
+		nearbyCursor.visible = true
+		nearbyEdit.visible = false
+nearbyCursor.on Events.Click, (event, layerClicked)->
+		nearbyCursor.visible = false
+		nearbyEdit.visible = true
 		
 	
 
