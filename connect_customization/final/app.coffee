@@ -1,4 +1,5 @@
 # Import file "0119-Prototype"
+# New thing
 sketch = Framer.Importer.load("imported/0119-Prototype@1x")
 
 scroll = new ScrollComponent
