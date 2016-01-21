@@ -15,24 +15,8 @@ editState = sketch.Editstate
 previewPanel = sketch.Preview
 previewButton = sketch.PreviewButton
 flippedEditButton = sketch.EditBt
-flippedSaveButton = sketch.SaveBt	
 rightPanelPreview = sketch.PreviewRightPanel
 tooltips = sketch.Tooltip.subLayers
-
-# Initial state
-previewPanel.visible = false
-
-previewButton.on Events.Click, (event, layerClicked)->
-	previewPanel.visible = true
-	editState.visible = false
-flippedEditButton.on Events.Click, (event, layerClicked)->
-	previewPanel.visible = false
-	editState.visible = true
-rightPanelPreview.on Events.Click, (event, layerClicked)->
-	if (rightPanelPreview.opacity == 0)
-		rightPanelPreview.opacity = 1
-	else
-		rightPanelPreview.opacity = 0
 
 # ----- LEFT PANEL INTERACTION ---- #
 # Managing available labels
@@ -42,9 +26,8 @@ currentLeft = 0
 for layer, index in labelLayers
 	layer.subLayersByName("hover")[0].opacity = 0
 	layer.subLayersByName("selected")[0].opacity = 0
-for layer, index in labelLayers[0..4]
+for layer, index in labelLayers[0..7]
 	layer.subLayersByName("selected")[0].opacity = 1
-	layer.subLayersByName("hover")[0].opacity = 1
 	currentLeft = currentLeft + 1
 	
 sketch.QuickFactsTitle.style = 
@@ -73,11 +56,11 @@ for layer, index in labelLayers
 				time: 0.3
 				curve: "easeinout"
 	layer.on Events.Click, (event, layerClicked)->
+		thisIndex = labelLayers.indexOf(layerClicked)
 		if layerClicked.subLayersByName("selected")[0].opacity == 0
 			#Turning on this layer
 			if currentLeft < maxLeft
 				layerClicked.subLayersByName("selected")[0].opacity = 1
-				layerClicked.subLayersByName("hover")[0].opacity = 1
 				currentLeft = currentLeft + 1
 				displayTitleLeft()
 		else
@@ -98,7 +81,6 @@ for layer, index in middleLayers
 	layer.subLayersByName("selected")[0].opacity = 0
 for layer, index in middleLayers[3..4]
 	layer.subLayersByName("selected")[0].opacity = 1
-	layer.subLayersByName("hover")[0].opacity = 1
 	currentMiddle = currentMiddle + 1
 
 
@@ -108,33 +90,35 @@ sketch.ComparisonTitle.style =
 	"font-style" : "Italic"
 	"font-family" : "Apex New"
 displayTitleMiddle = () ->
-	sketch.ComparisonTitle.html = "(" + currentMiddle + "/" + maxMiddle + " Maximum Signals" + ")"
+	sketch.ComparisonTitle.html = "(" + currentMiddle + "/" + maxMiddle + " Maximum Profiles" + ")"
 	
 displayTitleMiddle()
 
 #List interaction
-sketch.MiddlePanelTooltip.opacity = 0
+middlePanelTooltips = sketch.middletooltip.subLayers
+for layer, index in middlePanelTooltips
+	layer.opacity = 0
 for layer, index in middleLayers
 	layer.on Events.MouseOver, (event, layerOvered)->
+		layerIndex = middleLayers.indexOf(layerOvered)
 		layerOvered.subLayersByName("hover")[0].animate
 			properties:
 				opacity: 1
 			time: 0.3
 			curve: "easeinout"
-		sketch.MiddlePanelTooltip.animate
+		middlePanelTooltips[layerIndex].animate
 			properties:
 				opacity: 1
-		sketch.MiddlePanelTooltip.x = layerOvered.x + sketch.MiddlePanelList.x + 100
-		sketch.MiddlePanelTooltip.y = layerOvered.y + sketch.MiddlePanelList.y - 25
 				
 	layer.on Events.MouseOut, (event, layerOvered)->
+		layerIndex = middleLayers.indexOf(layerOvered)
 		if (layerOvered.subLayersByName("selected")[0].opacity != 1)
 			layerOvered.subLayersByName("hover")[0].animate
 				properties:
 					opacity: 0
 				time: 0.3
 				curve: "easeinout"
-		sketch.MiddlePanelTooltip.animate
+		middlePanelTooltips[layerIndex].animate
 			properties:
 				opacity: 0
 	layer.on Events.Click, (event, layerClicked)->
@@ -142,7 +126,6 @@ for layer, index in middleLayers
 			#Turning on this layer
 			if currentMiddle < maxMiddle
 				layerClicked.subLayersByName("selected")[0].opacity = 1
-				layerClicked.subLayersByName("hover")[0].opacity = 1
 				currentMiddle = currentMiddle + 1
 				displayTitleMiddle()
 		else
@@ -178,6 +161,75 @@ nearbyCursor.on Events.Click, (event, layerClicked)->
 		nearbyCursor.visible = false
 		nearbyEdit.visible = true
 		
+# ----- SAVE STATE ---- #
+previewSaveButton = sketch.PreviewStateSaveButton
+editSaveButton = sketch.EditStateSaveButton	
+cycle = (groupToCycle)->
+	layerlist = groupToCycle.subLayers
+	for layer, index in layerlist
+		console.log(layer + index)
+		layer.animate
+			properties:
+				opacity: 0
+			delay: (layerlist.length - index) * 1
+			time: 0.5
+		layer.on Events.AnimationEnd, (animation, layerAnimated) ->
+			console.log("ended " + layerAnimated)
+			thisIndex = layerlist.indexOf(layerAnimated)
+			layerAnimated.animate
+				properties:
+					opacity: 1	
+				delay:(layerlist.length - thisIndex) * 1
+			layerAnimated.removeListener(Events.AnimationEnd)					
+previewSaveButton.on Events.Click, (event, layerClicked)->
+	cycle(previewSaveButton)
+editSaveButton.on Events.Click, (event, layerClicked)->
+	cycle(editSaveButton)
+
+# Preview functionality
+previewPanel.visible = false
+previewLeftPanel = sketch.LeftPanelPreview.subLayers
+previewRightPanel = sketch.previewThirdPanel.subLayers
+previewMiddlePanel = sketch.MiddlePanelPreview.subLayers
+
+previewButton.on Events.Click, (event, layerClicked)->
+	previewPanel.visible = true
+	editState.visible = false
+flippedEditButton.on Events.Click, (event, layerClicked)->
+	previewPanel.visible = false
+	editState.visible = true
 	
+rightPanelPreview.on Events.Click, (event, layerClicked)->
+	if (rightPanelPreview.opacity == 0)
+		rightPanelPreview.opacity = 1
+	else
+		rightPanelPreview.opacity = 0
+
+clickingMiddle = 0
+for layer, index in previewMiddlePanel
+	if index > 0
+		layer.visible= false
+	layer.on Events.Click, (event, layerClicked)->
+		# Find out which layer it is
+		layerClicked.visible = false
+		if clickingMiddle < previewMiddlePanel.length - 1
+			clickingMiddle++
+			previewMiddlePanel[clickingMiddle].visible = true
+		else
+			previewMiddlePanel[0].visible = true
+			clickingMiddle = 0
+clickingLeft = 0
+for layer, index in previewLeftPanel
+	if index > 0
+		layer.visible= false
+	layer.on Events.Click, (event, layerClicked)->
+		# Find out which layer it is
+		layerClicked.visible = false
+		if clickingLeft < previewLeftPanel.length - 1
+			clickingLeft++
+			previewLeftPanel[clickingLeft].visible = true
+		else
+			previewLeftPanel[0].visible = true
+			clickingLeft = 0
 
 
