@@ -1,6 +1,5 @@
-# Import file "0119-Prototype"
-# New thing
-sketch = Framer.Importer.load("imported/0119-Prototype@1x")
+# Import file "Customization-MVP"
+sketch = Framer.Importer.load("imported/Customization-MVP@1x")
 
 scroll = new ScrollComponent
     width: Framer.Device.screen.width
@@ -26,10 +25,12 @@ currentLeft = 0
 for layer, index in labelLayers
 	layer.subLayersByName("hover")[0].opacity = 0
 	layer.subLayersByName("selected")[0].opacity = 0
-for layer, index in labelLayers[0..7]
+	layer.clicked = false
+for layer, index in labelLayers[0..5]
 	layer.subLayersByName("selected")[0].opacity = 1
 	currentLeft = currentLeft + 1
-	
+	layer.clicked = true
+
 sketch.QuickFactsTitle.style = 
 	"color" : "#969DA3"
 	"font-size" : "14px"
@@ -40,6 +41,16 @@ displayTitleLeft = () ->
 	
 displayTitleLeft()
 
+animateCheck= (layerToAnimate) ->
+	animationA = new Animation
+		layer: layerToAnimate
+		properties:
+			scale: 1.2
+		time: 0.15
+	animationB = animationA.reverse()
+	animationA.on(Events.AnimationEnd, animationB.start)
+	animationA.start()
+	
 # Setup initial state
 for layer, index in labelLayers
 	layer.on Events.MouseOver, (event, layerOvered)->
@@ -49,25 +60,26 @@ for layer, index in labelLayers
 			time: 0.3
 			curve: "easeinout"
 	layer.on Events.MouseOut, (event, layerOvered)->
-		if (layerOvered.subLayersByName("selected")[0].opacity != 1)
-			layerOvered.subLayersByName("hover")[0].animate
-				properties:
-					opacity: 0
-				time: 0.3
-				curve: "easeinout"
+		layerOvered.subLayersByName("hover")[0].animate
+			properties:
+				opacity: 0
+			time: 0.3
+			curve: "easeinout"
 	layer.on Events.Click, (event, layerClicked)->
 		thisIndex = labelLayers.indexOf(layerClicked)
-		if layerClicked.subLayersByName("selected")[0].opacity == 0
+		if (!layerClicked.clicked)
 			#Turning on this layer
 			if currentLeft < maxLeft
 				layerClicked.subLayersByName("selected")[0].opacity = 1
+				animateCheck(layerClicked.subLayersByName("selected")[0])
+				layerClicked.clicked = true
 				currentLeft = currentLeft + 1
 				displayTitleLeft()
 		else
 			#Turning off this layer
 			if currentLeft > 1
 				layerClicked.subLayersByName("selected")[0].opacity = 0
-				layerClicked.subLayersByName("hover")[0].opacity = 0
+				layerClicked.clicked = false
 				currentLeft = currentLeft - 1
 				displayTitleLeft()
 
@@ -79,9 +91,11 @@ middleLayers = sketch.MiddlePanelList.subLayers
 for layer, index in middleLayers
 	layer.subLayersByName("hover")[0].opacity = 0
 	layer.subLayersByName("selected")[0].opacity = 0
-for layer, index in middleLayers[3..4]
+	layer.clicked = false
+for layer, index in middleLayers[1..3]
 	layer.subLayersByName("selected")[0].opacity = 1
 	currentMiddle = currentMiddle + 1
+	layer.clicked = true
 
 
 sketch.ComparisonTitle.style = 
@@ -108,31 +122,31 @@ for layer, index in middleLayers
 			curve: "easeinout"
 		middlePanelTooltips[layerIndex].animate
 			properties:
-				opacity: 1
-				
+				opacity: 1	
 	layer.on Events.MouseOut, (event, layerOvered)->
 		layerIndex = middleLayers.indexOf(layerOvered)
-		if (layerOvered.subLayersByName("selected")[0].opacity != 1)
-			layerOvered.subLayersByName("hover")[0].animate
-				properties:
-					opacity: 0
-				time: 0.3
-				curve: "easeinout"
+		layerOvered.subLayersByName("hover")[0].animate
+			properties:
+				opacity: 0
+			time: 0.3
+			curve: "easeinout"
 		middlePanelTooltips[layerIndex].animate
 			properties:
 				opacity: 0
 	layer.on Events.Click, (event, layerClicked)->
-		if layerClicked.subLayersByName("selected")[0].opacity == 0
+		if (!layerClicked.clicked)
 			#Turning on this layer
 			if currentMiddle < maxMiddle
 				layerClicked.subLayersByName("selected")[0].opacity = 1
+				animateCheck(layerClicked.subLayersByName("selected")[0])
+				layerClicked.clicked = true
 				currentMiddle = currentMiddle + 1
 				displayTitleMiddle()
 		else
 			#Turning off this layer
 			if currentMiddle > 1
 				layerClicked.subLayersByName("selected")[0].opacity = 0
-				layerClicked.subLayersByName("hover")[0].opacity = 0
+				layerClicked.clicked = false
 				currentMiddle = currentMiddle - 1
 				displayTitleMiddle()
 				
@@ -167,11 +181,10 @@ editSaveButton = sketch.EditStateSaveButton
 cycle = (groupToCycle)->
 	layerlist = groupToCycle.subLayers
 	for layer, index in layerlist
-		console.log(layer + index)
 		layer.animate
 			properties:
 				opacity: 0
-			delay: (layerlist.length - index) * 1
+			delay: (layerlist.length - index)
 			time: 0.5
 		layer.on Events.AnimationEnd, (animation, layerAnimated) ->
 			console.log("ended " + layerAnimated)
@@ -179,7 +192,7 @@ cycle = (groupToCycle)->
 			layerAnimated.animate
 				properties:
 					opacity: 1	
-				delay:(layerlist.length - thisIndex) * 1
+				delay:(layerlist.length - thisIndex)
 			layerAnimated.removeListener(Events.AnimationEnd)					
 previewSaveButton.on Events.Click, (event, layerClicked)->
 	cycle(previewSaveButton)
