@@ -147,27 +147,6 @@ animationF2.on Events.AnimationEnd, ->
 	animationF4.start()
 animationF.start()
 
-# --- Headphones --- #
-option8 = sketch.Radius8
-option8.originX = 0.5
-option8.originY = 0.8
-animationI = new Animation
-	layer: option8
-	properties: 
-		rotation: 30
-	time: 0.5
-	delay: 0.2
-animationI2 = new Animation
-	layer: option8
-	properties: 
-		rotation: -30
-	time: 0.5
-	delay: 0.2
-animationI.on Events.AnimationEnd, ->
-	animationI2.start()
-animationI2.on Events.AnimationEnd, ->
-	animationI.start()
-
-animationI.start()
+	
 		
 	

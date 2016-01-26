@@ -341,347 +341,6 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
             {
                 "children": [
                     {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "E18AE190-6476-4956-8706-4AC46D768BB5", 
-                                "image": {
-                                    "frame": {
-                                        "height": 47, 
-                                        "width": 41, 
-                                        "x": 174, 
-                                        "y": 134
-                                    }, 
-                                    "path": "images/Layer-Group-E18AE190-6476-4956-8706-4AC46D768BB5.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 47, 
-                                    "width": 41, 
-                                    "x": 174, 
-                                    "y": 134
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "Group", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "813D5645-E3C4-4160-9DDC-433553865CAA", 
-                        "image": {
-                            "frame": {
-                                "height": 82, 
-                                "width": 82, 
-                                "x": 151, 
-                                "y": 117
-                            }, 
-                            "path": "images/Layer-Group_3-813D5645-E3C4-4160-9DDC-433553865CAA.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 82, 
-                            "width": 82, 
-                            "x": 151, 
-                            "y": 117
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Group3", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [
-                                    {
-                                        "children": [], 
-                                        "id": "A074F2C8-000E-49AC-A408-EF206EE87974", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 138, 
-                                                "width": 138, 
-                                                "x": 123, 
-                                                "y": 89
-                                            }, 
-                                            "path": "images/Layer-Group_6-A074F2C8-000E-49AC-A408-EF206EE87974.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 138, 
-                                            "width": 138, 
-                                            "x": 123, 
-                                            "y": 89
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Group6", 
-                                        "visible": true
-                                    }, 
-                                    {
-                                        "children": [], 
-                                        "id": "BC6909A2-4FF6-47EE-A8F7-A8799EA19DEE", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 104, 
-                                                "width": 104, 
-                                                "x": 140, 
-                                                "y": 106
-                                            }, 
-                                            "path": "images/Layer-Group_2-BC6909A2-4FF6-47EE-A8F7-A8799EA19DEE.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 104, 
-                                            "width": 104, 
-                                            "x": 140, 
-                                            "y": 106
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Group2", 
-                                        "visible": true
-                                    }, 
-                                    {
-                                        "children": [
-                                            {
-                                                "children": [], 
-                                                "id": "4CA2899B-D12C-4702-8836-608C7328CA89", 
-                                                "image": {
-                                                    "frame": {
-                                                        "height": 100, 
-                                                        "width": 100, 
-                                                        "x": 142, 
-                                                        "y": 108
-                                                    }, 
-                                                    "path": "images/Layer-Group-4CA2899B-D12C-4702-8836-608C7328CA89.png"
-                                                }, 
-                                                "imageType": "png", 
-                                                "kind": "group", 
-                                                "layerFrame": {
-                                                    "height": 100, 
-                                                    "width": 100, 
-                                                    "x": 142, 
-                                                    "y": 108
-                                                }, 
-                                                "maskFrame": null, 
-                                                "metadata": {
-                                                    "opacity": 1
-                                                }, 
-                                                "name": "Group", 
-                                                "visible": true
-                                            }
-                                        ], 
-                                        "id": "62CA9DDB-6F70-41E2-AC17-F30AB3CA18ED", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 128, 
-                                                "width": 128, 
-                                                "x": 128, 
-                                                "y": 94
-                                            }, 
-                                            "path": "images/Layer-Group-62CA9DDB-6F70-41E2-AC17-F30AB3CA18ED.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 128, 
-                                            "width": 128, 
-                                            "x": 128, 
-                                            "y": 94
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Group", 
-                                        "visible": true
-                                    }
-                                ], 
-                                "id": "0448CE04-9C39-4E34-909D-7EC4187F384C", 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 138, 
-                                    "width": 138, 
-                                    "x": 123, 
-                                    "y": 89
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "OuterLayer", 
-                                "visible": true
-                            }, 
-                            {
-                                "children": [], 
-                                "id": "EAD4228B-3844-498B-A617-03E48D2920B1", 
-                                "image": {
-                                    "frame": {
-                                        "height": 128, 
-                                        "width": 128, 
-                                        "x": 128, 
-                                        "y": 94
-                                    }, 
-                                    "path": "images/Layer-Group_4-EAD4228B-3844-498B-A617-03E48D2920B1.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 128, 
-                                    "width": 128, 
-                                    "x": 128, 
-                                    "y": 94
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "Group4", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "A47A969F-513D-43B7-B18E-FFB6AA5978C6", 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 138, 
-                            "width": 138, 
-                            "x": 123, 
-                            "y": 89
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Layer1", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [
-                                    {
-                                        "children": [
-                                            {
-                                                "children": [], 
-                                                "id": "B7B46538-6D91-4A3F-ACDB-4BD1994A90FC", 
-                                                "image": {
-                                                    "frame": {
-                                                        "height": 32, 
-                                                        "width": 336, 
-                                                        "x": 27, 
-                                                        "y": 30
-                                                    }, 
-                                                    "path": "images/Layer-Heading_Copy_3-B7B46538-6D91-4A3F-ACDB-4BD1994A90FC.png"
-                                                }, 
-                                                "imageType": "png", 
-                                                "kind": "group", 
-                                                "layerFrame": {
-                                                    "height": 32, 
-                                                    "width": 336, 
-                                                    "x": 27, 
-                                                    "y": 30
-                                                }, 
-                                                "maskFrame": null, 
-                                                "metadata": {
-                                                    "opacity": 1
-                                                }, 
-                                                "name": "HeadingCopy3", 
-                                                "visible": true
-                                            }
-                                        ], 
-                                        "id": "8E218BCC-8CC8-40B6-A4DE-791B3B1A0CAE", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 244, 
-                                                "width": 336, 
-                                                "x": 27, 
-                                                "y": 30
-                                            }, 
-                                            "path": "images/Layer-Lead_Profile_Score-8E218BCC-8CC8-40B6-A4DE-791B3B1A0CAE.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 244, 
-                                            "width": 336, 
-                                            "x": 27, 
-                                            "y": 30
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 0.6
-                                        }, 
-                                        "name": "LeadProfileScore", 
-                                        "visible": true
-                                    }
-                                ], 
-                                "id": "66ED0185-65B0-4230-9FDF-DF5CBED0C384", 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 244, 
-                                    "width": 336, 
-                                    "x": 27, 
-                                    "y": 30
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "BG", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "59C774D3-82A1-4ADC-8180-75BD8AD29E78", 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 244, 
-                            "width": 336, 
-                            "x": 27, 
-                            "y": 30
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Opt1", 
-                        "visible": true
-                    }
-                ], 
-                "id": "13B39B3B-047E-4368-802A-F23BFF53F4BD", 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 244, 
-                    "width": 336, 
-                    "x": 27, 
-                    "y": 30
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "Opt3", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
                         "children": [], 
                         "id": "78BCC6FE-A3F0-4181-AAD1-5CAC120FBCAE", 
                         "image": {
@@ -1231,7 +890,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "3EF227C2-818D-4A8A-A5C3-D74916A5DA2D", 
+                        "id": "D902DEED-0D36-4794-B585-19272E92D001", 
                         "image": {
                             "frame": {
                                 "height": 43, 
@@ -1239,7 +898,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                 "x": 155, 
                                 "y": 412
                             }, 
-                            "path": "images/Layer-line-3EF227C2-818D-4A8A-A5C3-D74916A5DA2D.png"
+                            "path": "images/Layer-line-D902DEED-0D36-4794-B585-19272E92D001.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -1258,7 +917,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "55774B21-94B5-4FD6-82D7-6B07D1137B70", 
+                        "id": "6D386BF1-A6CD-4342-B47D-84C60900F38C", 
                         "image": {
                             "frame": {
                                 "height": 43, 
@@ -1266,7 +925,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                 "x": 183, 
                                 "y": 391
                             }, 
-                            "path": "images/Layer-Letter7-55774B21-94B5-4FD6-82D7-6B07D1137B70.png"
+                            "path": "images/Layer-Letter7-6D386BF1-A6CD-4342-B47D-84C60900F38C.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -1291,7 +950,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                         "children": [
                                             {
                                                 "children": [], 
-                                                "id": "2E6A9EBC-CEC0-4B08-B9D5-9C65496EC1D5", 
+                                                "id": "38FA86CD-2038-4F24-857B-E92F09035BA5", 
                                                 "image": {
                                                     "frame": {
                                                         "height": 32, 
@@ -1299,7 +958,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                                         "x": 27, 
                                                         "y": 290
                                                     }, 
-                                                    "path": "images/Layer-Heading_Copy_3-2E6A9EBC-CEC0-4B08-B9D5-9C65496EC1D5.png"
+                                                    "path": "images/Layer-Heading_Copy_3-38FA86CD-2038-4F24-857B-E92F09035BA5.png"
                                                 }, 
                                                 "imageType": "png", 
                                                 "kind": "group", 
@@ -1317,7 +976,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                                 "visible": true
                                             }
                                         ], 
-                                        "id": "0881CBCD-F108-44A1-8916-9A759ECF7043", 
+                                        "id": "9D778803-4CC4-4879-A299-54751539D9CC", 
                                         "image": {
                                             "frame": {
                                                 "height": 244, 
@@ -1325,7 +984,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                                 "x": 27, 
                                                 "y": 290
                                             }, 
-                                            "path": "images/Layer-Lead_Profile_Score-0881CBCD-F108-44A1-8916-9A759ECF7043.png"
+                                            "path": "images/Layer-Lead_Profile_Score-9D778803-4CC4-4879-A299-54751539D9CC.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "group", 
@@ -1343,7 +1002,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                         "visible": true
                                     }
                                 ], 
-                                "id": "4F693CED-C505-4948-BA7B-47BA19F4778C", 
+                                "id": "9D9BF7D0-0103-4FB6-9751-2CB496A28E1E", 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
@@ -1360,7 +1019,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                                 "visible": true
                             }
                         ], 
-                        "id": "E16DF3A6-0C2B-4CD2-87EF-2B16D199080A", 
+                        "id": "CA4ADDD5-52DA-469B-881D-B732B45E05E3", 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
@@ -1377,7 +1036,7 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "C7D3BC4D-7146-4537-AB0F-1732347E5B97", 
+                "id": "22D75D8C-4957-4591-AC10-47C4E30BD3C3", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
@@ -1391,6 +1050,210 @@ window.__imported__["Connect Preloader/layers.json.js"] = [
                     "opacity": 1
                 }, 
                 "name": "Opt7", 
+                "visible": true
+            }, 
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "1E78EF3B-D6E9-469A-9221-3E0AD257FFF9", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 58, 
+                                                "width": 70, 
+                                                "x": 164, 
+                                                "y": 111
+                                            }, 
+                                            "path": "images/Layer-Group-1E78EF3B-D6E9-469A-9221-3E0AD257FFF9.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 58, 
+                                            "width": 70, 
+                                            "x": 164, 
+                                            "y": 111
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Group", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "B2B9A6CF-4B08-4D43-B78E-6A6C09D255DE", 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 58, 
+                                    "width": 70, 
+                                    "x": 164, 
+                                    "y": 111
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "headphone", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "55774B21-94B5-4FD6-82D7-6B07D1137B70", 
+                                "image": {
+                                    "frame": {
+                                        "height": 43, 
+                                        "width": 36, 
+                                        "x": 183, 
+                                        "y": 131
+                                    }, 
+                                    "path": "images/Layer-Letter8-55774B21-94B5-4FD6-82D7-6B07D1137B70.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 43, 
+                                    "width": 36, 
+                                    "x": 183, 
+                                    "y": 131
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Letter8", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "CDB2E8B1-3C9F-4626-B7DF-E447CBBBD639", 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 63, 
+                            "width": 70, 
+                            "x": 164, 
+                            "y": 111
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "Radius8", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "id": "2E6A9EBC-CEC0-4B08-B9D5-9C65496EC1D5", 
+                                                "image": {
+                                                    "frame": {
+                                                        "height": 32, 
+                                                        "width": 336, 
+                                                        "x": 27, 
+                                                        "y": 30
+                                                    }, 
+                                                    "path": "images/Layer-Heading_Copy_3-2E6A9EBC-CEC0-4B08-B9D5-9C65496EC1D5.png"
+                                                }, 
+                                                "imageType": "png", 
+                                                "kind": "group", 
+                                                "layerFrame": {
+                                                    "height": 32, 
+                                                    "width": 336, 
+                                                    "x": 27, 
+                                                    "y": 30
+                                                }, 
+                                                "maskFrame": null, 
+                                                "metadata": {
+                                                    "opacity": 1
+                                                }, 
+                                                "name": "HeadingCopy3", 
+                                                "visible": true
+                                            }
+                                        ], 
+                                        "id": "0881CBCD-F108-44A1-8916-9A759ECF7043", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 244, 
+                                                "width": 336, 
+                                                "x": 27, 
+                                                "y": 30
+                                            }, 
+                                            "path": "images/Layer-Lead_Profile_Score-0881CBCD-F108-44A1-8916-9A759ECF7043.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 244, 
+                                            "width": 336, 
+                                            "x": 27, 
+                                            "y": 30
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 0.6
+                                        }, 
+                                        "name": "LeadProfileScore", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "4F693CED-C505-4948-BA7B-47BA19F4778C", 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 244, 
+                                    "width": 336, 
+                                    "x": 27, 
+                                    "y": 30
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "BG", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "E16DF3A6-0C2B-4CD2-87EF-2B16D199080A", 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 244, 
+                            "width": 336, 
+                            "x": 27, 
+                            "y": 30
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "Opt1Copy2", 
+                        "visible": true
+                    }
+                ], 
+                "id": "C7D3BC4D-7146-4537-AB0F-1732347E5B97", 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 244, 
+                    "width": 336, 
+                    "x": 27, 
+                    "y": 30
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "Opt8", 
                 "visible": true
             }
         ], 
