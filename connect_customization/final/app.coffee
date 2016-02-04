@@ -37,7 +37,7 @@ sketch.QuickFactsTitle.style =
 	"font-style" : "Italic"
 	"font-family" : "Apex New"
 displayTitleLeft = () ->
-	sketch.QuickFactsTitle.html = "(" + currentLeft + "/" + maxLeft + " Maximum Signals" + ")"
+	sketch.QuickFactsTitle.html = "(" + currentLeft + "/" + maxLeft + " Maximum Facts" + ")"
 	
 displayTitleLeft()
 

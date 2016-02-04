@@ -1502,7 +1502,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "image": {
                             "frame": {
                                 "height": 14, 
-                                "width": 227, 
+                                "width": 226, 
                                 "x": 209, 
                                 "y": 491
                             }, 
@@ -1512,7 +1512,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "kind": "group", 
                         "layerFrame": {
                             "height": 14, 
-                            "width": 227, 
+                            "width": 226, 
                             "x": 209, 
                             "y": 491
                         }, 
@@ -1721,7 +1721,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "ECE3A839-60DC-4EFF-BE48-9B6BC4173F04", 
                                         "image": {
                                             "frame": {
-                                                "height": 14, 
+                                                "height": 15, 
                                                 "width": 104, 
                                                 "x": 975, 
                                                 "y": 360
@@ -1731,7 +1731,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "imageType": "png", 
                                         "kind": "group", 
                                         "layerFrame": {
-                                            "height": 14, 
+                                            "height": 15, 
                                             "width": 104, 
                                             "x": 975, 
                                             "y": 360
@@ -2201,8 +2201,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                             "frame": {
                                 "height": 34, 
                                 "width": 106, 
-                                "x": 1021, 
-                                "y": 548
+                                "x": 1019, 
+                                "y": 626
                             }, 
                             "path": "images/Layer-EditBt-BE554712-3032-411B-B066-C25D7D5D71D1.png"
                         }, 
@@ -2211,8 +2211,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "layerFrame": {
                             "height": 34, 
                             "width": 106, 
-                            "x": 1021, 
-                            "y": 548
+                            "x": 1019, 
+                            "y": 626
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -2230,8 +2230,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                     "frame": {
                                         "height": 32, 
                                         "width": 90, 
-                                        "x": 1140, 
-                                        "y": 549
+                                        "x": 1138, 
+                                        "y": 627
                                     }, 
                                     "path": "images/Layer-save1-013D0375-FEBB-4238-B404-EA12CE91D49C.png"
                                 }, 
@@ -2240,8 +2240,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "layerFrame": {
                                     "height": 32, 
                                     "width": 90, 
-                                    "x": 1140, 
-                                    "y": 549
+                                    "x": 1138, 
+                                    "y": 627
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -2257,8 +2257,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                     "frame": {
                                         "height": 32, 
                                         "width": 90, 
-                                        "x": 1140, 
-                                        "y": 549
+                                        "x": 1138, 
+                                        "y": 627
                                     }, 
                                     "path": "images/Layer-save2-54FABCE4-0330-42AF-9595-E3530735E5F2.png"
                                 }, 
@@ -2267,8 +2267,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "layerFrame": {
                                     "height": 32, 
                                     "width": 90, 
-                                    "x": 1140, 
-                                    "y": 549
+                                    "x": 1138, 
+                                    "y": 627
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -2284,8 +2284,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                     "frame": {
                                         "height": 32, 
                                         "width": 90, 
-                                        "x": 1140, 
-                                        "y": 549
+                                        "x": 1138, 
+                                        "y": 627
                                     }, 
                                     "path": "images/Layer-save3-6C47BED5-15FC-470F-946B-E361B2C7AB68.png"
                                 }, 
@@ -2294,8 +2294,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "layerFrame": {
                                     "height": 32, 
                                     "width": 90, 
-                                    "x": 1140, 
-                                    "y": 549
+                                    "x": 1138, 
+                                    "y": 627
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -2311,8 +2311,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "layerFrame": {
                             "height": 32, 
                             "width": 90, 
-                            "x": 1140, 
-                            "y": 549
+                            "x": 1138, 
+                            "y": 627
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -2326,7 +2326,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 338, 
+                    "height": 416, 
                     "width": 1023, 
                     "x": 209, 
                     "y": 244
@@ -2348,8 +2348,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "image": {
                                     "frame": {
                                         "height": 87, 
-                                        "width": 213, 
-                                        "x": 866, 
+                                        "width": 215, 
+                                        "x": 865, 
                                         "y": 346
                                     }, 
                                     "path": "images/Layer-multiple-3D1E2F74-B96F-4AB1-AFC7-4BAA2135CCE1.png"
@@ -2358,8 +2358,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "kind": "group", 
                                 "layerFrame": {
                                     "height": 87, 
-                                    "width": 213, 
-                                    "x": 866, 
+                                    "width": 215, 
+                                    "x": 865, 
                                     "y": 346
                                 }, 
                                 "maskFrame": null, 
@@ -2375,8 +2375,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "image": {
                                     "frame": {
                                         "height": 107, 
-                                        "width": 213, 
-                                        "x": 866, 
+                                        "width": 215, 
+                                        "x": 865, 
                                         "y": 303
                                     }, 
                                     "path": "images/Layer-multiple-4AA1C61A-D8A3-4853-BB41-B111931C05EC.png"
@@ -2385,8 +2385,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "kind": "group", 
                                 "layerFrame": {
                                     "height": 107, 
-                                    "width": 213, 
-                                    "x": 866, 
+                                    "width": 215, 
+                                    "x": 865, 
                                     "y": 303
                                 }, 
                                 "maskFrame": null, 
@@ -2402,8 +2402,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "image": {
                                     "frame": {
                                         "height": 90, 
-                                        "width": 213, 
-                                        "x": 866, 
+                                        "width": 215, 
+                                        "x": 865, 
                                         "y": 246
                                     }, 
                                     "path": "images/Layer-ratingtooltip-FE9A7B27-E9C5-49DE-91AA-47464C882F18.png"
@@ -2412,8 +2412,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "kind": "group", 
                                 "layerFrame": {
                                     "height": 90, 
-                                    "width": 213, 
-                                    "x": 866, 
+                                    "width": 215, 
+                                    "x": 865, 
                                     "y": 246
                                 }, 
                                 "maskFrame": null, 
@@ -2429,8 +2429,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "kind": "group", 
                         "layerFrame": {
                             "height": 187, 
-                            "width": 213, 
-                            "x": 866, 
+                            "width": 215, 
+                            "x": 865, 
                             "y": 246
                         }, 
                         "maskFrame": null, 
@@ -2449,7 +2449,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "5E5D96D8-2C3C-4F68-ADE7-24F0BCC5AE89", 
                                         "image": {
                                             "frame": {
-                                                "height": 119, 
+                                                "height": 120, 
                                                 "width": 236, 
                                                 "x": 1006, 
                                                 "y": 114
@@ -2459,7 +2459,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "imageType": "png", 
                                         "kind": "group", 
                                         "layerFrame": {
-                                            "height": 119, 
+                                            "height": 120, 
                                             "width": 236, 
                                             "x": 1006, 
                                             "y": 114
@@ -2522,20 +2522,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "5D4C28E9-EA12-4A4C-AB6E-4011738FAD46", 
                                         "image": {
                                             "frame": {
-                                                "height": 139, 
+                                                "height": 85, 
                                                 "width": 236, 
                                                 "x": 491, 
-                                                "y": 90
+                                                "y": 145
                                             }, 
                                             "path": "images/Layer-tip-5D4C28E9-EA12-4A4C-AB6E-4011738FAD46.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "group", 
                                         "layerFrame": {
-                                            "height": 139, 
+                                            "height": 85, 
                                             "width": 236, 
                                             "x": 491, 
-                                            "y": 90
+                                            "y": 145
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
@@ -2576,10 +2576,10 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 170, 
+                                    "height": 115, 
                                     "width": 236, 
                                     "x": 491, 
-                                    "y": 90
+                                    "y": 145
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -2595,20 +2595,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "D0F03B96-EB77-4271-9790-EDB450569725", 
                                         "image": {
                                             "frame": {
-                                                "height": 139, 
+                                                "height": 152, 
                                                 "width": 236, 
                                                 "x": 842, 
-                                                "y": 90
+                                                "y": 78
                                             }, 
                                             "path": "images/Layer-tip-D0F03B96-EB77-4271-9790-EDB450569725.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "group", 
                                         "layerFrame": {
-                                            "height": 139, 
+                                            "height": 152, 
                                             "width": 236, 
                                             "x": 842, 
-                                            "y": 90
+                                            "y": 78
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
@@ -2649,10 +2649,10 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 170, 
+                                    "height": 182, 
                                     "width": 236, 
                                     "x": 842, 
-                                    "y": 90
+                                    "y": 78
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -2666,10 +2666,10 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 170, 
+                            "height": 182, 
                             "width": 751, 
                             "x": 491, 
-                            "y": 90
+                            "y": 78
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -2841,20 +2841,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "2E832CA2-1AA0-44C6-A796-2114F422D259", 
                                         "image": {
                                             "frame": {
-                                                "height": 13, 
-                                                "width": 92, 
+                                                "height": 12, 
+                                                "width": 91, 
                                                 "x": 580, 
-                                                "y": 374
+                                                "y": 375
                                             }, 
                                             "path": "images/Layer-text-2E832CA2-1AA0-44C6-A796-2114F422D259.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "text", 
                                         "layerFrame": {
-                                            "height": 13, 
-                                            "width": 92, 
+                                            "height": 12, 
+                                            "width": 91, 
                                             "x": 580, 
-                                            "y": 374
+                                            "y": 375
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
@@ -2995,20 +2995,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "27396963-C076-407E-8EAC-2EBDB40203A3", 
                                         "image": {
                                             "frame": {
-                                                "height": 16, 
+                                                "height": 15, 
                                                 "width": 86, 
                                                 "x": 580, 
-                                                "y": 331
+                                                "y": 332
                                             }, 
                                             "path": "images/Layer-text-27396963-C076-407E-8EAC-2EBDB40203A3.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "text", 
                                         "layerFrame": {
-                                            "height": 16, 
+                                            "height": 15, 
                                             "width": 86, 
                                             "x": 580, 
-                                            "y": 331
+                                            "y": 332
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
@@ -3150,7 +3150,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "image": {
                                             "frame": {
                                                 "height": 15, 
-                                                "width": 46, 
+                                                "width": 45, 
                                                 "x": 580, 
                                                 "y": 288
                                             }, 
@@ -3160,7 +3160,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "kind": "text", 
                                         "layerFrame": {
                                             "height": 15, 
-                                            "width": 46, 
+                                            "width": 45, 
                                             "x": 580, 
                                             "y": 288
                                         }, 
@@ -3593,20 +3593,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "6078E4F0-9800-4307-8EF2-E0090B7FF83A", 
                                         "image": {
                                             "frame": {
-                                                "height": 16, 
+                                                "height": 15, 
                                                 "width": 131, 
                                                 "x": 226, 
-                                                "y": 542
+                                                "y": 543
                                             }, 
                                             "path": "images/Layer-text-6078E4F0-9800-4307-8EF2-E0090B7FF83A.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "text", 
                                         "layerFrame": {
-                                            "height": 16, 
+                                            "height": 15, 
                                             "width": 131, 
                                             "x": 226, 
-                                            "y": 542
+                                            "y": 543
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
@@ -3920,8 +3920,8 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "image": {
                                             "frame": {
                                                 "height": 15, 
-                                                "width": 86, 
-                                                "x": 226, 
+                                                "width": 49, 
+                                                "x": 227, 
                                                 "y": 459
                                             }, 
                                             "path": "images/Layer-text-6A032273-4888-4B74-90D3-E8235FBE717A.png"
@@ -3930,20 +3930,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "kind": "text", 
                                         "layerFrame": {
                                             "height": 15, 
-                                            "width": 86, 
-                                            "x": 226, 
+                                            "width": 49, 
+                                            "x": 227, 
                                             "y": 459
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
                                             "css": [
-                                                "/* Business Type: */", 
+                                                "/* Industry: */", 
                                                 "font-family: ApexNew-Medium;", 
                                                 "font-size: 14px;", 
                                                 "color: #2B84C6;", 
                                                 "line-height: 18px;"
                                             ], 
-                                            "string": "Business Type"
+                                            "string": "Industry"
                                         }, 
                                         "name": "text", 
                                         "visible": true
@@ -4571,20 +4571,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                         "id": "33C8DBC3-458D-4756-8551-3C37CA414166", 
                                         "image": {
                                             "frame": {
-                                                "height": 13, 
+                                                "height": 12, 
                                                 "width": 179, 
                                                 "x": 226, 
-                                                "y": 288
+                                                "y": 289
                                             }, 
                                             "path": "images/Layer-text-33C8DBC3-458D-4756-8551-3C37CA414166.png"
                                         }, 
                                         "imageType": "png", 
                                         "kind": "text", 
                                         "layerFrame": {
-                                            "height": 13, 
+                                            "height": 12, 
                                             "width": 179, 
                                             "x": 226, 
-                                            "y": 288
+                                            "y": 289
                                         }, 
                                         "maskFrame": null, 
                                         "metadata": {
@@ -4824,7 +4824,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "image": {
                                     "frame": {
                                         "height": 15, 
-                                        "width": 106, 
+                                        "width": 105, 
                                         "x": 920, 
                                         "y": 245
                                     }, 
@@ -4834,7 +4834,7 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "kind": "text", 
                                 "layerFrame": {
                                     "height": 15, 
-                                    "width": 106, 
+                                    "width": 105, 
                                     "x": 920, 
                                     "y": 245
                                 }, 
@@ -4874,20 +4874,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                         "id": "5E63C505-8C01-450F-88B5-F62330442319", 
                         "image": {
                             "frame": {
-                                "height": 13, 
-                                "width": 73, 
-                                "x": 931, 
-                                "y": 321
+                                "height": 12, 
+                                "width": 72, 
+                                "x": 932, 
+                                "y": 322
                             }, 
                             "path": "images/Layer-Filter__Default_Copy_2-5E63C505-8C01-450F-88B5-F62330442319.png"
                         }, 
                         "imageType": "png", 
                         "kind": "text", 
                         "layerFrame": {
-                            "height": 13, 
-                            "width": 73, 
-                            "x": 931, 
-                            "y": 321
+                            "height": 12, 
+                            "width": 72, 
+                            "x": 932, 
+                            "y": 322
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -5063,20 +5063,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                 "id": "553CC406-EE70-43BA-9A45-0734F5661E13", 
                 "image": {
                     "frame": {
-                        "height": 570, 
+                        "height": 582, 
                         "width": 1033, 
                         "x": 209, 
-                        "y": 90
+                        "y": 78
                     }, 
                     "path": "images/Layer-Editstate-553CC406-EE70-43BA-9A45-0734F5661E13.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 570, 
+                    "height": 582, 
                     "width": 1033, 
                     "x": 209, 
-                    "y": 90
+                    "y": 78
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -5094,20 +5094,20 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                                 "id": "5282A8D5-1161-469E-BA42-3C410C178F93", 
                                 "image": {
                                     "frame": {
-                                        "height": 75, 
+                                        "height": 74, 
                                         "width": 1440, 
                                         "x": 0, 
-                                        "y": 92
+                                        "y": 93
                                     }, 
                                     "path": "images/Layer-Group-5282A8D5-1161-469E-BA42-3C410C178F93.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 75, 
+                                    "height": 74, 
                                     "width": 1440, 
                                     "x": 0, 
-                                    "y": 92
+                                    "y": 93
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -5194,40 +5194,6 @@ window.__imported__["Customization-MVP/layers.json.js"] = [
                             "opacity": 1
                         }, 
                         "name": "MenuMain", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "A653A27F-1086-47CC-AE3B-431BE7B31266", 
-                        "image": {
-                            "frame": {
-                                "height": 9, 
-                                "width": 126, 
-                                "x": 1103, 
-                                "y": 207
-                            }, 
-                            "path": "images/Layer-Rectangle_79_Copy_3__Radius_Connect__get_connect_now-A653A27F-1086-47CC-AE3B-431BE7B31266.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "text", 
-                        "layerFrame": {
-                            "height": 9, 
-                            "width": 126, 
-                            "x": 1103, 
-                            "y": 207
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "css": [
-                                "/* get connect now: */", 
-                                "font-family: ApexSansBookC;", 
-                                "font-size: 16px;", 
-                                "color: #2B84C6;", 
-                                "line-height: 17px;"
-                            ], 
-                            "string": "get connect now"
-                        }, 
-                        "name": "Rectangle79Copy3RadiusConnectgetconnectnow", 
                         "visible": true
                     }, 
                     {
