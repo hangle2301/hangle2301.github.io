@@ -1,0 +1,26 @@
+body {
+	color: #000;
+	font-family: "Helvetica Neue", "Arial";
+	font-size:13px;
+	text-align:center;
+	background-color: #fff;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#info {
+	color:#000;
+	position: absolute;
+	top: 0px; width: 100%;
+	padding: 5px;
+
+}
+
+a {
+	color: red;
+}
+.interactionLayer{ }
+h1{position:absolute; width:100%}
+
+.hoverPanel{position:absolute;background-color:#294376; padding:20px;}
+.clickPanel{position:absolute;}
