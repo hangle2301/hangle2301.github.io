@@ -22,11 +22,21 @@ function init() {
 	camera.position.z = 200;
 	target = new THREE.Vector3( 0, 0, 0);
 
+	controls = new THREE.TrackballControls( camera );
+	controls.rotateSpeed = 1.0;
+	controls.zoomSpeed = 1.2;
+	controls.panSpeed = 0.8;
+	controls.noZoom = false;
+	controls.noPan = false;
+	controls.staticMoving = true;
+	controls.dynamicDampingFactor = 0.3;
+
+	/* Orbital control
 	controls = new THREE.OrbitControls( camera, renderer.domElement );
 	//controls.addEventListener( 'change', render ); // add this only if there is no animation loop (requestAnimationFrame)
 	controls.enableDamping = true;
 	controls.dampingFactor = 0.25;
-	controls.enableZoom = false;
+	controls.enableZoom = false;*/
 
 	// world
 
@@ -145,3 +155,28 @@ function displayHover(intersectedObject){
 		console.log("Hovering ");
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
 }
+function addSignal(){
+
+}
+function createSegment(){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

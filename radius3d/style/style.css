@@ -23,4 +23,6 @@ a {
 h1{position:absolute; width:100%}
 
 .hoverPanel{position:absolute;background-color:#294376; padding:20px;}
+button{}
 .clickPanel{position:absolute;}
+.bottomPanel{position:absolute; width:100%; bottom:30px;background-color:rgba(0, 0, 0, 0.5)}

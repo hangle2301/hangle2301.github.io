@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="style/style.css" />
 		<script src="js/three.min.js"></script> 
 		<script src="js/controls/OrbitControls.js"></script>
+		<script src="js/controls/TrackballControls.js"></script>
 		<script src="js/Detector.js"></script>
 		<script src="js/libs/stats.min.js"></script>
 		<script src="js/radius3d.js"></script>
@@ -18,15 +19,23 @@
 			<div class="hoverPanel">
 				<h3>Some title</h3>
 				Some content here
+				<button type="button" onclick="return addSignal()">Click it</button>
 			</div>
 			<div class="clickPanel">
 				<h3>Some title</h3>
 				Some content here
+
 			</div>
+			
 		</div>
 		<div id="container"></div>
+		<div class="bottomPanel">
+				<h3>Segment here</h3>
+				Some detail on the added signal
+				<button type="button" onclick="return createSegment()">Done</button>
+			</div>
 		<script>
-		if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+		if ( ! Detector.webgl ) Detector.addGetWebGLMessage();	
 		init();
 		animate();
 		</script>	
