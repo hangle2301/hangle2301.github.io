@@ -83,7 +83,7 @@
 				//Creating Objects
 				for ( var i = 0; i < 500; i ++ ) {
 					//var mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff }) );
-					var randomRadius = (Math.random() * 10);
+					var randomRadius = (Math.random() - 0.2) * 10;
 					var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(randomRadius,1), 
 						new THREE.MeshPhongMaterial( {
 							color: 0x156289,
