@@ -8,6 +8,11 @@ var realMouseX, realMouseY;
 var jsonurl = "data/insightsresponse.json";
 var font;
 var intersectables = [];
+var normalColor = 0x0262B2;
+var hoverColor = 0x01FFFF;
+var textColor = 0x0A3D58;
+var darkColor = 0x0262B2;
+var spacingBlobs = 100;
 function init() {
 
 	scene = new THREE.Scene();
@@ -76,35 +81,69 @@ function generateBlobs(returnJson){
 	// Geometry definition
 	var geometry = new THREE.IcosahedronGeometry(1,0);
 	//Creating Groups
-	for (var insightTitle in returnJson.payload){
+	for (var grouping in returnJson){
 		//Creating text field for Title
-		console.log("Creating title" + insightTitle);
-		var textMesh = generateText(insightTitle);
+		var posX = ( Math.random() - 0.5 ) * 500;
+		var posY = ( Math.random() - 0.5 ) * 500;
+		var posZ = ( Math.random() - 0.5 ) * 300;
+		var textMesh = generateText(grouping, posX, posY, posZ);
 		scene.add(textMesh);
+		console.log("Generating group " + grouping);
+		//Creating blobs in each Title Group
+		for (var i=0; i<returnJson[grouping].length; i++) {
+			//var mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff }) );
+			var numberBase = 20;
+			/*if (returnJson[grouping][i]['won'] != 0)
+				var numberBase = returnJson[grouping][i]['won']/returnJson[grouping][i]['new'];
+			console.log(numberBase)*/
+
+			var radius = (Math.random() - 0.15) * 20;
+
+			//var radius = numberBase * 50000;
+			var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(radius,1), 
+				new THREE.MeshPhongMaterial( {
+					color: normalColor,
+					emissive: 0x072534,
+					side: THREE.DoubleSide,
+					shading: THREE.FlatShading
+				} )
+			);
+
+			mesh.position.x = (Math.random() * spacingBlobs) + textMesh.position.x + radius;
+			mesh.position.y = (Math.random() * spacingBlobs) + textMesh.position.y + radius;
+			mesh.position.z = (Math.random() * 10) + textMesh.position.z;
+			mesh.associatedData = returnJson[grouping][i];
+			
+			mesh.updateMatrix();
+			mesh.matrixAutoUpdate = false;
+			scene.add(mesh);
+			intersectables.push(mesh);
+		}
 	}
 
-	//Creating Objects in Group
-	for ( var i = 0; i < 500; i ++ ) {
-		//var mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff }) );
-		var randomRadius = (Math.random() - 0.2) * 10;
-		var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(randomRadius,1), 
-			new THREE.MeshPhongMaterial( {
-				color: 0x156289,
-				emissive: 0x072534,
-				side: THREE.DoubleSide,
-				shading: THREE.FlatShading
-			} )
-		);
-		
-		mesh.position.x = ( Math.random() - 0.5 ) * 500;
-		mesh.position.y = ( Math.random() - 0.5 ) * 500;
-		mesh.position.z = ( Math.random() - 0.5 ) * 500;
-		mesh.updateMatrix();
-		mesh.matrixAutoUpdate = false;
-		scene.add(mesh);
-		scene.add()
-		intersectables.push(mesh);
-	}
+	//Generate geometries outside of group
+	/*for (var i=0; i<100; i++) {
+			//var mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff }) );
+			var randomRadius = (Math.random() - 0.2) * 10;
+
+			var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(randomRadius,1), 
+				new THREE.MeshPhongMaterial( {
+					color: 0x156289,
+					emissive: 0x072534,
+					side: THREE.DoubleSide,
+					shading: THREE.FlatShading
+				} )
+			);
+
+			mesh.position.x = (Math.random() - 0.5) * 750;
+			mesh.position.y = (Math.random() - 0.5) * 750;
+			mesh.position.z = (Math.random() - 0.5) * 750;
+			
+			mesh.updateMatrix();
+			mesh.matrixAutoUpdate = false;
+			scene.add(mesh);
+
+		}*/
 
 }
 function getJson(){
@@ -115,33 +154,34 @@ function getJson(){
 					crossDomain: true,
 				});
 	request.done(function(returnJson){
-		generateBlobs(returnJson);
+		generateBlobs(returnJson.payload);
 	}) //end request done
 }
 
 // GENERATING 3D TEXT
-function generateText(textValue){
+function generateText(textValue, posX, posY, posZ){
 	textGeo = new THREE.TextGeometry( textValue, {
 					font: font,
-					size: 30,
-					height: 20,
+					size: 10,
+					height: 1,
 					curveSegments: 4,
 					bevelThickness: 1,
 					bevelSize: 1.5,
-					bevelEnabled: true,
+					bevelEnabled: false,
 					material: 0,
 					extrudeMaterial: 1
 				});
 	var material = new THREE.MultiMaterial( [
-					new THREE.MeshPhongMaterial( { color: 0xffffff, shading: THREE.FlatShading } ), // front
-					new THREE.MeshPhongMaterial( { color: 0xffffff, shading: THREE.SmoothShading } ) // side
+					new THREE.MeshPhongMaterial( { color: textColor, shading: THREE.FlatShading } ), // front
+					new THREE.MeshPhongMaterial( { color: darkColor, shading: THREE.SmoothShading } ) // side
 				] );
 	textGeo.computeBoundingBox();
 	textGeo.computeVertexNormals();
 	var textMesh1 = new THREE.Mesh( textGeo, material );
-	textMesh1.position.x = ( Math.random() - 0.5 ) * 500;
-	textMesh1.position.y = ( Math.random() - 0.5 ) * 500;
-	textMesh1.position.z = ( Math.random() - 0.5 ) * 500;
+
+	textMesh1.position.x = posX;
+	textMesh1.position.y = posY;
+	textMesh1.position.z = posZ;
 	textMesh1.rotation.x = 0;
 	textMesh1.rotation.y = Math.PI * 2;
 	return textMesh1;
@@ -187,30 +227,43 @@ function render() {
 	var intersects = raycaster.intersectObjects(intersectables);
 	if ( intersects.length > 0 ) {
 		if ( INTERSECTED != intersects[ 0 ].object ) {
-			if (INTERSECTED) INTERSECTED.material.emissive.setHex( INTERSECTED.currentHex );
+			if (INTERSECTED) INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
 			INTERSECTED = intersects[ 0 ].object;
-			INTERSECTED.currentHex = INTERSECTED.material.emissive.getHex();
-			INTERSECTED.material.emissive.setHex( 0xff0000 );
+			INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
+			INTERSECTED.material.color.setHex(hoverColor);
 			displayHover(INTERSECTED);
 		}
 	} else {
-		if ( INTERSECTED ) INTERSECTED.material.emissive.setHex( INTERSECTED.currentHex );
+		if (INTERSECTED){
+			INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
+			removeHover(INTERSECTED);
+		}
 		INTERSECTED = null;
+		
 	}
 	renderer.render( scene, camera );
-
 }
 
 /* INTERACTION ON TOP OF SCENE */
 function displayHover(intersectedObject){
 		//Place hover at the position
+		console.log("in");
+		$(".hoverPanel").animate({opacity: 1},500, function(){});
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
+		//Displaying data
+		console.log("Hovering " + intersectedObject.associatedData)
+		$(".hoverPanel h3").text(intersectedObject.associatedData['name']);
+		$(".hoverPanel p").text("Won: " + intersectedObject.associatedData['won']);
 }
 function addSignal(){
 
 }
 function createSegment(){
 
+}
+function removeHover(intersectedObject){
+	console.log("out");
+ 	$(".hoverPanel").animate({opacity: 0}, 500, function(){});
 }
 
 
