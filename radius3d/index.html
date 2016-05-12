@@ -46,7 +46,7 @@
 
 			var stats;
 
-			var camera, controls, scene, renderer, raycaster;
+			var camera, controls, scene, renderer, raycaster,target;
 			var mouse = new THREE.Vector2(), INTERSECTED;
 
 			init();
@@ -66,6 +66,7 @@
 
 				camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 1000 );
 				camera.position.z = 200;
+				target = new THREE.Vector3( 0, 0, 0);
 
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
 				//controls.addEventListener( 'change', render ); // add this only if there is no animation loop (requestAnimationFrame)
@@ -156,7 +157,12 @@
 
 
 			function render() {
-
+				//Rotating Camera
+				var time = Date.now() * 0.00015;
+				camera.position.x = Math.cos(time) * 400;
+				//camera.position.z = Math.sin(time) * 500;
+				camera.position.y = Math.sin(time / 1.4) * 100;
+				camera.lookAt( target );
 				camera.updateMatrixWorld();
 				//INTERACTIVE
 				// find intersections
