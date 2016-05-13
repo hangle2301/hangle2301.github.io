@@ -275,8 +275,7 @@ function addSignal(){
 }
 function removeHover(intersectedObject){
 	rotate = true;
-	document.removeEventListener('click', addSignal);
- 	$(".hoverPanel").stop().animate({opacity: 0}, 200, function(){});
+ 	$(".hoverPanel").stop().animate({opacity: 0}, 200, function(){document.removeEventListener('click', addSignal);});
 }
 
 /* RIGHT PANEL */
