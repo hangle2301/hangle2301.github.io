@@ -13,6 +13,7 @@ var hoverColor = 0x01FFFF;
 var textColor = 0x0A3D58;
 var darkColor = 0x0262B2;
 var spacingBlobs = 100;
+
 function init() {
 
 	scene = new THREE.Scene();
