@@ -203,6 +203,7 @@ function render() {
 				INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
 				INTERSECTED.material.color.setHex(hoverColor);
 				displayHover(INTERSECTED);
+				document.addEventListener( 'click', addSignal, false );
 			}
 		}
 	} else {
@@ -211,7 +212,6 @@ function render() {
 			removeHover(INTERSECTED);
 		}
 		INTERSECTED = null;
-		
 	}
 	renderer.render( scene, camera );
 }
@@ -233,16 +233,42 @@ function displayHover(intersectedObject){
 		$(".hoverPanel .newRecords").html(withSuffix(intersectedObject.associatedData['new']));
 		$(".hoverPanel .openRecords").html(withSuffix(intersectedObject.associatedData['open']));
 		$(".hoverPanel .wonRecords").html(withSuffix(intersectedObject.associatedData['won']));
-		$(".hoverPanel .lossRecords").html(withSuffix(intersectedObject.associatedData['loss']));
+		$(".hoverPanel .lossRecords").html(withSuffix(intersectedObject.associatedData['lost']));
 }
+var signalCount = 0;
+var totalNew = 0, totalOpen = 0, totalWon = 0, totalLoss = 0;
 function addSignal(){
+	//Adding signal
+	var intersectedObject = INTERSECTED;
+	if (intersectedObject){
+		//Combining numbers
+		totalNew += intersectedObject.associatedData['new'];
+		totalOpen += intersectedObject.associatedData['open'];
+		totalWon += intersectedObject.associatedData['won'];
+		totalLoss += intersectedObject.associatedData['lost'];
 
+		//Displaying Numbers
+		$(".combinedNewRecords").html(withSuffix(totalNew));
+		$(".combinedOpenRecords").html(withSuffix(totalOpen));
+		$(".combinedWonRecords").html(withSuffix(totalWon));
+		$(".combinedLossRecords").html(withSuffix(totalLoss));
+		//Display Signals
+		signalCount++;
+		$('.sidebar-count').html("Selected Signals (" + signalCount + ")");
+		var displayName = "";
+		if (intersectedObject.associatedData['name'])
+			displayName = intersectedObject.associatedData['name']
+		else
+			displayName = intersectedObject.associatedData['value']
+		$('.sidebar-signals').append("<p>"+ intersectedObject.associatedData['type'] + "</p><h2>" + displayName + "</h2>" + "<img class='remove' src='imgs/remove.svg'>");
+	}
 }
 function createSegment(){
 
 }
 function removeHover(intersectedObject){
 	rotate = true;
+	document.removeEventListener('click', addSignal);
  	$(".hoverPanel").stop().animate({opacity: 0}, 200, function(){});
 }
 
