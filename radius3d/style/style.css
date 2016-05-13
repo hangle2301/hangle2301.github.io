@@ -26,7 +26,7 @@ a {
 }
 .interactionLayer{ }
 
-.hoverPanel{position:absolute;}
+.hoverPanel{position:absolute;width:250px;}
 button{background:none; border:none;}
 .clickPanel, .headline{position:absolute;}
 .bottomPanel{position:absolute; width:100%; bottom:30px;background-color:rgba(0, 0, 0, 0.5)}
@@ -37,7 +37,7 @@ h1,h2{color:white;text-align: left;}
 h1{font-size:16px;line-height:16px; font-weight:700;}
 h2{font-size:28px; line-height:24px; font-weight:400;}
 /* Tooltip */
-.hoverPanel h3{font-weight:700;font-size:24px;color:white;}
+.hoverPanel h3{font-weight:700;font-size:24px;color:white;text-align: left}
 .tooltip{
 	background: #fff;
 	display: block;

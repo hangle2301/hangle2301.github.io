@@ -237,7 +237,7 @@ function render() {
 	} else {
 		if (INTERSECTED){
 			INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
-			//removeHover(INTERSECTED);
+			removeHover(INTERSECTED);
 		}
 		INTERSECTED = null;
 		
@@ -252,9 +252,12 @@ function displayHover(intersectedObject){
 		$(".hoverPanel").animate({opacity: 1},500, function(){});
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
 		//Displaying data
-		console.log("Hovering " + intersectedObject.associatedData)
-		$(".hoverPanel h3").text(intersectedObject.associatedData['name']);
-		$(".hoverPanel p").text("Won: " + intersectedObject.associatedData['won']);
+		console.log("Hovering " + intersectedObject.associatedData);
+		$(".hoverPanel h3").html(intersectedObject.associatedData['name']);
+		$(".hoverPanel .newRecords").html(withSuffix(intersectedObject.associatedData['new']));
+		$(".hoverPanel .openRecords").html(withSuffix(intersectedObject.associatedData['open']));
+		$(".hoverPanel .wonRecords").html(withSuffix(intersectedObject.associatedData['won']));
+		$(".hoverPanel .lossRecords").html(withSuffix(intersectedObject.associatedData['loss']));
 }
 function addSignal(){
 
@@ -264,13 +267,25 @@ function createSegment(){
 }
 function removeHover(intersectedObject){
 	console.log("out");
- 	$(".hoverPanel").animate({opacity: 0}, 500, function(){});
+ 	$(".hoverPanel").animate({opacity: 0}, 200, function(){});
 }
 
-
-
-
-
+function withSuffix(value) {
+    var newValue = value;
+    if (value >= 1000) {
+        var suffixes = ["", "K", "M", "B","T"];
+        var suffixNum = Math.floor( (""+value).length/3 );
+        var shortValue = '';
+        for (var precision = 2; precision >= 1; precision--) {
+            shortValue = parseFloat( (suffixNum != 0 ? (value / Math.pow(1000,suffixNum) ) : value).toPrecision(precision));
+            var dotLessShortValue = (shortValue + '').replace(/[^a-zA-Z 0-9]+/g,'');
+            if (dotLessShortValue.length <= 2) { break; }
+        }
+        if (shortValue % 1 != 0)  shortNum = shortValue.toFixed(1);
+        newValue = shortValue+suffixes[suffixNum];
+    }
+    return newValue;
+}
 
 
 
