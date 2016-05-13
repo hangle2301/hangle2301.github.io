@@ -1,7 +1,7 @@
 
 /* Hang Writing for Radius Hackathon */
 var stats;
-var rotate = false;
+var rotate = true;
 var camera, controls, scene, renderer, raycaster,target;
 var mouse = new THREE.Vector2(), INTERSECTED;
 var realMouseX, realMouseY;
@@ -219,6 +219,7 @@ function render() {
 var animating;
 /* INTERACTION ON TOP OF SCENE */
 function displayHover(intersectedObject){
+		rotate = false;
 		//Place hover at the position
 		$(".hoverPanel").stop().animate({opacity: 1},200, function(){});
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
@@ -241,6 +242,7 @@ function createSegment(){
 
 }
 function removeHover(intersectedObject){
+	rotate = true;
  	$(".hoverPanel").stop().animate({opacity: 0}, 200, function(){});
 }
 
