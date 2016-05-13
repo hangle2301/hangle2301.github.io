@@ -12,7 +12,7 @@ var normalColor = 0x0262B2;
 var hoverColor = 0x01FFFF;
 var textColor = 0x0A3D58;
 var darkColor = 0x0262B2;
-var spacingBlobs = 200;
+var spacingBlobs = 135;
 
 function init() {
 
@@ -38,13 +38,6 @@ function init() {
 	controls.noPan = false;
 	controls.staticMoving = true;
 	controls.dynamicDampingFactor = 0.3;
-
-	/* Orbital control
-	controls = new THREE.OrbitControls( camera, renderer.domElement );
-	//controls.addEventListener( 'change', render ); // add this only if there is no animation loop (requestAnimationFrame)
-	controls.enableDamping = true;
-	controls.dampingFactor = 0.25;
-	controls.enableZoom = false;*/
 	
 	// lights
 	light = new THREE.DirectionalLight( 0xA7A7A7 );
@@ -79,49 +72,45 @@ function init() {
 // GENERATING BLOBS BASED ON JSON
 function generateBlobs(returnJson){
 	$(".hoverPanel").css("opacity","0");
-	console.log(returnJson);
-	console.log("Generating blobs");
-	// Geometry definition
-	var geometry = new THREE.IcosahedronGeometry(1,0);
-	//Creating Groups
+	console.log(returnJson);	
+
+	//Creating Groups	
 	for (var grouping in returnJson){
+		console.log("Generating group " + grouping + " length " + returnJson[grouping].length);
 		//Creating text field for Title
-		var posX = ( Math.random() - 0.5 ) * 500;
-		var posY = ( Math.random() - 0.5 ) * 500;
-		var posZ = ( Math.random() - 0.5 ) * 300;
+		var posX = (Math.random() - 0.5) * 750;
+		var posY = (Math.random() - 0.5) * 750;
+		var posZ = (Math.random() - 0.5) * 300;
+
 		var textMesh = generateText(grouping, posX, posY, posZ);
-		scene.add(textMesh);
-		console.log("Generating group " + grouping);
+		scene.add(textMesh);	
 		//Creating blobs in each Title Group
 		for (var i=0; i<returnJson[grouping].length; i++) {
-			//var mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff }) );
-			var numberBase = 20;
-			/*if (returnJson[grouping][i]['won'] != 0)
-				var numberBase = returnJson[grouping][i]['won']/returnJson[grouping][i]['new'];
-			console.log(numberBase)*/
+				var numberBase = 20;
+				/*if (returnJson[grouping][i]['won'] != 0)
+					var numberBase = returnJson[grouping][i]['won']/returnJson[grouping][i]['new'];
+				console.log(numberBase)*/
+				var radius = (Math.random() * 20);
+				var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(radius,1), 
+					new THREE.MeshPhongMaterial( {
+						color: normalColor,
+						emissive: 0x072534,
+						side: THREE.DoubleSide,
+						shading: THREE.FlatShading
+					} )
+				);
 
-			var radius = (Math.random() - 0.15) * 20;
-
-			//var radius = numberBase * 50000;
-			var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(radius,1), 
-				new THREE.MeshPhongMaterial( {
-					color: normalColor,
-					emissive: 0x072534,
-					side: THREE.DoubleSide,
-					shading: THREE.FlatShading
-				} )
-			);
-
-			mesh.position.x = (Math.random() * spacingBlobs) + textMesh.position.x + radius;
-			mesh.position.y = (Math.random() * spacingBlobs) + textMesh.position.y + radius;
-			mesh.position.z = (Math.random() * 10) + textMesh.position.z;
-			mesh.associatedData = returnJson[grouping][i];
-			
-			mesh.updateMatrix();
-			mesh.matrixAutoUpdate = false;
-			scene.add(mesh);
-			intersectables.push(mesh);
+				mesh.position.x = (Math.random() * 2 * spacingBlobs) + posX - spacingBlobs;
+				mesh.position.y = (Math.random() * 2 * spacingBlobs) + posY - spacingBlobs;
+				mesh.position.z = (Math.random() * spacingBlobs) + posZ - 1/2*spacingBlobs;
+				mesh.associatedData = returnJson[grouping][i];
+				
+				mesh.updateMatrix();
+				mesh.matrixAutoUpdate = false;
+				scene.add(mesh);
+				intersectables.push(mesh);
 		}
+		
 	}
 
 	//Generate geometries outside of group
@@ -230,11 +219,14 @@ function render() {
 	var intersects = raycaster.intersectObjects(intersectables);
 	if ( intersects.length > 0 ) {
 		if ( INTERSECTED != intersects[0].object ) {
-			if (INTERSECTED) INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
-			INTERSECTED = intersects[0].object;
-			INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
-			INTERSECTED.material.color.setHex(hoverColor);
-			displayHover(INTERSECTED);
+			if (INTERSECTED) 
+				INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
+			else{
+				INTERSECTED = intersects[0].object;
+				INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
+				INTERSECTED.material.color.setHex(hoverColor);
+				displayHover(INTERSECTED);
+			}
 		}
 	} else {
 		if (INTERSECTED){
@@ -247,10 +239,11 @@ function render() {
 	renderer.render( scene, camera );
 }
 
+var animating;
 /* INTERACTION ON TOP OF SCENE */
 function displayHover(intersectedObject){
 		//Place hover at the position
-		$(".hoverPanel").animate({opacity: 1},500, function(){});
+		$(".hoverPanel").stop().animate({opacity: 1},200, function(){});
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
 		//Displaying data
 		$(".hoverPanel h3").html(intersectedObject.associatedData['name']);
@@ -266,7 +259,7 @@ function createSegment(){
 
 }
 function removeHover(intersectedObject){
- 	$(".hoverPanel").animate({opacity: 0}, 200, function(){});
+ 	$(".hoverPanel").stop().animate({opacity: 0}, 200, function(){});
 }
 
 function withSuffix(value) {
