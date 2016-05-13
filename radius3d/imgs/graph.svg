@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#F2F2F2" cx="30" cy="30" r="30"/>
+		<path fill="#3D90CE" d="M30,0v28.1L3.5,16C1.3,20.2,0,24.9,0,30c0,16.6,13.4,30,30,30c16.6,0,30-13.4,30-30S46.5,0,30,0z"/>
+		<circle fill="#FFFFFF" cx="30" cy="30" r="22.3"/>
+	</g>
+	<text transform="matrix(1 0 0 1 16.0521 34.954)" fill="#414142" font-family="'Karla-Bold'" font-size="14.9838px">83%</text>
+</g>
+</svg>

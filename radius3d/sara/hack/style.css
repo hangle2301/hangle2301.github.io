@@ -1,49 +1,22 @@
 * {
 	padding: 0;
 	margin: 0;
-}
-body {
-	color: #000;
 	font-family: 'Karla', sans-serif;
-	font-size:13px;
-	text-align:center;
-	background-color: #fff;
-	margin: 0px;
-	overflow: hidden;
-	padding: 0;
 }
 
-#info {
-	color:#000;
-	position: absolute;
-	top: 0px; width: 100%;
-	padding: 5px;
+/* GENERAL */
 
+body {
+	background: #CCC;
 }
 
-a {
-	color: red;
-}
-.interactionLayer{ }
-
-.hoverPanel{position:absolute;}
-button{background:none; border:none;}
-.clickPanel, .headline{position:absolute;}
-.bottomPanel{position:absolute; width:100%; bottom:30px;background-color:rgba(0, 0, 0, 0.5)}
-
-/* Title top */
-.headline{ margin-left:40px; margin-top:30px;}
-h1,h2{color:white;text-align: left;}
-h1{font-size:16px;line-height:16px; font-weight:700;}
-h2{font-size:28px; line-height:24px; font-weight:400;}
-/* Tooltip */
-.hoverPanel h3{font-weight:700;font-size:24px;color:white;}
-.tooltip{
+.tooltip {
 	background: #fff;
 	display: block;
-	padding: 40px 30px;
 	width: 190px;
+	padding: 40px 30px;
 }
+
 .has-caret:after {
 	width: 25px;
 	height: 25px;
@@ -61,11 +34,10 @@ h2{font-size:28px; line-height:24px; font-weight:400;}
 	float: left;
 }
 
-.tooltip-headline {
+h1 {
 	font-size: 21px;
 	line-height: 28px;
 	color: #19485F;
-	font-weight:bold;
 }
 
 
@@ -79,7 +51,7 @@ h2{font-size:28px; line-height:24px; font-weight:400;}
 	height: 120px;
 }
 
-#tooltip-list{
+#tooltip-list ul {
 	overflow: hidden;
 }
 
@@ -108,10 +80,11 @@ h2{font-size:28px; line-height:24px; font-weight:400;}
 	padding: 20px;
 }
 
-.button-add .tooltip-button {
+.button-add p {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 20px;
 	text-align: center;
 	color: #19485F;
+\
 }

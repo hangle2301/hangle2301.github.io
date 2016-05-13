@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+}
+
+/* GENERAL */
+
+body {
+	background: #CCC;
+}
+
+.tooltip {
+	background: #fff;
+	display: block;
+	width: 190px;
+	padding: 40px 30px;
+}
+
+.tooltip-header {
+	width: 190px;
+	height: 60px;
+	margin-bottom: 40px;
+}
+
+.tooltip-headline {
+	width: 50%;
+	float: left;
+}
+
+h1 {
+	font-size: 21px;
+	line-height: 28px;
+	color: #19485F;
+}
+
+
+.graph {
+	width: 60px;
+	float: right;
+}
+
+.tooltip-list {
+	width: 190px;
+	height: 120px;
+}
+
+#tooltip-list ul {
+	overflow: hidden;
+}
+
+.tooltip-list li {
+	list-style: none;
+	float: left;
+	display: inline;
+	width: 50%;
+	font-size: 15px;
+	line-height: 2;
+}
+
+.tooltip-list li:nth-child(even) {
+	text-align: right;
+}
+
+#double li {
+	width: 50%;
+	float: right;
+	<span class="code-comment">
+}
+
+.button-add {
+	background: #F1F1F2;
+	width: 210px;
+	padding: 20px;
+}
+
+.button-add p {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	color: #19485F;
+
+}

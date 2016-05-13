@@ -61,7 +61,8 @@ function init() {
 	//
 	raycaster = new THREE.Raycaster();	
 	stats = new Stats();
-	container.appendChild(stats.dom);
+	
+	//container.appendChild(stats.dom);
 
 	window.addEventListener( 'resize', onWindowResize, false );
 	document.addEventListener( 'mousemove', onDocumentMouseMove, false );
@@ -236,7 +237,7 @@ function render() {
 	} else {
 		if (INTERSECTED){
 			INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
-			removeHover(INTERSECTED);
+			//removeHover(INTERSECTED);
 		}
 		INTERSECTED = null;
 		
