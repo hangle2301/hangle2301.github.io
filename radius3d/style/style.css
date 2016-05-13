@@ -24,19 +24,11 @@ body {
 a {
 	color: red;
 }
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
-                                  not supported by any browser */
-}
+
 .interactionLayer{ }
 
 .hoverPanel{position:absolute;width:250px;}
-button{background:none; border:none;}
+button{background:none; border:none; cursor:pointer;}
 .clickPanel, .headline{position:absolute;}
 .bottomPanel{position:absolute; width:100%; bottom:30px;background-color:rgba(0, 0, 0, 0.5)}
 

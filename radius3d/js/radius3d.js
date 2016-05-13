@@ -13,6 +13,7 @@ var hoverColor = 0x01FFFF;
 var textColor = 0x0A3D58;
 var darkColor = 0x0262B2;
 var spacingBlobs = 135;
+var originalTime;
 
 function init() {
 
@@ -67,11 +68,13 @@ function init() {
 		font = response;
 		getJson();
 	});
+
+	originalTime = Date.now();
+	$(".hoverPanel").css("opacity","0");
 }
 
 // GENERATING BLOBS BASED ON JSON
 function generateBlobs(returnJson){
-	$(".hoverPanel").css("opacity","0");
 	console.log(returnJson);	
 	var index = 0;
 	//Creating Groups	
@@ -105,6 +108,7 @@ function generateBlobs(returnJson){
 				mesh.position.y = (Math.random() * 2 * spacingBlobs) + posY - spacingBlobs;
 				mesh.position.z = (Math.random() * spacingBlobs) + posZ - 1/2*spacingBlobs;
 				mesh.associatedData = returnJson[grouping][i];
+				mesh.added = false;
 				
 				mesh.updateMatrix();
 				mesh.matrixAutoUpdate = false;
@@ -183,11 +187,12 @@ function onDocumentMouseMove( event ) {
 function render() {
 	//Rotating Camera
 	if (rotate){
-		var time = Date.now() * 0.000085;
+		originalTime++;
+		time = originalTime * 0.00055;
 		camera.position.x = Math.cos(time) * 400;
 		//camera.position.z = Math.sin(time) * 500;
 		camera.position.y = Math.sin(time / 1.4) * 100;
-		camera.lookAt( target );
+		camera.lookAt(target);
 	}
 	camera.updateMatrixWorld();
 	//INTERACTIVE
@@ -208,7 +213,8 @@ function render() {
 		}
 	} else {
 		if (INTERSECTED){
-			INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
+			if (!INTERSECTED.added)
+				INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
 			removeHover(INTERSECTED);
 		}
 		INTERSECTED = null;
@@ -240,7 +246,11 @@ var totalNew = 0, totalOpen = 0, totalWon = 0, totalLoss = 0;
 function addSignal(){
 	//Adding signal
 	var intersectedObject = INTERSECTED;
+	INTERSECTED.added = true;
 	if (intersectedObject){
+		//If this is the first one, slide out the panel
+		if (signalCount == 0)
+			$('.sidebar').stop().animate({right:"0px"}, 250, function(){});
 		//Combining numbers
 		totalNew += intersectedObject.associatedData['new'];
 		totalOpen += intersectedObject.associatedData['open'];
@@ -262,9 +272,7 @@ function addSignal(){
 			displayName = intersectedObject.associatedData['value']
 		$('.sidebar-signals').append("<p>"+ intersectedObject.associatedData['type'] + "</p><h2>" + displayName + "</h2>" + "<img class='remove' src='imgs/remove.svg'>");
 	}
-}
-function createSegment(){
-
+	document.removeEventListener('click', addSignal);
 }
 function removeHover(intersectedObject){
 	rotate = true;
@@ -272,6 +280,7 @@ function removeHover(intersectedObject){
  	$(".hoverPanel").stop().animate({opacity: 0}, 200, function(){});
 }
 
+/* RIGHT PANEL */
 function withSuffix(value) {
     var newValue = value;
     if (value >= 1000) {
@@ -288,6 +297,32 @@ function withSuffix(value) {
     }
     return newValue;
 }
+function createSegment(){
+
+}
+function cancelSegment(){
+	//Slide right panel in
+	$('.sidebar').stop().animate({right:"-400px"}, 250, function(){});
+	//Remove all blobs added
+	console.log(intersectables.length);
+	for (var i=0; i <intersectables.length; i++){
+		blob = intersectables[i];
+		blob.added = false;
+		blob.material.color.setHex(normalColor);
+	}
+	//Reset numbers of right panel
+	totalNew = 0;
+	totalOpen = 0;
+	totalWon = 0;
+	totalLoss = 0;
+	signalCount = 0;
+	$('.sidebar-signals').html("<h1 class='sidebar-count'>Selected Signals (0)</h1>");
+	$(".combinedNewRecords").html(withSuffix(totalNew));
+	$(".combinedOpenRecords").html(withSuffix(totalOpen));
+	$(".combinedWonRecords").html(withSuffix(totalWon));
+	$(".combinedLossRecords").html(withSuffix(totalLoss));
+}
+
 
 
 
