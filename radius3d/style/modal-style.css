@@ -1,0 +1,41 @@
+.modal-bg {
+  background-color: #ffffff;
+  position: absolute;
+  top: -500px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding: 80px 0;
+}
+
+.modal-bg h1 {
+  color: #19485F;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+}
+
+.modal-body p {
+  color: #19485F;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.button-cool{
+	background: #153542;
+	text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  width: 100%;
+}
+.button-top{ margin:0 auto; width:190px;}
+
+.button-cool p{
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1;
+	text-transform: uppercase;
+}

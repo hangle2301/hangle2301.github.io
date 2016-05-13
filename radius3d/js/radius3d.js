@@ -70,7 +70,6 @@ function init() {
 	});
 
 	originalTime = Date.now();
-	$(".hoverPanel").css("opacity","0");
 }
 
 // GENERATING BLOBS BASED ON JSON
@@ -298,7 +297,10 @@ function withSuffix(value) {
     return newValue;
 }
 function createSegment(){
-
+	$('.modal-bg').stop().animate({top:"50%"}, 250, function(){});
+}
+function restart(){
+	window.location.reload();
 }
 function cancelSegment(){
 	//Slide right panel in

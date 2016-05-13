@@ -27,7 +27,7 @@ a {
 
 .interactionLayer{ }
 
-.hoverPanel{position:absolute;width:250px;}
+.hoverPanel{position:absolute;width:250px;opacity:0;left:-500px;}
 button{background:none; border:none; cursor:pointer;}
 .clickPanel, .headline{position:absolute;}
 .bottomPanel{position:absolute; width:100%; bottom:30px;background-color:rgba(0, 0, 0, 0.5)}

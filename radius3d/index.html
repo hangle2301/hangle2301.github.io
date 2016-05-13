@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link rel="stylesheet" href="style/style.css" />
 		<link rel="stylesheet" type="text/css" href="style/sidebar-style.css">
+		<link rel="stylesheet" type="text/css" href="style/modal-style.css">
 		<link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 		<script src="js/three.min.js"></script> 
 		<script src="js/controls/OrbitControls.js"></script>
@@ -82,6 +83,18 @@
 
       </div>
       <!-- End of Sidebar -->
+
+      <!-- Start of Modal -->
+      <div class="modal-bg">
+			<div class="modal-body">
+					<h1>Great Success!</h1>
+					<p>You've successfully created a segment. You can now view it on your dashboard.</p>
+			</div>
+			<div class="button-top">
+				<button class="button-cool" onclick="restart()"><p>Coolio</p></button>
+			</div>
+		</div>
+		 <!-- End of Modal -->
 	
 		<!-- Container 3D -->
 		<div id="container"></div>
