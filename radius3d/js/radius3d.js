@@ -183,7 +183,7 @@ function onDocumentMouseMove( event ) {
 function render() {
 	//Rotating Camera
 	if (rotate){
-		var time = Date.now() * 0.00015;
+		var time = Date.now() * 0.000085;
 		camera.position.x = Math.cos(time) * 400;
 		//camera.position.z = Math.sin(time) * 500;
 		camera.position.y = Math.sin(time / 1.4) * 100;
