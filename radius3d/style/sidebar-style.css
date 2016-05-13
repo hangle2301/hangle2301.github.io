@@ -1,0 +1,123 @@
+.sidebar {
+	position: absolute;
+	right:0px;
+	top: auto;
+	height: 100%;
+	width: 280px;
+	padding: 50px;
+	background: #19485F;
+}
+
+
+.sidebar-header {
+	height: 60px;
+	margin-bottom: 50px;
+}
+
+.sidebar-headline {
+	width: 50%;
+	float: left;
+}
+
+.sidebar-headline h1 {
+	font-size: 26px;
+	line-height: 35px;
+	color: #ffffff;
+	margin-top: 5px;
+}
+
+
+.graph2 {
+	width: 80px;
+	float: right;
+}
+
+.sidebar-list {
+	height: 150px;
+	padding-bottom: 50px;
+	border-bottom: 2px #153542 solid;
+}
+
+#sidebar-list ul {
+	overflow: hidden;
+}
+
+.sidebar-list li {
+	list-style: none;
+	float: left;
+	display: inline;
+	width: 50%;
+	font-size: 20px;
+	line-height: 2;
+	color: #ffffff;
+}
+
+.sidebar-list li:nth-child(even) {
+	text-align: right;
+}
+
+#double li {
+	width: 50%;
+	float: right;
+	<span class="code-comment">
+}
+
+.sidebar-signals h1 {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.sidebar-signals p {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+.sidebar-signals h2 {
+	color: #ffffff;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+.remove {
+	width: 12px;
+	float: right;
+	margin-top: -36px;
+}
+
+.button-cancel {
+	position: fixed;
+	right: 190px;
+	bottom: 0px;
+	width: 190px;
+	background: #153542;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.button-cancel p {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.button-create {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 190px;
+	background: #ffffff;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.button-create p {
+	color: #153542;
+	font-size: 20px;
+	line-height: 1;
+	text-transform: uppercase;
+}

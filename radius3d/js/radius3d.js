@@ -12,21 +12,21 @@ var normalColor = 0x0262B2;
 var hoverColor = 0x01FFFF;
 var textColor = 0x0A3D58;
 var darkColor = 0x0262B2;
-var spacingBlobs = 100;
+var spacingBlobs = 200;
 
 function init() {
 
 	scene = new THREE.Scene();
 	scene.fog = new THREE.FogExp2( 0xcccccc, 0.002 );
 	renderer = new THREE.WebGLRenderer();
-	renderer.setClearColor( scene.fog.color );
-	renderer.setPixelRatio( window.devicePixelRatio );
-	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer.setClearColor(scene.fog.color );
+	renderer.setPixelRatio(window.devicePixelRatio);
+	renderer.setSize(window.innerWidth, window.innerHeight);
 
 	var container = document.getElementById( 'container' );
 	container.appendChild( renderer.domElement );
 
-	camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 1000 );
+	camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 1000 );
 	camera.position.z = 200;
 	target = new THREE.Vector3( 0, 0, 0);
 
@@ -78,6 +78,7 @@ function init() {
 
 // GENERATING BLOBS BASED ON JSON
 function generateBlobs(returnJson){
+	$(".hoverPanel").css("opacity","0");
 	console.log(returnJson);
 	console.log("Generating blobs");
 	// Geometry definition
@@ -228,9 +229,9 @@ function render() {
 	raycaster.setFromCamera(mouse,camera );
 	var intersects = raycaster.intersectObjects(intersectables);
 	if ( intersects.length > 0 ) {
-		if ( INTERSECTED != intersects[ 0 ].object ) {
+		if ( INTERSECTED != intersects[0].object ) {
 			if (INTERSECTED) INTERSECTED.material.color.setHex( INTERSECTED.currentHex );
-			INTERSECTED = intersects[ 0 ].object;
+			INTERSECTED = intersects[0].object;
 			INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
 			INTERSECTED.material.color.setHex(hoverColor);
 			displayHover(INTERSECTED);
@@ -249,11 +250,9 @@ function render() {
 /* INTERACTION ON TOP OF SCENE */
 function displayHover(intersectedObject){
 		//Place hover at the position
-		console.log("in");
 		$(".hoverPanel").animate({opacity: 1},500, function(){});
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
 		//Displaying data
-		console.log("Hovering " + intersectedObject.associatedData);
 		$(".hoverPanel h3").html(intersectedObject.associatedData['name']);
 		$(".hoverPanel .newRecords").html(withSuffix(intersectedObject.associatedData['new']));
 		$(".hoverPanel .openRecords").html(withSuffix(intersectedObject.associatedData['open']));
@@ -267,7 +266,6 @@ function createSegment(){
 
 }
 function removeHover(intersectedObject){
-	console.log("out");
  	$(".hoverPanel").animate({opacity: 0}, 200, function(){});
 }
 
