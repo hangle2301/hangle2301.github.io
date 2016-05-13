@@ -73,14 +73,15 @@ function init() {
 function generateBlobs(returnJson){
 	$(".hoverPanel").css("opacity","0");
 	console.log(returnJson);	
-
+	var index = 0;
 	//Creating Groups	
 	for (var grouping in returnJson){
+		index++;
 		console.log("Generating group " + grouping + " length " + returnJson[grouping].length);
 		//Creating text field for Title
 		var posX = (Math.random() - 0.5) * 750;
 		var posY = (Math.random() - 0.5) * 750;
-		var posZ = (Math.random() - 0.5) * 300;
+		var posZ = (Math.random() - 0.5) * (Math.round(index/4)) * 100;
 
 		var textMesh = generateText(grouping, posX, posY, posZ);
 		scene.add(textMesh);	
@@ -90,7 +91,7 @@ function generateBlobs(returnJson){
 				/*if (returnJson[grouping][i]['won'] != 0)
 					var numberBase = returnJson[grouping][i]['won']/returnJson[grouping][i]['new'];
 				console.log(numberBase)*/
-				var radius = (Math.random() * 20);
+				var radius = (Math.random() - 0.2) * 20;
 				var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(radius,1), 
 					new THREE.MeshPhongMaterial( {
 						color: normalColor,
@@ -112,30 +113,6 @@ function generateBlobs(returnJson){
 		}
 		
 	}
-
-	//Generate geometries outside of group
-	/*for (var i=0; i<100; i++) {
-			//var mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff }) );
-			var randomRadius = (Math.random() - 0.2) * 10;
-
-			var mesh = new THREE.Mesh( new THREE.IcosahedronGeometry(randomRadius,1), 
-				new THREE.MeshPhongMaterial( {
-					color: 0x156289,
-					emissive: 0x072534,
-					side: THREE.DoubleSide,
-					shading: THREE.FlatShading
-				} )
-			);
-
-			mesh.position.x = (Math.random() - 0.5) * 750;
-			mesh.position.y = (Math.random() - 0.5) * 750;
-			mesh.position.z = (Math.random() - 0.5) * 750;
-			
-			mesh.updateMatrix();
-			mesh.matrixAutoUpdate = false;
-			scene.add(mesh);
-
-		}*/
 
 }
 function getJson(){
@@ -246,7 +223,12 @@ function displayHover(intersectedObject){
 		$(".hoverPanel").stop().animate({opacity: 1},200, function(){});
 		$(".hoverPanel").css({left: realMouseX + "px", top: realMouseY + "px"});
 		//Displaying data
-		$(".hoverPanel h3").html(intersectedObject.associatedData['name']);
+		var displayName = "";
+		if (intersectedObject.associatedData['name'])
+			displayName = intersectedObject.associatedData['name']
+		else
+			displayName = intersectedObject.associatedData['type'] + " : " + intersectedObject.associatedData['value']
+		$(".hoverPanel h3").html(displayName);
 		$(".hoverPanel .newRecords").html(withSuffix(intersectedObject.associatedData['new']));
 		$(".hoverPanel .openRecords").html(withSuffix(intersectedObject.associatedData['open']));
 		$(".hoverPanel .wonRecords").html(withSuffix(intersectedObject.associatedData['won']));
