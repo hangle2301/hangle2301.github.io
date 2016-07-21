@@ -12,15 +12,25 @@ donutTop1.rotation -= 45
 #Interaction
 nowlChart = new Array(sketch.New, sketch.Open, sketch.Won, sketch.Lost);
 
+layerClick = -1;
+
 for layer in nowlChart
 	layer.onClick ->
-		appearAnimation.start()
+		layerClick = this
+		doAnimation(this)
 
-appearAnimation = new Animation
-	layer: donutTop1
-	properties:
-        rotation: donutTop1.rotation + 45
-        opacity: 1
-    duration: 0.75
-    curve: "spring"
+	
+doAnimation = (layerClicked) ->
+	appearAnimation = new Animation
+		layer: donutTop1
+		properties:
+        	rotation: donutTop1.rotation + 45
+        	opacity: 1
+    	duration: 0.75
+    	curve: "spring"
+    #Dimming other parts
+    for layer2 in nowlChart
+    	layer2.opacity = 0.5
+	layerClicked.opacity = 1
+	appearAnimation.start()
  
