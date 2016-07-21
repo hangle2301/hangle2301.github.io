@@ -1,26 +1,26 @@
 app.coffee
 framer/backups/backup-1446127313.coffee
-framer/backups/backup-2016-07-21 14.22.27.coffee
-framer/backups/backup-2016-07-21 14.23.27.coffee
-framer/backups/backup-2016-07-21 14.24.27.coffee
-framer/backups/backup-2016-07-21 14.25.27.coffee
-framer/backups/backup-2016-07-21 14.26.27.coffee
-framer/backups/backup-2016-07-21 14.27.27.coffee
-framer/backups/backup-2016-07-21 14.28.27.coffee
-framer/backups/backup-2016-07-21 14.29.27.coffee
-framer/backups/backup-2016-07-21 14.30.27.coffee
-framer/backups/backup-2016-07-21 14.31.27.coffee
-framer/backups/backup-2016-07-21 14.32.27.coffee
-framer/backups/backup-2016-07-21 14.33.27.coffee
-framer/backups/backup-2016-07-21 14.43.27.coffee
-framer/backups/backup-2016-07-21 14.44.27.coffee
-framer/backups/backup-2016-07-21 14.45.27.coffee
-framer/backups/backup-2016-07-21 14.46.27.coffee
-framer/backups/backup-2016-07-21 14.47.27.coffee
-framer/backups/backup-2016-07-21 14.50.27.coffee
 framer/backups/backup-2016-07-21 14.52.27.coffee
 framer/backups/backup-2016-07-21 14.54.27.coffee
 framer/backups/backup-2016-07-21 14.55.27.coffee
+framer/backups/backup-2016-07-21 14.56.27.coffee
+framer/backups/backup-2016-07-21 15.10.27.coffee
+framer/backups/backup-2016-07-21 15.11.27.coffee
+framer/backups/backup-2016-07-21 15.12.27.coffee
+framer/backups/backup-2016-07-21 15.13.27.coffee
+framer/backups/backup-2016-07-21 15.14.27.coffee
+framer/backups/backup-2016-07-21 15.15.27.coffee
+framer/backups/backup-2016-07-21 15.16.27.coffee
+framer/backups/backup-2016-07-21 15.17.27.coffee
+framer/backups/backup-2016-07-21 15.18.27.coffee
+framer/backups/backup-2016-07-21 15.19.27.coffee
+framer/backups/backup-2016-07-21 15.20.27.coffee
+framer/backups/backup-2016-07-21 15.21.27.coffee
+framer/backups/backup-2016-07-21 15.22.27.coffee
+framer/backups/backup-2016-07-21 15.25.27.coffee
+framer/backups/backup-2016-07-21 15.26.27.coffee
+framer/backups/backup-2016-07-21 15.27.27.coffee
+framer/backups/backup-2016-07-21 15.28.27.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -52,20 +52,22 @@ framer/preview.png
 framer/style.css
 framer/version
 images/framer-icon.png
+imported/Chart@1x/images/Layer-$5_SegmentSingle_2-ndmwqtm1.png
+imported/Chart@1x/images/Layer-Base-reuxq0ez.png
 imported/Chart@1x/images/Layer-BG-mjaxnze2.png
 imported/Chart@1x/images/Layer-Donut_Bottom-mjiwoee5.png
 imported/Chart@1x/images/Layer-Donut_Top1-nzu0rtmy.png
+imported/Chart@1x/images/Layer-Donut_Top2-quzdnjux.png
 imported/Chart@1x/images/Layer-Dropdown-rjg4mzbg.png
 imported/Chart@1x/images/Layer-Header-oungnuvb.png
 imported/Chart@1x/images/Layer-Lost-mdhgndu0.png
 imported/Chart@1x/images/Layer-New-nkvemkrc.png
-imported/Chart@1x/images/Layer-Numbers-rjkymkew.png
 imported/Chart@1x/images/Layer-Open-rji3q0re.png
 imported/Chart@1x/images/Layer-Question_Mark_3-nenbodez.png
 imported/Chart@1x/images/Layer-Question_Mark_3_Copy-mjiyruuy.png
 imported/Chart@1x/images/Layer-Question_Mark_6-mzkzneq0.png
 imported/Chart@1x/images/Layer-SegmentDetail-nuqynji4.png
-imported/Chart@1x/images/Layer-SideDonut-nzqzrja0.png
+imported/Chart@1x/images/Layer-TextNew-qtk0qzy5.png
 imported/Chart@1x/images/Layer-Won-mze3mdq5.png
 imported/Chart@1x/layers.json
 imported/Chart@1x/layers.json.js

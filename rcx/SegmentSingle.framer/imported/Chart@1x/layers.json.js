@@ -14,33 +14,61 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"image": {
+			"path": "images/Layer-$5_SegmentSingle_2-ndmwqtm1.png",
+			"frame": {
+				"x": -570,
+				"y": -281,
+				"width": 1440,
+				"height": 860
+			}
+		},
 		"children": [
 			{
 				"objectId": "743F0498-14EF-47CC-A99D-8B8FA4655033",
 				"kind": "group",
-				"name": "SideDonut",
+				"name": "DonutText",
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 1152,
-					"y": 259,
-					"width": 101,
-					"height": 94
+					"y": 232,
+					"width": 123,
+					"height": 151
 				},
 				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
-				"image": {
-					"path": "images/Layer-SideDonut-nzqzrja0.png",
-					"frame": {
-						"x": 1152,
-						"y": 259,
-						"width": 101,
-						"height": 94
+				"children": [
+					{
+						"objectId": "A94C69D6-30EE-4195-AAB4-1DC315560E17",
+						"kind": "group",
+						"name": "TextNew",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1152,
+							"y": 232,
+							"width": 123,
+							"height": 151
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-TextNew-qtk0qzy5.png",
+							"frame": {
+								"x": 1152,
+								"y": 232,
+								"width": 123,
+								"height": 151
+							}
+						},
+						"children": [],
+						"time": 55
 					}
-				},
-				"children": [],
-				"time": 45
+				],
+				"time": 77
 			},
 			{
 				"objectId": "F8830FD6-2546-41BB-9266-E23A4C9E7B5E",
@@ -49,7 +77,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 1144,
-					"y": 162,
+					"y": 164,
 					"width": 107,
 					"height": 34
 				},
@@ -61,18 +89,18 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 					"path": "images/Layer-Dropdown-rjg4mzbg.png",
 					"frame": {
 						"x": 1144,
-						"y": 162,
+						"y": 164,
 						"width": 107,
 						"height": 34
 					}
 				},
 				"children": [],
-				"time": 35
+				"time": 56
 			},
 			{
 				"objectId": "226CD4BE-86FD-4A50-B87E-6EE204F0CBCA",
 				"kind": "group",
-				"name": "Donut",
+				"name": "DonutNew",
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 930,
@@ -110,7 +138,34 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 32
+						"time": 34
+					},
+					{
+						"objectId": "AFC651CC-1BAE-4E3D-8721-4F7F0403FCB6",
+						"kind": "group",
+						"name": "Donut_Top2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 948,
+							"y": 348,
+							"width": 146,
+							"height": 51
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Donut_Top2-quzdnjux.png",
+							"frame": {
+								"x": 948,
+								"y": 348,
+								"width": 146,
+								"height": 51
+							}
+						},
+						"children": [],
+						"time": 31
 					},
 					{
 						"objectId": "2208A9BA-3E6D-40B0-B54B-4BF99CCE7278",
@@ -137,10 +192,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 35
+						"time": 40
 					}
 				],
-				"time": 85
+				"time": 125
 			},
 			{
 				"objectId": "201716B9-D775-4519-8E66-A604631D843C",
@@ -219,7 +274,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 28
+						"time": 31
 					},
 					{
 						"objectId": "3934D4A2-847D-41EE-BD6E-1178156427E2",
@@ -246,10 +301,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 30
+						"time": 33
 					}
 				],
-				"time": 271
+				"time": 296
 			},
 			{
 				"objectId": "9CF5EA77-9E11-4903-BCCC-B0C2F8F2C509",
@@ -276,7 +331,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 112
+				"time": 141
 			},
 			{
 				"objectId": "5D2628E6-BB89-4382-9F52-0914CE1174F6",
@@ -303,7 +358,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 37
+				"time": 39
 			},
 			{
 				"objectId": "6167CBDF-8318-4CA6-8CF2-0A3A971E15AC",
@@ -346,7 +401,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 45
+						"time": 39
 					},
 					{
 						"objectId": "F27CDD3A-614E-47D1-86A4-3FEAC255E53F",
@@ -357,7 +412,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							"x": 378,
 							"y": 224,
 							"width": 163,
-							"height": 186
+							"height": 191
 						},
 						"visible": true,
 						"metadata": {
@@ -369,11 +424,11 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"x": 378,
 								"y": 224,
 								"width": 163,
-								"height": 186
+								"height": 191
 							}
 						},
 						"children": [],
-						"time": 41
+						"time": 45
 					},
 					{
 						"objectId": "317049CB-D257-4FF4-A4B3-8E69F24F2618",
@@ -384,7 +439,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							"x": 545,
 							"y": 224,
 							"width": 163,
-							"height": 183
+							"height": 191
 						},
 						"visible": true,
 						"metadata": {
@@ -396,11 +451,11 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"x": 545,
 								"y": 224,
 								"width": 163,
-								"height": 183
+								"height": 191
 							}
 						},
 						"children": [],
-						"time": 41
+						"time": 46
 					},
 					{
 						"objectId": "08F45409-051D-41CF-BD73-73CB4FEAA112",
@@ -411,7 +466,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							"x": 713,
 							"y": 224,
 							"width": 163,
-							"height": 183
+							"height": 191
 						},
 						"visible": true,
 						"metadata": {
@@ -423,11 +478,11 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"x": 713,
 								"y": 224,
 								"width": 163,
-								"height": 183
+								"height": 191
 							}
 						},
 						"children": [],
-						"time": 46
+						"time": 47
 					},
 					{
 						"objectId": "6ED2DBEF-78D8-4686-8A83-4BC56221083E",
@@ -457,9 +512,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 						"time": 50
 					}
 				],
-				"time": 253
+				"time": 260
 			}
 		],
-		"time": 866
+		"time": 1129
 	}
 ]
