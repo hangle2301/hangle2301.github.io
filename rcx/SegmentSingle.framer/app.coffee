@@ -75,7 +75,7 @@ doIntroAnimation = () ->
 		duration: 0.75
 		delay: 0.8
 
-doIntroAnimation()
+window.onload = doIntroAnimation()
 
 #Clicking
 layerClick = -1;
