@@ -64,7 +64,7 @@ doAnimationPiece = (animationPiece, delay) ->
 doIntroAnimation = () ->
 	sketch.ChartPreload.opacity = 0
 	for animationPiece, index in globalArray
-		delay = index * 1.25
+		delay = index * 1
 		doAnimationPiece(animationPiece, delay)
 #OnLoad
 #window.onload = doIntroAnimation()

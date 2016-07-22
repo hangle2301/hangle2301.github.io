@@ -1,5 +1,4 @@
 app.coffee
-framer/backups/backup-2016-07-22 10.50.19.coffee
 framer/backups/backup-2016-07-22 10.51.19.coffee
 framer/backups/backup-2016-07-22 10.52.19.coffee
 framer/backups/backup-2016-07-22 10.57.19.coffee
@@ -20,6 +19,7 @@ framer/backups/backup-2016-07-22 11.19.19.coffee
 framer/backups/backup-2016-07-22 11.20.19.coffee
 framer/backups/backup-2016-07-22 11.21.19.coffee
 framer/backups/backup-2016-07-22 11.22.19.coffee
+framer/backups/backup-2016-07-22 11.23.19.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
