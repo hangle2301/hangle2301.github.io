@@ -22,9 +22,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 930,
-					"y": 211,
+					"y": 210,
 					"width": 368,
-					"height": 188
+					"height": 189
 				},
 				"visible": true,
 				"metadata": {
@@ -88,7 +88,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 45
+										"time": 44
 									}
 								],
 								"time": 61
@@ -118,7 +118,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 28
+								"time": 30
 							},
 							{
 								"objectId": "AFC651CC-1BAE-4E3D-8721-4F7F0403FCB6",
@@ -145,7 +145,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 25
+								"time": 27
 							},
 							{
 								"objectId": "2208A9BA-3E6D-40B0-B54B-4BF99CCE7278",
@@ -172,10 +172,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 31
+								"time": 32
 							}
 						],
-						"time": 166
+						"time": 172
 					},
 					{
 						"objectId": "E53F041F-7870-4E86-94E8-5340EFFF540B",
@@ -184,9 +184,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 930,
-							"y": 211,
+							"y": 210,
 							"width": 368,
-							"height": 188
+							"height": 189
 						},
 						"visible": true,
 						"metadata": {
@@ -200,9 +200,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 930,
-									"y": 211,
+									"y": 210,
 									"width": 368,
-									"height": 188
+									"height": 189
 								},
 								"visible": true,
 								"metadata": {
@@ -250,42 +250,42 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 38
+												"time": 40
 											}
 										],
-										"time": 52
+										"time": 54
 									},
 									{
 										"objectId": "A3C31D5A-A157-4D87-BB1B-EF9027667FEA",
 										"kind": "group",
-										"name": "Donut_Top",
+										"name": "WonLossTop",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1024,
-											"y": 211,
-											"width": 84,
-											"height": 61
+											"x": 930,
+											"y": 210,
+											"width": 188,
+											"height": 188
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Donut_Top-qtndmzfe.png",
+											"path": "images/Layer-WonLossTop-qtndmzfe.png",
 											"frame": {
-												"x": 1024,
-												"y": 211,
-												"width": 84,
-												"height": 61
+												"x": 930,
+												"y": 210,
+												"width": 188,
+												"height": 188
 											}
 										},
 										"children": [],
-										"time": 24
+										"time": 34
 									},
 									{
 										"objectId": "BAD56D19-595B-4C38-997E-34A7B0050188",
 										"kind": "group",
-										"name": "Donut_Bottom",
+										"name": "WonLossBottom",
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 930,
@@ -298,7 +298,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Donut_Bottom-qkfentze.png",
+											"path": "images/Layer-WonLossBottom-qkfentze.png",
 											"frame": {
 												"x": 930,
 												"y": 211,
@@ -307,10 +307,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 31
+										"time": 32
 									}
 								],
-								"time": 126
+								"time": 139
 							},
 							{
 								"objectId": "25949056-7BAC-478B-81A0-88AEE3E35635",
@@ -319,9 +319,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 930,
-									"y": 211,
+									"y": 210,
 									"width": 368,
-									"height": 188
+									"height": 189
 								},
 								"visible": true,
 								"metadata": {
@@ -369,42 +369,42 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 37
+												"time": 39
 											}
 										],
-										"time": 51
+										"time": 54
 									},
 									{
 										"objectId": "A15D300C-A9EA-48C5-848B-6E6066D773AA",
 										"kind": "group",
-										"name": "Donut_Top1",
+										"name": "WonWonTop",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1024,
-											"y": 211,
-											"width": 94,
-											"height": 161
+											"x": 930,
+											"y": 210,
+											"width": 188,
+											"height": 188
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Donut_Top-qte1rdmw.png",
+											"path": "images/Layer-WonWonTop-qte1rdmw.png",
 											"frame": {
-												"x": 1024,
-												"y": 211,
-												"width": 94,
-												"height": 161
+												"x": 930,
+												"y": 210,
+												"width": 188,
+												"height": 188
 											}
 										},
 										"children": [],
-										"time": 27
+										"time": 35
 									},
 									{
 										"objectId": "84018792-8A36-4364-8B99-6A954D3B8C1C",
 										"kind": "group",
-										"name": "Donut_Bottom1",
+										"name": "WonWonBottom",
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 930,
@@ -417,7 +417,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Donut_Bottom-odqwmtg3.png",
+											"path": "images/Layer-WonWonBottom-odqwmtg3.png",
 											"frame": {
 												"x": 930,
 												"y": 211,
@@ -426,10 +426,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 34
+										"time": 35
 									}
 								],
-								"time": 131
+								"time": 143
 							},
 							{
 								"objectId": "4A285131-4129-4C21-AE2A-9C59500A862B",
@@ -438,9 +438,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 930,
-									"y": 211,
+									"y": 210,
 									"width": 368,
-									"height": 188
+									"height": 189
 								},
 								"visible": true,
 								"metadata": {
@@ -448,15 +448,15 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								},
 								"children": [
 									{
-										"objectId": "020ECC6C-2235-4FAD-8527-569C6AC7F896",
+										"objectId": "A678F144-1862-4781-8038-B67F846E6709",
 										"kind": "group",
-										"name": "WonOpen1",
+										"name": "DonutText2",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 930,
-											"y": 211,
-											"width": 368,
-											"height": 188
+											"x": 1152,
+											"y": 276,
+											"width": 146,
+											"height": 90
 										},
 										"visible": true,
 										"metadata": {
@@ -464,9 +464,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 										},
 										"children": [
 											{
-												"objectId": "A678F144-1862-4781-8038-B67F846E6709",
+												"objectId": "845149B4-19A0-480B-A52F-D536A02AED1D",
 												"kind": "group",
-												"name": "DonutText2",
+												"name": "TextNew3",
 												"maskFrame": null,
 												"layerFrame": {
 													"x": 1152,
@@ -478,215 +478,77 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 												"metadata": {
 													"opacity": 1
 												},
-												"children": [
-													{
-														"objectId": "845149B4-19A0-480B-A52F-D536A02AED1D",
-														"kind": "group",
-														"name": "TextNew3",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 1152,
-															"y": 276,
-															"width": 146,
-															"height": 90
-														},
-														"visible": true,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-TextNew-odq1mtq5.png",
-															"frame": {
-																"x": 1152,
-																"y": 276,
-																"width": 146,
-																"height": 90
-															}
-														},
-														"children": [],
-														"time": 37
-													}
-												],
-												"time": 52
-											},
-											{
-												"objectId": "D58688D9-6B9C-43D7-9479-C5C3A1977BE7",
-												"kind": "group",
-												"name": "Donut_Top11",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 1024,
-													"y": 211,
-													"width": 73,
-													"height": 48
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
 												"image": {
-													"path": "images/Layer-Donut_Top1-rdu4njg4.png",
+													"path": "images/Layer-TextNew-odq1mtq5.png",
 													"frame": {
-														"x": 1024,
-														"y": 211,
-														"width": 73,
-														"height": 48
+														"x": 1152,
+														"y": 276,
+														"width": 146,
+														"height": 90
 													}
 												},
 												"children": [],
-												"time": 24
-											},
-											{
-												"objectId": "ECB1418B-49BD-414B-BA55-8A1582E8DC63",
-												"kind": "group",
-												"name": "Donut_Bottom2",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 930,
-													"y": 211,
-													"width": 188,
-													"height": 188
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Donut_Bottom-runcmtqx.png",
-													"frame": {
-														"x": 930,
-														"y": 211,
-														"width": 188,
-														"height": 188
-													}
-												},
-												"children": [],
-												"time": 33
+												"time": 39
 											}
 										],
-										"time": 128
+										"time": 54
 									},
 									{
-										"objectId": "D04CB876-3D2F-48B7-B180-81A4F5A72BC3",
+										"objectId": "D58688D9-6B9C-43D7-9479-C5C3A1977BE7",
 										"kind": "group",
-										"name": "WonNew1",
+										"name": "WonOpenTop",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 940,
-											"y": 221,
-											"width": 368,
-											"height": 168
+											"x": 930,
+											"y": 210,
+											"width": 188,
+											"height": 188
 										},
-										"visible": false,
+										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
-										"children": [
-											{
-												"objectId": "DCA9575F-3647-4433-9E18-A10417F1B0FF",
-												"kind": "group",
-												"name": "DonutText3",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 1152,
-													"y": 276,
-													"width": 146,
-													"height": 90
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"children": [
-													{
-														"objectId": "FEB465E4-BEC9-49AC-96DF-591983762DF3",
-														"kind": "group",
-														"name": "TextNew4",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 1152,
-															"y": 276,
-															"width": 146,
-															"height": 90
-														},
-														"visible": true,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-TextNew-rkvcndy1.png",
-															"frame": {
-																"x": 1152,
-																"y": 276,
-																"width": 146,
-																"height": 90
-															}
-														},
-														"children": [],
-														"time": 36
-													}
-												],
-												"time": 51
-											},
-											{
-												"objectId": "CCD1D6F9-CD26-4ABE-80A7-1A244FD5F686",
-												"kind": "group",
-												"name": "Donut_Top12",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 1024,
-													"y": 211,
-													"width": 94,
-													"height": 156
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Donut_Top1-q0nemuq2.png",
-													"frame": {
-														"x": 1024,
-														"y": 211,
-														"width": 94,
-														"height": 156
-													}
-												},
-												"children": [],
-												"time": 27
-											},
-											{
-												"objectId": "F6C91FFE-55BD-4C2A-8267-C03449FF32DA",
-												"kind": "group",
-												"name": "Donut_Bottom3",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 930,
-													"y": 211,
-													"width": 188,
-													"height": 188
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Donut_Bottom-rjzdotfg.png",
-													"frame": {
-														"x": 930,
-														"y": 211,
-														"width": 188,
-														"height": 188
-													}
-												},
-												"children": [],
-												"time": 31
+										"image": {
+											"path": "images/Layer-WonOpenTop-rdu4njg4.png",
+											"frame": {
+												"x": 930,
+												"y": 210,
+												"width": 188,
+												"height": 188
 											}
-										],
-										"time": 125
+										},
+										"children": [],
+										"time": 37
+									},
+									{
+										"objectId": "ECB1418B-49BD-414B-BA55-8A1582E8DC63",
+										"kind": "group",
+										"name": "WonOpenBottom",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 930,
+											"y": 211,
+											"width": 188,
+											"height": 188
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-WonOpenBottom-runcmtqx.png",
+											"frame": {
+												"x": 930,
+												"y": 211,
+												"width": 188,
+												"height": 188
+											}
+										},
+										"children": [],
+										"time": 33
 									}
 								],
-								"time": 272
+								"time": 143
 							},
 							{
 								"objectId": "A886A178-9441-4C4B-87B5-07D6AA63E8F9",
@@ -695,7 +557,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 930,
-									"y": 211,
+									"y": 210,
 									"width": 368,
 									"height": 188
 								},
@@ -707,7 +569,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									{
 										"objectId": "AEAE1E0B-B200-4E1A-87A8-B835F3FEBCD3",
 										"kind": "group",
-										"name": "DonutText4",
+										"name": "DonutText3",
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 1152,
@@ -723,7 +585,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											{
 												"objectId": "8F1311F1-8C93-43AA-9ED6-7983E95C2A07",
 												"kind": "group",
-												"name": "TextNew5",
+												"name": "TextNew4",
 												"maskFrame": null,
 												"layerFrame": {
 													"x": 1152,
@@ -745,46 +607,19 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 36
+												"time": 38
 											}
 										],
-										"time": 50
+										"time": 52
 									},
 									{
 										"objectId": "EAA34A02-6CE0-482C-B97E-5D46F87D3D2A",
 										"kind": "group",
-										"name": "Donut_Top13",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 1024,
-											"y": 211,
-											"width": 94,
-											"height": 156
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Donut_Top1-rufbmzrb.png",
-											"frame": {
-												"x": 1024,
-												"y": 211,
-												"width": 94,
-												"height": 156
-											}
-										},
-										"children": [],
-										"time": 28
-									},
-									{
-										"objectId": "5E7D1135-64BE-4808-9A9C-F9EF56A77331",
-										"kind": "group",
-										"name": "Donut_Bottom4",
+										"name": "WonNewTop",
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 930,
-											"y": 211,
+											"y": 210,
 											"width": 188,
 											"height": 188
 										},
@@ -793,25 +628,52 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Donut_Bottom-nuu3rdex.png",
+											"path": "images/Layer-WonNewTop-rufbmzrb.png",
 											"frame": {
 												"x": 930,
-												"y": 211,
+												"y": 210,
 												"width": 188,
 												"height": 188
 											}
 										},
 										"children": [],
-										"time": 31
+										"time": 34
+									},
+									{
+										"objectId": "5E7D1135-64BE-4808-9A9C-F9EF56A77331",
+										"kind": "group",
+										"name": "WonNewBottom",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 930,
+											"y": 210,
+											"width": 188,
+											"height": 188
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-WonNewBottom-nuu3rdex.png",
+											"frame": {
+												"x": 930,
+												"y": 210,
+												"width": 188,
+												"height": 188
+											}
+										},
+										"children": [],
+										"time": 32
 									}
 								],
-								"time": 126
+								"time": 136
 							}
 						],
-						"time": 682
+						"time": 591
 					}
 				],
-				"time": 878
+				"time": 794
 			},
 			{
 				"objectId": "F8830FD6-2546-41BB-9266-E23A4C9E7B5E",
@@ -861,7 +723,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 27
+						"time": 28
 					},
 					{
 						"objectId": "592C95F1-A1B1-47CA-B1C6-6B4F9CF12944",
@@ -888,7 +750,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 52
+						"time": 66
 					},
 					{
 						"objectId": "456492E9-C342-463A-98F9-419E9C8F1AD3",
@@ -915,10 +777,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 52
+						"time": 70
 					}
 				],
-				"time": 159
+				"time": 199
 			},
 			{
 				"objectId": "201716B9-D775-4519-8E66-A604631D843C",
@@ -961,7 +823,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 45
+						"time": 48
 					},
 					{
 						"objectId": "222EE240-66F9-4751-97B0-8014B7D0762E",
@@ -1015,7 +877,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 26
+						"time": 28
 					},
 					{
 						"objectId": "B3AB1FA3-DDE5-4FC1-8316-877E183D7217",
@@ -1042,7 +904,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 132
+						"time": 134
 					},
 					{
 						"objectId": "3934D4A2-847D-41EE-BD6E-1178156427E2",
@@ -1069,7 +931,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 24
+						"time": 25
 					},
 					{
 						"objectId": "377C9742-41CA-49A1-9446-765DD00C13E6",
@@ -1096,10 +958,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 51
+						"time": 54
 					}
 				],
-				"time": 346
+				"time": 369
 			},
 			{
 				"objectId": "9CF5EA77-9E11-4903-BCCC-B0C2F8F2C509",
@@ -1126,7 +988,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 146
+				"time": 183
 			},
 			{
 				"objectId": "5D2628E6-BB89-4382-9F52-0914CE1174F6",
@@ -1196,7 +1058,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 35
+						"time": 33
 					},
 					{
 						"objectId": "F27CDD3A-614E-47D1-86A4-3FEAC255E53F",
@@ -1307,9 +1169,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 						"time": 42
 					}
 				],
-				"time": 216
+				"time": 218
 			}
 		],
-		"time": 1816
+		"time": 1833
 	}
 ]

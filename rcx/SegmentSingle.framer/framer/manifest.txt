@@ -1,25 +1,25 @@
 app.coffee
-framer/backups/backup-2016-07-21 20.41.55.coffee
-framer/backups/backup-2016-07-21 20.42.55.coffee
-framer/backups/backup-2016-07-21 20.43.55.coffee
-framer/backups/backup-2016-07-21 20.44.55.coffee
-framer/backups/backup-2016-07-21 20.45.55.coffee
-framer/backups/backup-2016-07-21 20.46.55.coffee
-framer/backups/backup-2016-07-21 20.48.55.coffee
-framer/backups/backup-2016-07-21 20.51.21.coffee
-framer/backups/backup-2016-07-21 20.52.21.coffee
-framer/backups/backup-2016-07-21 20.53.21.coffee
-framer/backups/backup-2016-07-21 20.54.21.coffee
-framer/backups/backup-2016-07-21 20.55.21.coffee
-framer/backups/backup-2016-07-21 20.56.21.coffee
-framer/backups/backup-2016-07-21 20.57.21.coffee
-framer/backups/backup-2016-07-21 21.03.21.coffee
-framer/backups/backup-2016-07-21 21.04.21.coffee
-framer/backups/backup-2016-07-21 21.05.21.coffee
-framer/backups/backup-2016-07-21 21.06.21.coffee
-framer/backups/backup-2016-07-21 21.07.21.coffee
-framer/backups/backup-2016-07-21 21.08.21.coffee
-framer/backups/backup-2016-07-21 21.09.21.coffee
+framer/backups/backup-2016-07-21 21.30.21.coffee
+framer/backups/backup-2016-07-21 21.31.21.coffee
+framer/backups/backup-2016-07-21 21.33.21.coffee
+framer/backups/backup-2016-07-21 21.34.21.coffee
+framer/backups/backup-2016-07-21 21.35.21.coffee
+framer/backups/backup-2016-07-21 21.36.21.coffee
+framer/backups/backup-2016-07-21 21.37.21.coffee
+framer/backups/backup-2016-07-21 21.38.21.coffee
+framer/backups/backup-2016-07-21 21.39.21.coffee
+framer/backups/backup-2016-07-21 21.40.21.coffee
+framer/backups/backup-2016-07-21 21.41.21.coffee
+framer/backups/backup-2016-07-21 21.44.21.coffee
+framer/backups/backup-2016-07-21 21.48.21.coffee
+framer/backups/backup-2016-07-21 21.49.21.coffee
+framer/backups/backup-2016-07-21 21.51.21.coffee
+framer/backups/backup-2016-07-21 21.52.21.coffee
+framer/backups/backup-2016-07-21 21.54.21.coffee
+framer/backups/backup-2016-07-21 21.55.21.coffee
+framer/backups/backup-2016-07-21 21.57.21.coffee
+framer/backups/backup-2016-07-21 21.58.21.coffee
+framer/backups/backup-2016-07-21 21.59.21.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -52,16 +52,6 @@ framer/style.css
 framer/version
 images/framer-icon.png
 imported/Chart@1x/images/Layer-Base-reuxq0ez.png
-imported/Chart@1x/images/Layer-Donut_Bottom-nuu3rdex.png
-imported/Chart@1x/images/Layer-Donut_Bottom-odqwmtg3.png
-imported/Chart@1x/images/Layer-Donut_Bottom-qkfentze.png
-imported/Chart@1x/images/Layer-Donut_Bottom-rjzdotfg.png
-imported/Chart@1x/images/Layer-Donut_Bottom-runcmtqx.png
-imported/Chart@1x/images/Layer-Donut_Top-qte1rdmw.png
-imported/Chart@1x/images/Layer-Donut_Top-qtndmzfe.png
-imported/Chart@1x/images/Layer-Donut_Top1-q0nemuq2.png
-imported/Chart@1x/images/Layer-Donut_Top1-rdu4njg4.png
-imported/Chart@1x/images/Layer-Donut_Top1-rufbmzrb.png
 imported/Chart@1x/images/Layer-DonutNewBottom-mjiwoee5.png
 imported/Chart@1x/images/Layer-DonutNewTop1-nzu0rtmy.png
 imported/Chart@1x/images/Layer-DonutNewTop2-quzdnjux.png
@@ -83,9 +73,16 @@ imported/Chart@1x/images/Layer-TextNew-odq1mtq5.png
 imported/Chart@1x/images/Layer-TextNew-oeyxmzex.png
 imported/Chart@1x/images/Layer-TextNew-qtk0qzy5.png
 imported/Chart@1x/images/Layer-TextNew-rjmym0i1.png
-imported/Chart@1x/images/Layer-TextNew-rkvcndy1.png
 imported/Chart@1x/images/Layer-TextNew-rujcneqy.png
 imported/Chart@1x/images/Layer-Won-mze3mdq5.png
+imported/Chart@1x/images/Layer-WonLossBottom-qkfentze.png
+imported/Chart@1x/images/Layer-WonLossTop-qtndmzfe.png
+imported/Chart@1x/images/Layer-WonNewBottom-nuu3rdex.png
+imported/Chart@1x/images/Layer-WonNewTop-rufbmzrb.png
+imported/Chart@1x/images/Layer-WonOpenBottom-runcmtqx.png
+imported/Chart@1x/images/Layer-WonOpenTop-rdu4njg4.png
+imported/Chart@1x/images/Layer-WonWonBottom-odqwmtg3.png
+imported/Chart@1x/images/Layer-WonWonTop-qte1rdmw.png
 imported/Chart@1x/layers.json
 imported/Chart@1x/layers.json.js
 index.html
