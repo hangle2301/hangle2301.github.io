@@ -23,7 +23,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 				"layerFrame": {
 					"x": 930,
 					"y": 210,
-					"width": 368,
+					"width": 382,
 					"height": 189
 				},
 				"visible": true,
@@ -39,7 +39,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 930,
 							"y": 211,
-							"width": 355,
+							"width": 382,
 							"height": 188
 						},
 						"visible": true,
@@ -53,9 +53,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 								"name": "DonutNewTopText",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 1152,
+									"x": 996,
 									"y": 232,
-									"width": 133,
+									"width": 316,
 									"height": 151
 								},
 								"visible": true,
@@ -69,9 +69,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 										"name": "TextNew",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1152,
+											"x": 996,
 											"y": 232,
-											"width": 133,
+											"width": 316,
 											"height": 151
 										},
 										"visible": true,
@@ -81,17 +81,17 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-TextNew-qtk0qzy5.png",
 											"frame": {
-												"x": 1152,
+												"x": 996,
 												"y": 232,
-												"width": 133,
+												"width": 316,
 												"height": 151
 											}
 										},
 										"children": [],
-										"time": 58
+										"time": 71
 									}
 								],
-								"time": 77
+								"time": 97
 							},
 							{
 								"objectId": "754E32E6-52D1-4B7C-8628-242FC1A74D42",
@@ -118,7 +118,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 32
+								"time": 38
 							},
 							{
 								"objectId": "AFC651CC-1BAE-4E3D-8721-4F7F0403FCB6",
@@ -145,7 +145,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 35
+								"time": 34
 							},
 							{
 								"objectId": "2208A9BA-3E6D-40B0-B54B-4BF99CCE7278",
@@ -172,10 +172,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 40
+								"time": 38
 							}
 						],
-						"time": 208
+						"time": 235
 					},
 					{
 						"objectId": "E53F041F-7870-4E86-94E8-5340EFFF540B",
@@ -250,7 +250,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 53
+												"time": 52
 											}
 										],
 										"time": 71
@@ -280,7 +280,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 41
+										"time": 45
 									},
 									{
 										"objectId": "BAD56D19-595B-4C38-997E-34A7B0050188",
@@ -307,10 +307,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 37
+										"time": 44
 									}
 								],
-								"time": 170
+								"time": 186
 							},
 							{
 								"objectId": "25949056-7BAC-478B-81A0-88AEE3E35635",
@@ -369,10 +369,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 52
+												"time": 54
 											}
 										],
-										"time": 71
+										"time": 73
 									},
 									{
 										"objectId": "A15D300C-A9EA-48C5-848B-6E6066D773AA",
@@ -399,7 +399,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 41
+										"time": 44
 									},
 									{
 										"objectId": "84018792-8A36-4364-8B99-6A954D3B8C1C",
@@ -429,7 +429,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 										"time": 40
 									}
 								],
-								"time": 177
+								"time": 183
 							},
 							{
 								"objectId": "4A285131-4129-4C21-AE2A-9C59500A862B",
@@ -488,10 +488,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 51
+												"time": 50
 											}
 										],
-										"time": 68
+										"time": 71
 									},
 									{
 										"objectId": "D58688D9-6B9C-43D7-9479-C5C3A1977BE7",
@@ -518,7 +518,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 39
+										"time": 40
 									},
 									{
 										"objectId": "ECB1418B-49BD-414B-BA55-8A1582E8DC63",
@@ -545,10 +545,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 36
+										"time": 44
 									}
 								],
-								"time": 165
+								"time": 183
 							},
 							{
 								"objectId": "A886A178-9441-4C4B-87B5-07D6AA63E8F9",
@@ -607,10 +607,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 													}
 												},
 												"children": [],
-												"time": 46
+												"time": 56
 											}
 										],
-										"time": 63
+										"time": 76
 									},
 									{
 										"objectId": "EAA34A02-6CE0-482C-B97E-5D46F87D3D2A",
@@ -637,7 +637,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 38
+										"time": 46
 									},
 									{
 										"objectId": "5E7D1135-64BE-4808-9A9C-F9EF56A77331",
@@ -664,16 +664,16 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 36
+										"time": 44
 									}
 								],
-								"time": 159
+								"time": 189
 							}
 						],
-						"time": 706
+						"time": 779
 					}
 				],
-				"time": 952
+				"time": 1056
 			},
 			{
 				"objectId": "F8830FD6-2546-41BB-9266-E23A4C9E7B5E",
@@ -681,9 +681,9 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 				"name": "Dropdown",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 949,
+					"x": 959,
 					"y": 165,
-					"width": 302,
+					"width": 292,
 					"height": 34
 				},
 				"visible": true,
@@ -697,7 +697,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 						"name": "Group",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 949,
+							"x": 959,
 							"y": 174,
 							"width": 144,
 							"height": 12
@@ -716,14 +716,14 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Group-qje1mtbf.png",
 							"frame": {
-								"x": 949,
+								"x": 959,
 								"y": 174,
 								"width": 144,
 								"height": 12
 							}
 						},
 						"children": [],
-						"time": 31
+						"time": 34
 					},
 					{
 						"objectId": "592C95F1-A1B1-47CA-B1C6-6B4F9CF12944",
@@ -750,7 +750,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 90
+						"time": 117
 					},
 					{
 						"objectId": "456492E9-C342-463A-98F9-419E9C8F1AD3",
@@ -777,10 +777,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 86
+						"time": 117
 					}
 				],
-				"time": 251
+				"time": 326
 			},
 			{
 				"objectId": "201716B9-D775-4519-8E66-A604631D843C",
@@ -823,7 +823,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 55
+						"time": 61
 					},
 					{
 						"objectId": "222EE240-66F9-4751-97B0-8014B7D0762E",
@@ -850,7 +850,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 29
+						"time": 30
 					},
 					{
 						"objectId": "4CA81308-7159-41B7-92F4-EF7AF7D4D55F",
@@ -904,7 +904,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 146
+						"time": 155
 					},
 					{
 						"objectId": "3934D4A2-847D-41EE-BD6E-1178156427E2",
@@ -931,7 +931,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 28
+						"time": 37
 					},
 					{
 						"objectId": "377C9742-41CA-49A1-9446-765DD00C13E6",
@@ -958,10 +958,10 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 62
+						"time": 69
 					}
 				],
-				"time": 403
+				"time": 444
 			},
 			{
 				"objectId": "9CF5EA77-9E11-4903-BCCC-B0C2F8F2C509",
@@ -988,7 +988,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 206
+				"time": 280
 			},
 			{
 				"objectId": "5D2628E6-BB89-4382-9F52-0914CE1174F6",
@@ -1015,7 +1015,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 37
+				"time": 38
 			},
 			{
 				"objectId": "6167CBDF-8318-4CA6-8CF2-0A3A971E15AC",
@@ -1058,7 +1058,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 38
+						"time": 45
 					},
 					{
 						"objectId": "F27CDD3A-614E-47D1-86A4-3FEAC255E53F",
@@ -1085,7 +1085,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 45
+						"time": 50
 					},
 					{
 						"objectId": "317049CB-D257-4FF4-A4B3-8E69F24F2618",
@@ -1139,7 +1139,7 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 160
+						"time": 50
 					},
 					{
 						"objectId": "6ED2DBEF-78D8-4686-8A83-4BC56221083E",
@@ -1166,12 +1166,12 @@ window.__imported__["Chart@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 55
+						"time": 54
 					}
 				],
-				"time": 380
+				"time": 285
 			}
 		],
-		"time": 2273
+		"time": 2479
 	}
 ]
