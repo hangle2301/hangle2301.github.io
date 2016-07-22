@@ -28,7 +28,7 @@ doAnimationPiece = (animationPiece, delay) ->
 			animateObject.animate
 				properties:
 					scaleY: 1
-				duration: 0.5
+				duration: 0.25
 				curve: "spring"	
 				delay: index * 0.15 + delay
 		else if (index == 2)
@@ -37,34 +37,34 @@ doAnimationPiece = (animationPiece, delay) ->
 				circle.animate
 					properties:
 						opacity: 1
-					duration: 0.5
-					delay: index * 0.4 + delay
+					duration: 0.25
+					delay: index * 0.2 + delay
 				if (indexCircle < 1)
 					circle.animate
 						properties:
 							y: circle.y - 5
-						duration: 0.3
+						duration: 0.25
 						curve: "ease"
-						delay: index * 0.4 + 0.2 + delay
+						delay: index * 0.2 + 0.2 + delay
 				else
 					circle.animate
 						properties:
 							y: circle.y + 5
-						duration: 0.3
+						duration: 0.25
 						curve: "ease"
-						delay: index * 0.4 + 0.2 + delay
+						delay: index * 0.2 + 0.2 + delay
 		else 
 			#Doing text
 			animateObject.animate
 				properties:
 					opacity: 1
-				duration: 0.5
-				delay: index * 0.45 + delay
+				duration: 0.25
+				delay: index * 0.2 + delay
 
 doIntroAnimation = () ->
 	sketch.ChartPreload.opacity = 0
 	for animationPiece, index in globalArray
-		delay = index * 1
+		delay = index * 0.53
 		doAnimationPiece(animationPiece, delay)
 #OnLoad
 #window.onload = doIntroAnimation()
