@@ -104,15 +104,41 @@ for donut in donutWons
 
 
 #Clicking
-layerClick = -1;
+layerClick = 0;
 for layer in nowlChart
 	layer.onClick ->
 		# Only moving chart when it's open
 		if(switchOverlay.opacity == 0)
 			index = nowlChart.indexOf(this)
+			layerClick = index
 			doAnimation(index)
-			layerClick = this
-
+	#Hover state
+	layer.onMouseOver ->
+		if(switchOverlay.opacity == 0)
+			index = nowlChart.indexOf(this)
+			for layer2 in nowlChart
+				if(nowlChart.indexOf(layer2) != layerClick)
+					layer2.animate
+						properties:
+							opacity: dimOpacity
+						duration: 0.2
+			nowlChart[index].animate
+				properties:
+					opacity: 1
+				duration: 0.2
+	#Hover state
+	layer.onMouseOut ->
+		if(switchOverlay.opacity == 0)
+			for layer2 in nowlChart
+				layer2.animate
+					properties:
+						opacity: dimOpacity
+					duration: 0.2
+			nowlChart[layerClick].animate
+					properties:
+						opacity: 1
+					duration: 0.2
+			
 doAnimation = (index) ->
 	#Dimming other parts
 	for layer2 in nowlChart
