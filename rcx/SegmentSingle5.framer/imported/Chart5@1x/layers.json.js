@@ -40,7 +40,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 21
+				"time": 22
 			},
 			{
 				"objectId": "A79C5613-F1CF-4796-BB18-505D54279195",
@@ -67,7 +67,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 19
+				"time": 21
 			},
 			{
 				"objectId": "EC07689D-CA2A-4CEB-879D-C257F9EEC918",
@@ -94,7 +94,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 19
+				"time": 18
 			},
 			{
 				"objectId": "B85835B4-0969-459B-A848-5983A54D14BD",
@@ -121,7 +121,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 21
+				"time": 18
 			},
 			{
 				"objectId": "AC420943-20F5-451D-887E-7C91C81E3BAE",
@@ -175,7 +175,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 18
+				"time": 20
 			},
 			{
 				"objectId": "3F8E7C7B-0E04-4E4F-BA4A-7AD1EEBD1993",
@@ -218,10 +218,10 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 45
+						"time": 48
 					}
 				],
-				"time": 58
+				"time": 60
 			},
 			{
 				"objectId": "EC554A68-8E36-4838-B742-E9463958E696",
@@ -248,7 +248,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 335
+				"time": 323
 			},
 			{
 				"objectId": "A3223FFB-A341-4A4C-91A1-3380CDA5D017",
@@ -275,7 +275,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 364
+				"time": 323
 			},
 			{
 				"objectId": "4F0B34AB-91FB-4FC8-9240-02B38FA2029E",
@@ -302,7 +302,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 327
+				"time": 331
 			},
 			{
 				"objectId": "1BCC890E-B75D-462A-9DC5-525A35801B0E",
@@ -329,7 +329,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 328
+				"time": 349
 			},
 			{
 				"objectId": "8A80108A-88EC-4551-B024-85D951AC3B28",
@@ -422,13 +422,13 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 27
+										"time": 28
 									}
 								],
-								"time": 40
+								"time": 41
 							}
 						],
-						"time": 131
+						"time": 130
 					},
 					{
 						"objectId": "F722FDD6-E7BA-43D9-B3B6-FE439D39A453",
@@ -480,7 +480,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 25
+								"time": 27
 							},
 							{
 								"objectId": "045565DD-F600-4CF9-B454-7870394DE059",
@@ -507,10 +507,10 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 17
+								"time": 19
 							}
 						],
-						"time": 72
+						"time": 77
 					},
 					{
 						"objectId": "EEAE88C5-828F-4A62-8AB1-1979EC75039A",
@@ -589,7 +589,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 30
+								"time": 32
 							},
 							{
 								"objectId": "0B8CE846-8EB4-4D56-8F4A-26CF79D699BE",
@@ -643,10 +643,10 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 22
+								"time": 23
 							}
 						],
-						"time": 152
+						"time": 149
 					},
 					{
 						"objectId": "7283D19D-C66B-4F01-8285-9E8ED773DC4E",
@@ -673,7 +673,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 17
+						"time": 16
 					},
 					{
 						"objectId": "9DAEC4F2-3A6E-4A7B-9355-CB38FBD123D4",
@@ -700,7 +700,7 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 20
+						"time": 18
 					},
 					{
 						"objectId": "64182C66-957C-422B-9D66-E79E5B1531E8",
@@ -727,12 +727,12 @@ window.__imported__["Chart5@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 18
+						"time": 21
 					}
 				],
-				"time": 778
+				"time": 773
 			}
 		],
-		"time": 2340
+		"time": 2308
 	}
 ]
