@@ -20,6 +20,7 @@ for layer,index in hoverObjects
 				opacity: 1
 			duration: 0.5
 			curve: "spring"
+		
 sketch.None.opacity = 1				
 		
 				
