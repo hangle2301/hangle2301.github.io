@@ -12,7 +12,7 @@ for layer,index in hoverObjects
 		this.hover.animate
 			properties:
 				opacity: 1
-			duration: 0.5
+			duration: 1
 			curve: "spring"
 	layer.onMouseOut ->
 		this.hover.animate
