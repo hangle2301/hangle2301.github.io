@@ -1,15 +1,17 @@
-# Import file "Chart7"
-sketch = Framer.Importer.load("imported/Chart7@1x")
 # Use desktop cursor
 document.body.style.cursor = "auto"
+
+# Import file "Chart6"
+sketch = Framer.Importer.load("imported/Chart6@1x")
 
 leftSelection = [sketch.LeftNewSelection, sketch.LeftOpenSelection, sketch.LeftWonSelection, sketch.LeftLostSelection]
 rightSelection = [sketch.RightNewSelection, sketch.RightOpenSelection, sketch.RightWonSelection, sketch.RightLostSelection]
 
 leftShowGroup = [sketch.NewGroup, sketch.OpenGroup, sketch.WonGroup, sketch.LostGroup]
-leftHover = sketch.MyBreakdown
-rightHover = sketch.PartnerBreakdown
-
+leftHover = [sketch.New_Hover_Left, sketch.Open_Hover_Left, sketch.Won_Hover_Left, sketch.Lost_Hover_Left]
+rightHover = [sketch.New_Hover_Right, sketch.Open_Hover_Right, sketch.Won_Hover_Right, sketch.Lost_Hover_Right]
+leftSelected = 0
+rightSelected = 0
 currentShow = leftShowGroup[0].children[0]
 #Preparing 
 for group in leftShowGroup
@@ -17,21 +19,39 @@ for group in leftShowGroup
 		layer.opacity = 0
 		console.log("Layer " + layer.name)
 currentShow.opacity = 1
-leftSelected = 0
-rightSelected = 0
-#Interaction
-hover = false
-leftHover.opacity = 0
-rightHover.opacity = 0
 
+#Interaction
+hover = true
+currentHover = -1
+currentRightHover = -1
+for layer in leftHover
+	layer.opacity = 0
+for layer in rightHover
+	layer.opacity = 0
+	
 for layer,index in leftSelection
 	layer.onClick ->
 		leftSelected = leftSelection.indexOf(this)
 		doShow()
 	layer.onMouseOver ->
 		document.body.style.cursor = "pointer"
+		if(hover)
+			currentHover = leftHover[leftSelection.indexOf(this)]
+			currentHover.animate
+				properties:
+					opacity:1			
+				time: 0.5
+				curve: "spring"
 	layer.onMouseOut ->
 		document.body.style.cursor = "auto"
+		if(hover)
+			if(currentHover != -1)
+				currentHover.animate
+					properties:
+						opacity: 0		
+					time: 0.3
+			currentHover = -1
+
 	
 for layer,index in rightSelection
 	layer.onClick ->
@@ -39,9 +59,22 @@ for layer,index in rightSelection
 		doShow()
 	layer.onMouseOver ->
 		document.body.style.cursor = "pointer"
+		if(hover)
+			currentRightHover = rightHover[rightSelection.indexOf(this)]
+			currentRightHover.animate
+				properties:
+					opacity:1			
+				time: 0.5
+				curve: "spring"
 	layer.onMouseOut ->
 		document.body.style.cursor = "auto"
-
+		if(hover)
+			if(currentRightHover != -1)
+				currentRightHover.animate
+					properties:
+						opacity: 0		
+					time: 0.3
+			currentRightHover = -1
 #Figuring out which layer to turn on
 doShow = () ->
 	console.log(leftSelected + " " + rightSelected)
@@ -57,27 +90,4 @@ doShow = () ->
 			opacity:1
 		time: 0.5
 		curve: "spring"
-
-# Do the hovering
-sketch.MyBreakdownHover.onMouseOver ->
-	leftHover.animate
-		properties: 
-			opacity: 1
-		time: 0.5
-sketch.MyBreakdownHover.onMouseOut ->
-	leftHover.animate
-			properties: 
-				opacity: 0
-			time: 0.5
-
-sketch.PartnerBreakdownHover.onMouseOver ->
-	rightHover.animate
-		properties: 
-			opacity: 1
-		time: 0.5
-sketch.PartnerBreakdownHover.onMouseOut ->	
-	rightHover.animate
-		properties: 
-			opacity: 0
-		time: 0.5
 		

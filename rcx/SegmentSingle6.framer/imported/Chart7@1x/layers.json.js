@@ -1,5 +1,5 @@
 window.__imported__ = window.__imported__ || {};
-window.__imported__["Chart6@1x/layers.json.js"] = [
+window.__imported__["Chart7@1x/layers.json.js"] = [
 	{
 		"objectId": "844EFF09-05F6-4781-A38D-A6C31099E10D",
 		"kind": "artboard",
@@ -16,258 +16,168 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
-				"objectId": "4304FDEE-6AC4-4C76-930E-579503F80B7E",
+				"objectId": "20DE753B-E838-42C0-9D5D-BE81D856B6C7",
 				"kind": "group",
-				"name": "Tooltips_Left",
+				"name": "PartnerBreakdown",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 270,
-					"y": 262,
-					"width": 285,
-					"height": 163
+					"x": 691,
+					"y": 38,
+					"width": 223,
+					"height": 154
 				},
 				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
-				"children": [
-					{
-						"objectId": "FEADDEC9-351F-439E-98D2-8EF31BB611FC",
-						"kind": "group",
-						"name": "Lost_Hover_Left",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 270,
-							"y": 378,
-							"width": 239,
-							"height": 47
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Lost_Hover_Left-rkvbrerf.png",
-							"frame": {
-								"x": 270,
-								"y": 378,
-								"width": 239,
-								"height": 47
-							}
-						},
-						"children": [],
-						"time": 26
-					},
-					{
-						"objectId": "36DD0925-8DD7-4ED5-BB36-EA65DFEB3E8B",
-						"kind": "group",
-						"name": "Won_Hover_Left",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 270,
-							"y": 340,
-							"width": 239,
-							"height": 47
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Won_Hover_Left-mzzerda5.png",
-							"frame": {
-								"x": 270,
-								"y": 340,
-								"width": 239,
-								"height": 47
-							}
-						},
-						"children": [],
-						"time": 23
-					},
-					{
-						"objectId": "E3207EDC-775C-4A58-8D69-FEE2CFDA26DF",
-						"kind": "group",
-						"name": "Open_Hover_Left",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 274,
-							"y": 301,
-							"width": 239,
-							"height": 47
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Open_Hover_Left-rtmymddf.png",
-							"frame": {
-								"x": 274,
-								"y": 301,
-								"width": 239,
-								"height": 47
-							}
-						},
-						"children": [],
-						"time": 23
-					},
-					{
-						"objectId": "A5AF321C-1A55-4817-B396-57A5DF9A3F53",
-						"kind": "group",
-						"name": "New_Hover_Left",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 316,
-							"y": 262,
-							"width": 239,
-							"height": 47
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-New_Hover_Left-qtvbrjmy.png",
-							"frame": {
-								"x": 316,
-								"y": 262,
-								"width": 239,
-								"height": 47
-							}
-						},
-						"children": [],
-						"time": 24
+				"image": {
+					"path": "images/Layer-PartnerBreakdown-mjbertc1.png",
+					"frame": {
+						"x": 691,
+						"y": 38,
+						"width": 223,
+						"height": 154
 					}
-				],
-				"time": 110
-			},
-			{
-				"objectId": "4C322359-1DAE-43A3-AA7F-C60BE337FE03",
-				"kind": "group",
-				"name": "Tooltips_Right",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 836,
-					"y": 262,
-					"width": 285,
-					"height": 163
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
 				},
 				"children": [
 					{
-						"objectId": "23B65A24-E398-4248-B19C-409BCCFBCC64",
+						"objectId": "B66CF0F0-CA40-4472-A91E-5FBE148FA9C0",
 						"kind": "group",
-						"name": "Lost_Hover_Right",
+						"name": "Group",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 836,
-							"y": 378,
-							"width": 239,
-							"height": 47
+							"x": 838,
+							"y": 87,
+							"width": 44,
+							"height": 71
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Lost_Hover_Right-mjncnjvb.png",
+							"path": "images/Layer-Group-qjy2q0yw.png",
 							"frame": {
-								"x": 836,
-								"y": 378,
-								"width": 239,
-								"height": 47
+								"x": 838,
+								"y": 87,
+								"width": 44,
+								"height": 71
 							}
 						},
 						"children": [],
 						"time": 25
-					},
+					}
+				],
+				"time": 77
+			},
+			{
+				"objectId": "98AAB805-6486-4E5D-92BC-13E50D7BCE00",
+				"kind": "group",
+				"name": "MyBreakdown",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 129,
+					"y": 35,
+					"width": 223,
+					"height": 154
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-MyBreakdown-othbqui4.png",
+					"frame": {
+						"x": 129,
+						"y": 35,
+						"width": 223,
+						"height": 154
+					}
+				},
+				"children": [
 					{
-						"objectId": "BF261380-4462-41CE-B9ED-4FE24FB0B85B",
+						"objectId": "8CE8F026-EF5C-4117-9E08-08AC3BECA6A6",
 						"kind": "group",
-						"name": "Won_Hover_Right",
+						"name": "Group1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 836,
-							"y": 340,
-							"width": 239,
-							"height": 47
+							"x": 274,
+							"y": 84,
+							"width": 46,
+							"height": 71
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Won_Hover_Right-qkyynjez.png",
+							"path": "images/Layer-Group-oenfoeyw.png",
 							"frame": {
-								"x": 836,
-								"y": 340,
-								"width": 239,
-								"height": 47
-							}
-						},
-						"children": [],
-						"time": 22
-					},
-					{
-						"objectId": "0BB3F9BE-1B22-41A3-9620-3DF8642A6AA4",
-						"kind": "group",
-						"name": "Open_Hover_Right",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 840,
-							"y": 301,
-							"width": 239,
-							"height": 47
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Open_Hover_Right-mejcm0y5.png",
-							"frame": {
-								"x": 840,
-								"y": 301,
-								"width": 239,
-								"height": 47
+								"x": 274,
+								"y": 84,
+								"width": 46,
+								"height": 71
 							}
 						},
 						"children": [],
 						"time": 26
-					},
-					{
-						"objectId": "CADF41AF-6743-42CA-9639-3220E9B4EFBA",
-						"kind": "group",
-						"name": "New_Hover_Right",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 882,
-							"y": 262,
-							"width": 239,
-							"height": 47
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-New_Hover_Right-q0ferjqx.png",
-							"frame": {
-								"x": 882,
-								"y": 262,
-								"width": 239,
-								"height": 47
-							}
-						},
-						"children": [],
-						"time": 21
 					}
 				],
-				"time": 110
+				"time": 85
+			},
+			{
+				"objectId": "EDF8FE10-390C-4A68-86C8-CB65468E6B68",
+				"kind": "group",
+				"name": "PartnerBreakdownHover",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 745,
+					"y": 187,
+					"width": 116,
+					"height": 58
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 0
+				},
+				"image": {
+					"path": "images/Layer-PartnerBreakdownHover-rurgoezf.png",
+					"frame": {
+						"x": 745,
+						"y": 187,
+						"width": 116,
+						"height": 58
+					}
+				},
+				"children": [],
+				"time": 17
+			},
+			{
+				"objectId": "7538B4A0-7A24-43B6-A230-0BD95E551886",
+				"kind": "group",
+				"name": "MyBreakdownHover",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 183,
+					"y": 187,
+					"width": 116,
+					"height": 58
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 0
+				},
+				"image": {
+					"path": "images/Layer-MyBreakdownHover-nzuzoei0.png",
+					"frame": {
+						"x": 183,
+						"y": 187,
+						"width": 116,
+						"height": 58
+					}
+				},
+				"children": [],
+				"time": 20
 			},
 			{
 				"objectId": "7C882178-DCC9-4373-B83E-511EF791C8E6",
@@ -294,7 +204,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 16
+				"time": 20
 			},
 			{
 				"objectId": "EFD48FA2-2E63-4BBD-AE7C-EF5F4C48F3B4",
@@ -321,7 +231,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 18
+				"time": 16
 			},
 			{
 				"objectId": "C9C0A382-7D28-4AD1-99F3-220B55D99441",
@@ -348,7 +258,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 16
+				"time": 17
 			},
 			{
 				"objectId": "81805C8B-0ECA-4C05-B809-B78674E881BB",
@@ -375,7 +285,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 19
+				"time": 17
 			},
 			{
 				"objectId": "4CDEF6EA-A1E7-4912-B1A8-2446D83D8725",
@@ -418,7 +328,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 16
+						"time": 18
 					},
 					{
 						"objectId": "BA6CA1CD-B400-4A02-8144-4067A01BEC8D",
@@ -445,7 +355,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 248
+						"time": 236
 					},
 					{
 						"objectId": "8A34B3DE-F255-4F75-935E-A387D67E4424",
@@ -472,7 +382,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 240
+						"time": 261
 					},
 					{
 						"objectId": "58D3F19E-2149-4789-9D8A-51803F099561",
@@ -499,7 +409,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 248
+						"time": 264
 					},
 					{
 						"objectId": "4933A269-0A38-4367-B2CA-F4A4AA6532E2",
@@ -526,10 +436,10 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 240
+						"time": 241
 					}
 				],
-				"time": 1156
+				"time": 1147
 			},
 			{
 				"objectId": "6FC75E69-8F89-4C54-AF8A-B220A2802283",
@@ -572,7 +482,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 15
+						"time": 17
 					},
 					{
 						"objectId": "3906ACAF-C38E-4B7A-A0B2-9D560D0C63DE",
@@ -599,7 +509,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 238
+						"time": 236
 					},
 					{
 						"objectId": "82720AEE-72FA-4D83-97D4-1B22687D4449",
@@ -626,7 +536,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 233
+						"time": 236
 					},
 					{
 						"objectId": "5DD18FF2-5BCB-4549-BAF6-E04C6702F7D5",
@@ -653,7 +563,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 243
+						"time": 252
 					},
 					{
 						"objectId": "5F6E597D-CA22-4E87-B24B-4CFFA77C6A62",
@@ -680,7 +590,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 254
+						"time": 291
 					}
 				],
 				"time": 1157
@@ -726,7 +636,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 14
+						"time": 15
 					},
 					{
 						"objectId": "FC7D4E69-F6E3-4648-8AF0-3574E1EC83D2",
@@ -753,7 +663,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 249
+						"time": 246
 					},
 					{
 						"objectId": "CF10A7C8-F3F3-4CC6-9BDC-41DEB505D802",
@@ -780,7 +690,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 245
+						"time": 246
 					},
 					{
 						"objectId": "E7B2D9C3-AEB7-49F6-9EDD-9014076BF498",
@@ -807,7 +717,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 254
+						"time": 251
 					},
 					{
 						"objectId": "28A57CA3-B21B-4570-96F8-233B473D270A",
@@ -834,10 +744,10 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 241
+						"time": 222
 					}
 				],
-				"time": 1159
+				"time": 1086
 			},
 			{
 				"objectId": "D410C8B3-E90A-4146-B5E5-3AA0FBADF357",
@@ -880,7 +790,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 20
+						"time": 16
 					},
 					{
 						"objectId": "3B96CD93-9CCC-4E66-BDB2-80D6A5BE891A",
@@ -907,7 +817,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 238
+						"time": 220
 					},
 					{
 						"objectId": "81E7D270-6098-4AA8-B25D-33D5C2890DCF",
@@ -934,7 +844,7 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 218
+						"time": 217
 					},
 					{
 						"objectId": "131335A7-84F2-4EB1-9E00-DBF3C12B40C0",
@@ -961,12 +871,12 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 220
+						"time": 226
 					},
 					{
 						"objectId": "14B51C90-D70A-451E-965B-B69BF053D523",
 						"kind": "group",
-						"name": "Group",
+						"name": "Group2",
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 0,
@@ -988,12 +898,12 @@ window.__imported__["Chart6@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 227
+						"time": 232
 					}
 				],
-				"time": 1074
+				"time": 1013
 			}
 		],
-		"time": 4870
+		"time": 4695
 	}
 ]
