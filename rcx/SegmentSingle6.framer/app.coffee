@@ -65,8 +65,9 @@ doShow = () ->
 	currentShow.animate
 		properties:
 			opacity: 0
-		time: 0.7
-		curve: "easeout"
+		time: 0.5
+		delay: 0.2
+		#curve: "easeout"
 	#Venn animations, left side
 	currentLeftVenn.animate
 		properties:
@@ -90,8 +91,8 @@ doShow = () ->
 		properties:
 			opacity:1
 		time: 0.5
-		delay: 0.3
-		curve: "easein"
+		delay: 0.2
+		#curve: ""
 	
 
 # Do the hovering
