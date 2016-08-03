@@ -13,10 +13,7 @@ RightOnState = [false, true, true, true]
 
 leftVenn = sketch.LeftVenn
 rightVenn = sketch.RightVenn
-leftVenn.maximumX = leftVenn.x
-leftVenn.minimumX = sketch.VennMaximum.x
-rightVenn.minimumX = rightVenn.x
-rightVenn.maximumX = sketch.VennMaximum.x + sketch.VennMaximum.width
+middleX = sketch.VennMaximum.x + sketch.VennMaximum.width/2
 
 for checkboxGroup in leftCheckboxes
 	checkboxGroup.onMouseOver ->
@@ -55,19 +52,19 @@ myText.style =
     "font-family": "Apex New, Helvetica",
     "font-size": "22px",
     "color": "#333",
-    "text-align": "right",
+    "text-align": "center",
     "font-weight" : "500"
 partnerText.style =
     "font-family": "Apex New, Helvetica",
     "font-size": "22px",
     "color": "#333",
-    "text-align": "right",
+    "text-align": "center",
     "font-weight" : "500"
 overlapText.style =
     "font-family": "Apex New, Helvetica",
     "font-size": "22px",
     "color": "#333",
-    "text-align": "right",
+    "text-align": "center",
     "font-weight" : "500"
     
 placeText = () ->
@@ -120,13 +117,15 @@ tick = () ->
 			rightCheckboxes[index2].children[0].opacity = 0
 			rightCheckboxes[index2].children[1].opacity = 1
 	#Randomize venn
+	distanceFromCenter = Math.floor(Math.random()*60) + 10
+	console.log(distanceFromCenter)
 	leftVenn.animate
 		properties: 
-			x: Math.floor(Math.random()*(leftVenn.maximumX - leftVenn.minimumX)) + leftVenn.minimumX
+			x: middleX - distanceFromCenter
 		time:0.5
 	rightVenn.animate
 		properties: 
-			x: Math.floor(Math.random()*(rightVenn.maximumX - rightVenn.minimumX)) + rightVenn.minimumX
+			x: middleX + distanceFromCenter
 		time:0.5
 
 	placeText()					

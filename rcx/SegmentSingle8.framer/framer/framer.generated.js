@@ -20,15 +20,96 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
+				"objectId": "6567FE59-0564-4B2B-9FCA-6ADC1BD3C3C5",
+				"kind": "group",
+				"name": "Group_3",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 286,
+					"y": 333,
+					"width": 517,
+					"height": 9
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group_3-nju2n0zf.png",
+					"frame": {
+						"x": 286,
+						"y": 333,
+						"width": 517,
+						"height": 9
+					}
+				},
+				"children": [],
+				"time": 23
+			},
+			{
+				"objectId": "992EFD7A-4195-4428-90FA-D91D9B65DD2D",
+				"kind": "group",
+				"name": "Group_2",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 287,
+					"y": 270,
+					"width": 529,
+					"height": 23
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group_2-otkyruze.png",
+					"frame": {
+						"x": 287,
+						"y": 270,
+						"width": 529,
+						"height": 23
+					}
+				},
+				"children": [],
+				"time": 28
+			},
+			{
+				"objectId": "AD1F9993-D47D-4AC9-8EE2-6FD8C4E95B08",
+				"kind": "group",
+				"name": "Top",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 210,
+					"y": 206,
+					"width": 647,
+					"height": 29
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Top-quqxrjk5.png",
+					"frame": {
+						"x": 210,
+						"y": 206,
+						"width": 647,
+						"height": 29
+					}
+				},
+				"children": [],
+				"time": 39
+			},
+			{
 				"objectId": "D4D5600B-FF03-42C5-833C-A36E98960FBF",
 				"kind": "group",
 				"name": "Venn",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 214,
-					"y": 292,
-					"width": 664,
-					"height": 204
+					"x": 284,
+					"y": 348,
+					"width": 529,
+					"height": 148
 				},
 				"visible": true,
 				"metadata": {
@@ -41,8 +122,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"name": "OverlapNumber",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 463,
-							"y": 256,
+							"x": 479,
+							"y": 300,
 							"width": 134,
 							"height": 31
 						},
@@ -53,14 +134,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-OverlapNumber-qjgwquqz.png",
 							"frame": {
-								"x": 463,
-								"y": 256,
+								"x": 479,
+								"y": 300,
 								"width": 134,
 								"height": 31
 							}
 						},
 						"children": [],
-						"time": 18
+						"time": 17
 					},
 					{
 						"objectId": "C70D0280-0AA5-4132-9085-E87986FC5F18",
@@ -68,8 +149,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"name": "PartnerNumber",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 729,
-							"y": 256,
+							"x": 687,
+							"y": 310,
 							"width": 134,
 							"height": 31
 						},
@@ -80,14 +161,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-PartnerNumber-qzcwrday.png",
 							"frame": {
-								"x": 729,
-								"y": 256,
+								"x": 687,
+								"y": 310,
 								"width": 134,
 								"height": 31
 							}
 						},
 						"children": [],
-						"time": 18
+						"time": 15
 					},
 					{
 						"objectId": "FCCBDFD7-410D-45C4-8C74-C694F06FC60E",
@@ -95,8 +176,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"name": "MyNumber",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 225,
-							"y": 256,
+							"x": 272,
+							"y": 310,
 							"width": 134,
 							"height": 31
 						},
@@ -107,14 +188,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-MyNumber-rkndqkrg.png",
 							"frame": {
-								"x": 225,
-								"y": 256,
+								"x": 272,
+								"y": 310,
 								"width": 134,
 								"height": 31
 							}
 						},
 						"children": [],
-						"time": 17
+						"time": 16
 					},
 					{
 						"objectId": "BA88286C-985E-40D2-8B02-6352FEC8E4A7",
@@ -122,8 +203,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"name": "PartnerCheckboxes",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 731,
-							"y": 353,
+							"x": 697,
+							"y": 362,
 							"width": 116,
 							"height": 122
 						},
@@ -138,8 +219,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "PartnerLost",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 731,
-									"y": 461,
+									"x": 697,
+									"y": 470,
 									"width": 112,
 									"height": 14
 								},
@@ -154,8 +235,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerLostSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 461,
+											"x": 697,
+											"y": 470,
 											"width": 112,
 											"height": 14
 										},
@@ -166,14 +247,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerLostSelected-quzbnejd.png",
 											"frame": {
-												"x": 731,
-												"y": 461,
+												"x": 697,
+												"y": 470,
 												"width": 112,
 												"height": 14
 											}
 										},
 										"children": [],
-										"time": 23
+										"time": 18
 									},
 									{
 										"objectId": "F382087D-AF23-4D81-8E51-D23A98C9D10E",
@@ -181,8 +262,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerLostNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 461,
+											"x": 697,
+											"y": 470,
 											"width": 110,
 											"height": 14
 										},
@@ -193,17 +274,17 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerLostNormal-rjm4mja4.png",
 											"frame": {
-												"x": 731,
-												"y": 461,
+												"x": 697,
+												"y": 470,
 												"width": 110,
 												"height": 14
 											}
 										},
 										"children": [],
-										"time": 20
+										"time": 18
 									}
 								],
-								"time": 55
+								"time": 45
 							},
 							{
 								"objectId": "C60D1BB6-2661-4A12-B439-5ADDED27DFF7",
@@ -211,8 +292,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "PartnerWon",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 731,
-									"y": 425,
+									"x": 697,
+									"y": 434,
 									"width": 111,
 									"height": 14
 								},
@@ -227,8 +308,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerWonSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 425,
+											"x": 697,
+											"y": 434,
 											"width": 111,
 											"height": 14
 										},
@@ -239,14 +320,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerWonSelected-nuzerejd.png",
 											"frame": {
-												"x": 731,
-												"y": 425,
+												"x": 697,
+												"y": 434,
 												"width": 111,
 												"height": 14
 											}
 										},
 										"children": [],
-										"time": 20
+										"time": 19
 									},
 									{
 										"objectId": "58991AC1-C0EA-43B1-A798-3CC0D458ECAA",
@@ -254,8 +335,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerWonNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 425,
+											"x": 697,
+											"y": 434,
 											"width": 108,
 											"height": 14
 										},
@@ -266,17 +347,17 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerWonNormal-ntg5otfb.png",
 											"frame": {
-												"x": 731,
-												"y": 425,
+												"x": 697,
+												"y": 434,
 												"width": 108,
 												"height": 14
 											}
 										},
 										"children": [],
-										"time": 24
+										"time": 18
 									}
 								],
-								"time": 55
+								"time": 46
 							},
 							{
 								"objectId": "573BA432-923F-456E-B697-16227F2B44F1",
@@ -284,8 +365,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "PartnerOpen",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 731,
-									"y": 388,
+									"x": 697,
+									"y": 397,
 									"width": 116,
 									"height": 17
 								},
@@ -300,8 +381,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerOpenSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 388,
+											"x": 697,
+											"y": 397,
 											"width": 116,
 											"height": 17
 										},
@@ -312,14 +393,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerOpenSelected-mjk1nkmx.png",
 											"frame": {
-												"x": 731,
-												"y": 388,
+												"x": 697,
+												"y": 397,
 												"width": 116,
 												"height": 17
 											}
 										},
 										"children": [],
-										"time": 21
+										"time": 19
 									},
 									{
 										"objectId": "C5BFD782-2803-4907-B1F6-C996BA7B9189",
@@ -327,8 +408,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerOpenNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 388,
+											"x": 697,
+											"y": 397,
 											"width": 113,
 											"height": 17
 										},
@@ -339,17 +420,17 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerOpenNormal-qzvcrkq3.png",
 											"frame": {
-												"x": 731,
-												"y": 388,
+												"x": 697,
+												"y": 397,
 												"width": 113,
 												"height": 17
 											}
 										},
 										"children": [],
-										"time": 21
+										"time": 18
 									}
 								],
-								"time": 52
+								"time": 46
 							},
 							{
 								"objectId": "9FE4D5EC-04B8-4313-B552-D475477E31F2",
@@ -357,8 +438,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "PartnerNew",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 731,
-									"y": 353,
+									"x": 697,
+									"y": 362,
 									"width": 111,
 									"height": 14
 								},
@@ -373,8 +454,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerNewSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 353,
+											"x": 697,
+											"y": 362,
 											"width": 111,
 											"height": 14
 										},
@@ -385,14 +466,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerNewSelected-qzizqjhg.png",
 											"frame": {
-												"x": 731,
-												"y": 353,
+												"x": 697,
+												"y": 362,
 												"width": 111,
 												"height": 14
 											}
 										},
 										"children": [],
-										"time": 22
+										"time": 18
 									},
 									{
 										"objectId": "1AB1E428-1DEE-43E8-9DF4-3923130B0978",
@@ -400,8 +481,8 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "PartnerNewNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 731,
-											"y": 353,
+											"x": 697,
+											"y": 362,
 											"width": 109,
 											"height": 14
 										},
@@ -412,20 +493,20 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-PartnerNewNormal-mufcmuu0.png",
 											"frame": {
-												"x": 731,
-												"y": 353,
+												"x": 697,
+												"y": 362,
 												"width": 109,
 												"height": 14
 											}
 										},
 										"children": [],
-										"time": 21
+										"time": 19
 									}
 								],
-								"time": 53
+								"time": 47
 							}
 						],
-						"time": 236
+						"time": 200
 					},
 					{
 						"objectId": "2EC68A17-6ED0-43E8-9517-F440F0A0F8CA",
@@ -433,10 +514,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"name": "MeCheckboxes",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 214,
-							"y": 354,
-							"width": 145,
-							"height": 124
+							"x": 284,
+							"y": 362,
+							"width": 109,
+							"height": 122
 						},
 						"visible": true,
 						"metadata": {
@@ -449,10 +530,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "MyLost",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 214,
-									"y": 462,
-									"width": 137,
-									"height": 16
+									"x": 284,
+									"y": 470,
+									"width": 57,
+									"height": 14
 								},
 								"visible": true,
 								"metadata": {
@@ -465,10 +546,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyLostSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 462,
-											"width": 137,
-											"height": 16
+											"x": 284,
+											"y": 470,
+											"width": 57,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
@@ -477,14 +558,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyLostSelected-muu5ntvd.png",
 											"frame": {
-												"x": 214,
-												"y": 462,
-												"width": 137,
-												"height": 16
+												"x": 284,
+												"y": 470,
+												"width": 57,
+												"height": 14
 											}
 										},
 										"children": [],
-										"time": 24
+										"time": 18
 									},
 									{
 										"objectId": "E05EEA68-74CC-4934-BBCB-784E67F27D34",
@@ -492,10 +573,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyLostNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 462,
-											"width": 136,
-											"height": 16
+											"x": 284,
+											"y": 470,
+											"width": 57,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
@@ -504,17 +585,17 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyLostNormal-rta1ruvb.png",
 											"frame": {
-												"x": 214,
-												"y": 462,
-												"width": 136,
-												"height": 16
+												"x": 284,
+												"y": 470,
+												"width": 57,
+												"height": 14
 											}
 										},
 										"children": [],
-										"time": 22
+										"time": 17
 									}
 								],
-								"time": 58
+								"time": 45
 							},
 							{
 								"objectId": "772C1297-B3B6-4922-B74C-235392255006",
@@ -522,10 +603,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "MyWon",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 214,
-									"y": 426,
-									"width": 137,
-									"height": 16
+									"x": 284,
+									"y": 434,
+									"width": 58,
+									"height": 14
 								},
 								"visible": true,
 								"metadata": {
@@ -538,10 +619,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyWonSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 426,
-											"width": 137,
-											"height": 16
+											"x": 284,
+											"y": 434,
+											"width": 58,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
@@ -550,14 +631,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyWonSelected-mtixmjg2.png",
 											"frame": {
-												"x": 214,
-												"y": 426,
-												"width": 137,
-												"height": 16
+												"x": 284,
+												"y": 434,
+												"width": 58,
+												"height": 14
 											}
 										},
 										"children": [],
-										"time": 24
+										"time": 18
 									},
 									{
 										"objectId": "FA854BD7-E2A6-4187-9694-69C09D8DDAA2",
@@ -565,10 +646,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyWonNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 426,
-											"width": 136,
-											"height": 16
+											"x": 284,
+											"y": 434,
+											"width": 57,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
@@ -577,17 +658,17 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyWonNormal-rke4ntrc.png",
 											"frame": {
-												"x": 214,
-												"y": 426,
-												"width": 136,
-												"height": 16
+												"x": 284,
+												"y": 434,
+												"width": 57,
+												"height": 14
 											}
 										},
 										"children": [],
-										"time": 23
+										"time": 18
 									}
 								],
-								"time": 59
+								"time": 44
 							},
 							{
 								"objectId": "FE9B1274-DC56-4CE2-925A-AAE54C9770F8",
@@ -595,9 +676,9 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "MyOpen",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 214,
-									"y": 389,
-									"width": 145,
+									"x": 284,
+									"y": 397,
+									"width": 62,
 									"height": 17
 								},
 								"visible": true,
@@ -611,9 +692,9 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyOpenSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 389,
-											"width": 145,
+											"x": 284,
+											"y": 397,
+											"width": 62,
 											"height": 17
 										},
 										"visible": true,
@@ -623,14 +704,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyOpenSelected-mzncrtg3.png",
 											"frame": {
-												"x": 214,
-												"y": 389,
-												"width": 145,
+												"x": 284,
+												"y": 397,
+												"width": 62,
 												"height": 17
 											}
 										},
 										"children": [],
-										"time": 24
+										"time": 17
 									},
 									{
 										"objectId": "79E9A003-F362-4BA6-B8AB-8386FFD0C00C",
@@ -638,9 +719,9 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyOpenNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 389,
-											"width": 144,
+											"x": 284,
+											"y": 397,
+											"width": 62,
 											"height": 17
 										},
 										"visible": true,
@@ -650,17 +731,17 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyOpenNormal-nzlfouew.png",
 											"frame": {
-												"x": 214,
-												"y": 389,
-												"width": 144,
+												"x": 284,
+												"y": 397,
+												"width": 62,
 												"height": 17
 											}
 										},
 										"children": [],
-										"time": 22
+										"time": 18
 									}
 								],
-								"time": 57
+								"time": 43
 							},
 							{
 								"objectId": "970A8173-0BE8-46C4-8D63-62E45C68F895",
@@ -668,10 +749,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "MyNew",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 214,
-									"y": 354,
-									"width": 145,
-									"height": 16
+									"x": 284,
+									"y": 362,
+									"width": 109,
+									"height": 15
 								},
 								"visible": true,
 								"metadata": {
@@ -684,10 +765,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyNewSelected",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 354,
-											"width": 145,
-											"height": 16
+											"x": 284,
+											"y": 362,
+											"width": 109,
+											"height": 15
 										},
 										"visible": true,
 										"metadata": {
@@ -696,14 +777,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyNewSelected-rji5qune.png",
 											"frame": {
-												"x": 214,
-												"y": 354,
-												"width": 145,
-												"height": 16
+												"x": 284,
+												"y": 362,
+												"width": 109,
+												"height": 15
 											}
 										},
 										"children": [],
-										"time": 25
+										"time": 18
 									},
 									{
 										"objectId": "A12426CE-14AC-4C66-82AC-6BF8CBBF5303",
@@ -711,10 +792,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"name": "MyNewNormal",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 214,
-											"y": 354,
-											"width": 144,
-											"height": 16
+											"x": 284,
+											"y": 362,
+											"width": 107,
+											"height": 15
 										},
 										"visible": true,
 										"metadata": {
@@ -723,125 +804,20 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-MyNewNormal-qteyndi2.png",
 											"frame": {
-												"x": 214,
-												"y": 354,
-												"width": 144,
-												"height": 16
+												"x": 284,
+												"y": 362,
+												"width": 107,
+												"height": 15
 											}
 										},
 										"children": [],
-										"time": 24
+										"time": 19
 									}
 								],
-								"time": 62
+								"time": 46
 							}
 						],
-						"time": 262
-					},
-					{
-						"objectId": "2153B567-03D7-4B2F-B145-847F564014DA",
-						"kind": "text",
-						"name": "Group_4",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 472,
-							"y": 292,
-							"width": 121,
-							"height": 15
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "Overlapping Records",
-							"css": [
-								"/* Overlapping Records: */",
-								"font-family: ApexNew-Book;",
-								"font-size: 14px;",
-								"color: #303B3E;",
-								"line-height: 14px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-Group_4-mje1m0i1.png",
-							"frame": {
-								"x": 472,
-								"y": 292,
-								"width": 121,
-								"height": 15
-							}
-						},
-						"children": [],
-						"time": 17
-					},
-					{
-						"objectId": "DF0118C7-ACB2-4AF8-BA83-CF9F9ADE3DC6",
-						"kind": "text",
-						"name": "Group_5",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 730,
-							"y": 292,
-							"width": 148,
-							"height": 12
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "Partner Selected Records",
-							"css": [
-								"/* Partner Selected Rec: */",
-								"font-family: ApexNew-Book;",
-								"font-size: 14px;",
-								"color: #868992;",
-								"line-height: 14px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-Group_5-reywmte4.png",
-							"frame": {
-								"x": 730,
-								"y": 292,
-								"width": 148,
-								"height": 12
-							}
-						},
-						"children": [],
-						"time": 18
-					},
-					{
-						"objectId": "E3B2B5FE-F8F4-4649-9C3F-8DF8FD495812",
-						"kind": "text",
-						"name": "Group_8",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 232,
-							"y": 293,
-							"width": 125,
-							"height": 15
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "My Selected  Records",
-							"css": [
-								"/* My Selected Records: */",
-								"font-family: ApexNew-Book;",
-								"font-size: 14px;",
-								"color: #868992;",
-								"line-height: 14px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-Group_8-rtncmki1.png",
-							"frame": {
-								"x": 232,
-								"y": 293,
-								"width": 125,
-								"height": 15
-							}
-						},
-						"children": [],
-						"time": 19
+						"time": 195
 					},
 					{
 						"objectId": "E6AD0318-AC8B-42FA-BAB0-12631F97D213",
@@ -849,7 +825,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"name": "venn",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 451,
+							"x": 474,
 							"y": 348,
 							"width": 148,
 							"height": 148
@@ -865,9 +841,9 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "VennMaximum",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 426,
+									"x": 400,
 									"y": 336,
-									"width": 129,
+									"width": 148,
 									"height": 182
 								},
 								"visible": true,
@@ -877,14 +853,14 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-VennMaximum-othemdnd.png",
 									"frame": {
-										"x": 426,
+										"x": 400,
 										"y": 336,
-										"width": 129,
+										"width": 148,
 										"height": 182
 									}
 								},
 								"children": [],
-								"time": 23
+								"time": 22
 							},
 							{
 								"objectId": "297AE349-3D19-4F12-8ECF-5D840D72F91F",
@@ -892,46 +868,19 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"name": "RightVenn",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 451,
+									"x": 474,
 									"y": 348,
 									"width": 148,
 									"height": 148
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 0.8
+									"opacity": 0.5
 								},
 								"image": {
 									"path": "images/Layer-RightVenn-mjk3quuz.png",
 									"frame": {
-										"x": 451,
-										"y": 348,
-										"width": 148,
-										"height": 148
-									}
-								},
-								"children": [],
-								"time": 22
-							},
-							{
-								"objectId": "FED694F3-7ECB-496E-986E-D46958687E07",
-								"kind": "group",
-								"name": "LeftVenn",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 451,
-									"y": 348,
-									"width": 148,
-									"height": 148
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 0.8
-								},
-								"image": {
-									"path": "images/Layer-LeftVenn-rkvenjk0.png",
-									"frame": {
-										"x": 451,
+										"x": 474,
 										"y": 348,
 										"width": 148,
 										"height": 148
@@ -939,12 +888,39 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								},
 								"children": [],
 								"time": 23
+							},
+							{
+								"objectId": "FED694F3-7ECB-496E-986E-D46958687E07",
+								"kind": "group",
+								"name": "LeftVenn",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 474,
+									"y": 348,
+									"width": 148,
+									"height": 148
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 0.5
+								},
+								"image": {
+									"path": "images/Layer-LeftVenn-rkvenjk0.png",
+									"frame": {
+										"x": 474,
+										"y": 348,
+										"width": 148,
+										"height": 148
+									}
+								},
+								"children": [],
+								"time": 21
 							}
 						],
-						"time": 79
+						"time": 76
 					}
 				],
-				"time": 740
+				"time": 552
 			},
 			{
 				"objectId": "3670C97B-9BA3-4C88-81A3-C198324A8362",
@@ -972,67 +948,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
-						"objectId": "87872A77-8FF7-4D80-B381-10560EAD73D6",
-						"kind": "group",
-						"name": "Group_8_Copy_2",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 419,
-							"y": 198,
-							"width": 118,
-							"height": 14
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Group_8_Copy_2-odc4nzjb.png",
-							"frame": {
-								"x": 419,
-								"y": 198,
-								"width": 118,
-								"height": 14
-							}
-						},
-						"children": [],
-						"time": 20
-					},
-					{
-						"objectId": "F45B4129-FACF-47DC-8C89-A4B3EEE9FE3D",
-						"kind": "group",
-						"name": "Group_81",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 214,
-							"y": 198,
-							"width": 173,
-							"height": 16
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-Group_8-rjq1qjqx.png",
-							"frame": {
-								"x": 214,
-								"y": 198,
-								"width": 173,
-								"height": 16
-							}
-						},
-						"children": [],
-						"time": 22
-					},
-					{
 						"objectId": "BA975CF0-8EA3-481A-AAA8-67124AE6E81F",
 						"kind": "group",
 						"name": "Group",
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 917,
-							"y": 191,
+							"y": 202,
 							"width": 313,
 							"height": 426
 						},
@@ -1044,7 +966,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							"path": "images/Layer-Group-qke5nzvd.png",
 							"frame": {
 								"x": 917,
-								"y": 191,
+								"y": 202,
 								"width": 313,
 								"height": 426
 							}
@@ -1057,7 +979,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1207,
-									"y": 478,
+									"y": 489,
 									"width": 23,
 									"height": 23
 								},
@@ -1069,13 +991,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									"path": "images/Layer-Question_Mark_3_Copy-numzqjy0.png",
 									"frame": {
 										"x": 1207,
-										"y": 478,
+										"y": 489,
 										"width": 23,
 										"height": 23
 									}
 								},
 								"children": [],
-								"time": 15
+								"time": 14
 							},
 							{
 								"objectId": "D145DB38-8B3C-479B-B347-F9AC26210E3B",
@@ -1084,7 +1006,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1207,
-									"y": 191,
+									"y": 202,
 									"width": 23,
 									"height": 23
 								},
@@ -1096,16 +1018,16 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									"path": "images/Layer-Question_Mark_3-rde0nurc.png",
 									"frame": {
 										"x": 1207,
-										"y": 191,
+										"y": 202,
 										"width": 23,
 										"height": 23
 									}
 								},
 								"children": [],
-								"time": 16
+								"time": 14
 							}
 						],
-						"time": 122
+						"time": 108
 					},
 					{
 						"objectId": "7DEBA792-974C-400E-BDF1-75B0751DF115",
@@ -1184,7 +1106,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 21
+								"time": 18
 							},
 							{
 								"objectId": "A9F5781C-7D68-4DC6-9694-626C3D4F4888",
@@ -1211,10 +1133,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 22
+								"time": 17
 							}
 						],
-						"time": 142
+						"time": 120
 					},
 					{
 						"objectId": "6E713421-C77B-4C0F-9C4C-4A6A130FC283",
@@ -1241,7 +1163,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 15
+						"time": 14
 					},
 					{
 						"objectId": "D080964B-2DFB-4E4B-A219-8961AC8EF00B",
@@ -1295,13 +1217,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 21
+						"time": 17
 					}
 				],
-				"time": 659
+				"time": 540
 			}
 		],
-		"time": 1450
+		"time": 1214
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
