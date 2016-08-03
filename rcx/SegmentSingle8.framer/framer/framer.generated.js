@@ -44,7 +44,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 23
+				"time": 25
 			},
 			{
 				"objectId": "992EFD7A-4195-4428-90FA-D91D9B65DD2D",
@@ -71,7 +71,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 					}
 				},
 				"children": [],
-				"time": 28
+				"time": 31
 			},
 			{
 				"objectId": "AD1F9993-D47D-4AC9-8EE2-6FD8C4E95B08",
@@ -168,7 +168,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 15
+						"time": 19
 					},
 					{
 						"objectId": "FCCBDFD7-410D-45C4-8C74-C694F06FC60E",
@@ -254,7 +254,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 19
 									},
 									{
 										"objectId": "F382087D-AF23-4D81-8E51-D23A98C9D10E",
@@ -281,10 +281,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 20
 									}
 								],
-								"time": 45
+								"time": 48
 							},
 							{
 								"objectId": "C60D1BB6-2661-4A12-B439-5ADDED27DFF7",
@@ -327,7 +327,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 19
+										"time": 18
 									},
 									{
 										"objectId": "58991AC1-C0EA-43B1-A798-3CC0D458ECAA",
@@ -354,10 +354,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 19
 									}
 								],
-								"time": 46
+								"time": 47
 							},
 							{
 								"objectId": "573BA432-923F-456E-B697-16227F2B44F1",
@@ -400,7 +400,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 19
+										"time": 23
 									},
 									{
 										"objectId": "C5BFD782-2803-4907-B1F6-C996BA7B9189",
@@ -427,10 +427,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 21
 									}
 								],
-								"time": 46
+								"time": 53
 							},
 							{
 								"objectId": "9FE4D5EC-04B8-4313-B552-D475477E31F2",
@@ -473,7 +473,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 52
 									},
 									{
 										"objectId": "1AB1E428-1DEE-43E8-9DF4-3923130B0978",
@@ -500,13 +500,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 19
+										"time": 20
 									}
 								],
-								"time": 47
+								"time": 82
 							}
 						],
-						"time": 200
+						"time": 247
 					},
 					{
 						"objectId": "2EC68A17-6ED0-43E8-9517-F440F0A0F8CA",
@@ -565,7 +565,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 19
 									},
 									{
 										"objectId": "E05EEA68-74CC-4934-BBCB-784E67F27D34",
@@ -595,7 +595,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 										"time": 17
 									}
 								],
-								"time": 45
+								"time": 47
 							},
 							{
 								"objectId": "772C1297-B3B6-4922-B74C-235392255006",
@@ -638,7 +638,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 21
 									},
 									{
 										"objectId": "FA854BD7-E2A6-4187-9694-69C09D8DDAA2",
@@ -665,10 +665,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 19
 									}
 								],
-								"time": 44
+								"time": 49
 							},
 							{
 								"objectId": "FE9B1274-DC56-4CE2-925A-AAE54C9770F8",
@@ -711,7 +711,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 17
+										"time": 19
 									},
 									{
 										"objectId": "79E9A003-F362-4BA6-B8AB-8386FFD0C00C",
@@ -738,10 +738,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 19
 									}
 								],
-								"time": 43
+								"time": 46
 							},
 							{
 								"objectId": "970A8173-0BE8-46C4-8D63-62E45C68F895",
@@ -784,7 +784,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 18
+										"time": 19
 									},
 									{
 										"objectId": "A12426CE-14AC-4C66-82AC-6BF8CBBF5303",
@@ -811,13 +811,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 											}
 										},
 										"children": [],
-										"time": 19
+										"time": 22
 									}
 								],
-								"time": 46
+								"time": 49
 							}
 						],
-						"time": 195
+						"time": 207
 					},
 					{
 						"objectId": "E6AD0318-AC8B-42FA-BAB0-12631F97D213",
@@ -860,7 +860,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 22
+								"time": 23
 							},
 							{
 								"objectId": "297AE349-3D19-4F12-8ECF-5D840D72F91F",
@@ -887,7 +887,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 23
+								"time": 24
 							},
 							{
 								"objectId": "FED694F3-7ECB-496E-986E-D46958687E07",
@@ -914,13 +914,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 21
+								"time": 22
 							}
 						],
-						"time": 76
+						"time": 80
 					}
 				],
-				"time": 552
+				"time": 619
 			},
 			{
 				"objectId": "3670C97B-9BA3-4C88-81A3-C198324A8362",
@@ -997,7 +997,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 14
+								"time": 15
 							},
 							{
 								"objectId": "D145DB38-8B3C-479B-B347-F9AC26210E3B",
@@ -1024,10 +1024,10 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 14
+								"time": 16
 							}
 						],
-						"time": 108
+						"time": 110
 					},
 					{
 						"objectId": "7DEBA792-974C-400E-BDF1-75B0751DF115",
@@ -1079,7 +1079,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 25
+								"time": 26
 							},
 							{
 								"objectId": "6D2527DB-59CF-45E4-87A3-31972C8F37F4",
@@ -1106,7 +1106,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 									}
 								},
 								"children": [],
-								"time": 18
+								"time": 20
 							},
 							{
 								"objectId": "A9F5781C-7D68-4DC6-9694-626C3D4F4888",
@@ -1136,7 +1136,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 								"time": 17
 							}
 						],
-						"time": 120
+						"time": 129
 					},
 					{
 						"objectId": "6E713421-C77B-4C0F-9C4C-4A6A130FC283",
@@ -1145,7 +1145,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 839,
-							"y": 191,
+							"y": 204,
 							"width": 23,
 							"height": 22
 						},
@@ -1157,7 +1157,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							"path": "images/Layer-Question_Mark_6-nku3mtm0.png",
 							"frame": {
 								"x": 839,
-								"y": 191,
+								"y": 204,
 								"width": 23,
 								"height": 22
 							}
@@ -1190,7 +1190,7 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 21
+						"time": 22
 					},
 					{
 						"objectId": "6209FCDE-FE41-4664-860F-6F80C88BFC5F",
@@ -1217,13 +1217,13 @@ window.__imported__["Chart8@1x/layers.json.js"] = [
 							}
 						},
 						"children": [],
-						"time": 17
+						"time": 19
 					}
 				],
-				"time": 540
+				"time": 573
 			}
 		],
-		"time": 1214
+		"time": 1323
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
