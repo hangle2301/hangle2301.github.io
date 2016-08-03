@@ -1,119 +1,134 @@
-# Import file "Chart7"
-sketch = Framer.Importer.load("imported/Chart7@1x")
 # Use desktop cursor
 document.body.style.cursor = "auto"
 
-leftSelection = [sketch.LeftNewSelection, sketch.LeftOpenSelection, sketch.LeftWonSelection, sketch.LeftLostSelection]
-rightSelection = [sketch.RightNewSelection, sketch.RightOpenSelection, sketch.RightWonSelection, sketch.RightLostSelection]
+# Import file "Chart8"
+sketch = Framer.Importer.load("imported/Chart8@1x")
 
-leftShowGroup = [sketch.NewGroup, sketch.OpenGroup, sketch.WonGroup, sketch.LostGroup]
+# Getting checkboxes
+leftCheckboxes = [sketch.MyNew, sketch.MyOpen, sketch.MyWon, sketch.MyLost]
+rightCheckboxes = [sketch.PartnerNew, sketch.PartnerOpen, sketch.PartnerWon, sketch.PartnerLost]
 
-# Creating venns
-leftVenn = [new Array(), new Array(), new Array(), new Array()]
-rightVenn = [new Array(), new Array(), new Array(), new Array()]
-leftHover = sketch.MyBreakdown
-rightHover = sketch.PartnerBreakdown
+leftOnState = [false, true, true, true]
+RightOnState = [false, true, true, true]
 
-#Preparing 
-for group, indexGroup in leftShowGroup
-	for layer in group.children[0..3]
-		layer.opacity = 0
-		# Creating venns
-		leftVenn[indexGroup].push(layer.children[2])
-		layer.children[2].originalX = layer.children[2].x
-		# Right venns
-		rightVenn[indexGroup].push(layer.children[1])
-		layer.children[1].originalX = layer.children[1].x
-#Interaction
-hover = false
-leftHover.opacity = 0
-rightHover.opacity = 0
-currentShow = leftShowGroup[0].children[0]
-currentLeftVenn = leftVenn[0][0]
-currentRightVenn = rightVenn[0][1]
-currentShow.opacity = 1
-leftSelected = 0
-rightSelected = 0
+leftVenn = sketch.LeftVenn
+rightVenn = sketch.RightVenn
+leftVenn.maximumX = leftVenn.x
+leftVenn.minimumX = sketch.VennMaximum.x
+rightVenn.minimumX = rightVenn.x
+rightVenn.maximumX = sketch.VennMaximum.x + sketch.VennMaximum.width
 
+for checkboxGroup in leftCheckboxes
+	checkboxGroup.onMouseOver ->
+			document.body.style.cursor = "pointer"
+	checkboxGroup.onMouseOut ->
+			document.body.style.cursor = "auto"
+	checkboxGroup.onClick ->
+		index = leftCheckboxes.indexOf(this)
+		if(leftOnState[index])
+			leftOnState[index] = false
+		else
+			leftOnState[index] = true
+		tick()
+for checkboxGroup in rightCheckboxes
+	checkboxGroup.onMouseOver ->
+			document.body.style.cursor = "pointer"
+	checkboxGroup.onMouseOut ->
+			document.body.style.cursor = "auto"
+	checkboxGroup.onClick ->
+		index = rightCheckboxes.indexOf(this)
+		if(RightOnState[index])
+			RightOnState[index] = false
+		else
+			RightOnState[index] = true
+		tick()
 
-for layer,index in leftSelection
-	layer.onClick ->
-		leftSelected = leftSelection.indexOf(this)
-		doShow()
-	layer.onMouseOver ->
-		document.body.style.cursor = "pointer"
-	layer.onMouseOut ->
-		document.body.style.cursor = "auto"
+# DOING THE NUMBERS
+myRecords = [300000, 100000, 75000, 25000]
+partnerRecords = [450000, 25000, 10000, 15000]
+
+myText = sketch.MyNumber
+partnerText = sketch.PartnerNumber
+overlapText = sketch.OverlapNumber
+
+myText.style =
+    "font-family": "Apex New, Helvetica",
+    "font-size": "22px",
+    "color": "#333",
+    "text-align": "right",
+    "font-weight" : "500"
+partnerText.style =
+    "font-family": "Apex New, Helvetica",
+    "font-size": "22px",
+    "color": "#333",
+    "text-align": "right",
+    "font-weight" : "500"
+overlapText.style =
+    "font-family": "Apex New, Helvetica",
+    "font-size": "22px",
+    "color": "#333",
+    "text-align": "right",
+    "font-weight" : "500"
+    
+placeText = () ->
+	leftTotal = 0
+	rightTotal = 0
+	for value, index in leftOnState
+		if(value)
+			leftTotal += myRecords[index]
+	for value, index in RightOnState
+		if(value)
+			rightTotal += partnerRecords[index]
 	
-for layer,index in rightSelection
-	layer.onClick ->
-		console.log(this)
-		rightSelected = rightSelection.indexOf(this)
-		doShow()
-	layer.onMouseOver ->
-		document.body.style.cursor = "pointer"
-	layer.onMouseOut ->
-		document.body.style.cursor = "auto"
+	myText.html = formatThousand(leftTotal)
+	partnerText.html = formatThousand(rightTotal)
+	#Generating random overlap
+	if(leftTotal > rightTotal)
+		overlap = Math.floor(Math.random()*rightTotal)
+	else
+		overlap = Math.floor(Math.random()*leftTotal)
+	overlapText.html = formatThousand(overlap)
 
-#Figuring out which layer to turn on
-resetLayer = (event, layer) ->
-	console.log(event)
-	#layer.x = layer.originalX
-doShow = () ->
-	console.log("Selecting " + leftSelected + " " + rightSelected)
-	#Going Out
-	currentShow.animate
-		properties:
-			opacity: 0
-		time: 0.7
-		curve: "easeout"
-	#Venn animations, left side
-	currentLeftVenn.animate
-		properties:
-			x: leftVenn[leftSelected][rightSelected].x
-		time: 0.7
-	currentLeftVenn.on Events.AnimationEnd, (animation, thisLayer) ->
-		thisLayer.x = thisLayer.originalX
-	currentLeftVenn = leftVenn[leftSelected][rightSelected]
-	#Venn animations, right side
-	currentRightVenn.animate
-		properties:
-			x: rightVenn[leftSelected][rightSelected].x
-		time: 0.7
-	currentRightVenn.on Events.AnimationEnd, (animation, thisLayer) ->
-		thisLayer.x = thisLayer.originalX
-	currentRightVenn = rightVenn[leftSelected][rightSelected]
- 		
-	#Going In
-	currentShow = leftShowGroup[leftSelected].children[rightSelected]
-	currentShow.animate
-		properties:
-			opacity:1
-		time: 0.5
-		delay: 0.3
-		curve: "easein"
-	
+formatThousand = (number) ->
+	string = number
+	if(number > 1000)
+		firstPart =  Math.floor(number/1000)
+		secondPart = Math.floor((number/1000 - firstPart) * 1000)
+		if(secondPart == 0)
+			secondPart = "000"
+		else if(secondPart < 100)
+			secondPart = secondPart.toString() + "0"
+		else if(secondPart < 10)
+			secondPart = secondPart.toString() + "00"
+		string = firstPart + "," + secondPart
+	return string
 
-# Do the hovering
-sketch.MyBreakdownHover.onMouseOver ->
-	leftHover.animate
+# Do the state changes	
+tick = () ->
+	for value, index in leftOnState
+		if(!value)
+			leftCheckboxes[index].children[0].opacity = 1
+			leftCheckboxes[index].children[1].opacity = 0
+		else
+			leftCheckboxes[index].children[0].opacity = 0
+			leftCheckboxes[index].children[1].opacity = 1
+	for value2, index2 in RightOnState
+		if(!value2)
+			rightCheckboxes[index2].children[0].opacity = 1
+			rightCheckboxes[index2].children[1].opacity = 0
+		else
+			rightCheckboxes[index2].children[0].opacity = 0
+			rightCheckboxes[index2].children[1].opacity = 1
+	#Randomize venn
+	leftVenn.animate
 		properties: 
-			opacity: 1
-		time: 0.5
-sketch.MyBreakdownHover.onMouseOut ->
-	leftHover.animate
-			properties: 
-				opacity: 0
-			time: 0.5
+			x: Math.floor(Math.random()*(leftVenn.maximumX - leftVenn.minimumX)) + leftVenn.minimumX
+		time:0.5
+	rightVenn.animate
+		properties: 
+			x: Math.floor(Math.random()*(rightVenn.maximumX - rightVenn.minimumX)) + rightVenn.minimumX
+		time:0.5
 
-sketch.PartnerBreakdownHover.onMouseOver ->
-	rightHover.animate
-		properties: 
-			opacity: 1
-		time: 0.5
-sketch.PartnerBreakdownHover.onMouseOut ->	
-	rightHover.animate
-		properties: 
-			opacity: 0
-		time: 0.5
-		
+	placeText()					
+# Initial run
+tick()
