@@ -13,7 +13,7 @@ RightOnState = [false, true, true, true]
 
 leftVenn = sketch.LeftVenn
 rightVenn = sketch.RightVenn
-middleX = sketch.VennMaximum.x + sketch.VennMaximum.width/2
+middleX = sketch.VennMaximum.width/2
 vennSize = [0.67,0.8,1] #in percentage
 
 for checkboxGroup in leftCheckboxes
