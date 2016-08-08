@@ -14,6 +14,7 @@ RightOnState = [false, true, true, true]
 leftVenn = sketch.LeftVenn
 rightVenn = sketch.RightVenn
 middleX = sketch.VennMaximum.x + sketch.VennMaximum.width/2
+vennSize = [0.67,0.8,1] #in percentage
 
 for checkboxGroup in leftCheckboxes
 	checkboxGroup.onMouseOver ->
@@ -79,12 +80,64 @@ placeText = () ->
 	
 	myText.html = formatThousand(leftTotal)
 	partnerText.html = formatThousand(rightTotal)
-	#Generating random overlap
+	#Generating random overlap & Sizing
 	if(leftTotal > rightTotal)
 		overlap = Math.floor(Math.random()*rightTotal)
 	else
 		overlap = Math.floor(Math.random()*leftTotal)
 	overlapText.html = formatThousand(overlap)
+	randomizeCenter(leftTotal,rightTotal, overlap)
+		
+randomizeCenter = (leftTotal,rightTotal,overlap) ->
+	#Changing venn to null if not selected
+	if(leftTotal == 0)
+		leftVenn.children[1].opacity = 0
+		leftVenn.children[0].opacity = 1
+	else
+		leftVenn.children[1].opacity = 1
+		leftVenn.children[0].opacity = 0
+	if(rightTotal == 0)
+		rightVenn.children[1].opacity = 0
+		rightVenn.children[0].opacity = 1
+	else
+		rightVenn.children[1].opacity = 1
+		rightVenn.children[0].opacity = 0
+	#Animating on sizing
+	if(leftTotal == rightTotal)
+		leftVenn.scale = vennSize[2]
+		rightVenn.scale = vennSize[2]
+	else if(leftTotal > rightTotal)
+		if(leftTotal/rightTotal > 1.5)
+			leftVenn.scale = vennSize[2]
+			rightVenn.scale = vennSize[0]
+		else
+			leftVenn.scale = vennSize[2]
+			rightVenn.scale = vennSize[1]
+	else
+		if(rightTotal/leftTotal > 1.5)
+			rightVenn.scale = vennSize[2]
+			leftVenn.scale = vennSize[0]
+		else
+			rightVenn.scale = vennSize[2]
+			leftVenn.scale = vennSize[1]
+
+	#Randomize venn
+	distanceFromCenter = 50
+	if(leftTotal > rightTotal)
+		if(rightTotal != 0)
+			distanceFromCenter = Math.floor(overlap/rightTotal * rightVenn.width)
+	else
+		if(leftTotal != 0)
+			distanceFromCenter = Math.floor(overlap/leftTotal * leftVenn.width)
+	console.log(overlap/rightTotal + " " + overlap/leftTotal + " " + distanceFromCenter)
+	leftVenn.animate
+		properties: 
+			x: middleX - distanceFromCenter
+		time:0.5
+	rightVenn.animate
+		properties: 
+			x: middleX + distanceFromCenter
+		time:0.5
 
 formatThousand = (number) ->
 	string = number
@@ -116,18 +169,6 @@ tick = () ->
 		else
 			rightCheckboxes[index2].children[0].opacity = 0
 			rightCheckboxes[index2].children[1].opacity = 1
-	#Randomize venn
-	distanceFromCenter = Math.floor(Math.random()*60) + 10
-	console.log(distanceFromCenter)
-	leftVenn.animate
-		properties: 
-			x: middleX - distanceFromCenter
-		time:0.5
-	rightVenn.animate
-		properties: 
-			x: middleX + distanceFromCenter
-		time:0.5
-
 	placeText()					
 # Initial run
 tick()
