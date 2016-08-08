@@ -125,11 +125,12 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 	distanceFromCenter = 50
 	if(leftTotal > rightTotal)
 		if(rightTotal != 0)
-			distanceFromCenter = Math.floor(overlap/rightTotal * rightVenn.width)
+			#distanceFromCenter = Math.floor(overlap/rightTotal * rightVenn.width)
+			distanceFromCenter = Math.floor(Math.random()*50)
 	else
 		if(leftTotal != 0)
-			distanceFromCenter = Math.floor(overlap/leftTotal * leftVenn.width)
-	console.log(overlap/rightTotal + " " + overlap/leftTotal + " " + distanceFromCenter)
+			#distanceFromCenter = Math.floor(overlap/leftTotal * leftVenn.width)
+			distanceFromCenter = Math.floor(Math.random()*50) 
 	leftVenn.animate
 		properties: 
 			x: middleX - distanceFromCenter
