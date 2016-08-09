@@ -2,7 +2,7 @@
 document.body.style.cursor = "auto"
 
 # Import file "Chart8"
-sketch = Framer.Importer.load("imported/Chart8@1x")
+sketch = Framer.Importer.load("imported/Chart9@1x")
 
 # Getting checkboxes
 leftCheckboxes = [sketch.MyNew, sketch.MyOpen, sketch.MyWon, sketch.MyLost]
@@ -13,8 +13,9 @@ RightOnState = [true, false, false, false]
 
 leftVenn = sketch.LeftVenn
 rightVenn = sketch.RightVenn
-middleX = sketch.VennMaximum.width/2
+middleX = sketch.VennMaximum.width - leftVenn.width/2
 vennSize = [0.67,0.8,1] #in percentage
+maxDistance = sketch.VennMaximum.width
 
 for checkboxGroup in leftCheckboxes
 	checkboxGroup.onMouseOver ->
@@ -49,18 +50,6 @@ myText = sketch.MyNumber
 partnerText = sketch.PartnerNumber
 overlapText = sketch.OverlapNumber
 
-myText.style =
-    "font-family": "Apex New, Helvetica",
-    "font-size": "22px",
-    "color": "#333",
-    "text-align": "center",
-    "font-weight" : "500"
-partnerText.style =
-    "font-family": "Apex New, Helvetica",
-    "font-size": "22px",
-    "color": "#333",
-    "text-align": "center",
-    "font-weight" : "500"
 overlapText.style =
     "font-family": "Apex New, Helvetica",
     "font-size": "22px",
@@ -78,8 +67,6 @@ placeText = () ->
 		if(value)
 			rightTotal += partnerRecords[index]
 	
-	myText.html = formatThousand(leftTotal)
-	partnerText.html = formatThousand(rightTotal)
 	#Generating random overlap & Sizing
 	if(leftTotal > rightTotal)
 		overlap = Math.floor(Math.random()*rightTotal)
@@ -122,23 +109,21 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 			leftVenn.scale = vennSize[1]
 
 	#Randomize venn
+	leftDistance = - (leftVenn.width * leftVenn.scale)/2
+	rightDistance = (rightVenn.width * leftVenn.scale)/2
 	distanceFromCenter = 50
-	if(leftTotal > rightTotal)
-		if(rightTotal != 0)
-			distanceFromCenter = Math.floor(overlap/rightTotal * rightVenn.width / 2)
-			#distanceFromCenter = Math.floor(Math.random()*50)
-	else
-		if(leftTotal != 0)
-			distanceFromCenter = Math.floor(overlap/leftTotal * leftVenn.width / 2)
-			#distanceFromCenter = Math.floor(Math.random()*50) 
-	
+	if(rightTotal != 0)
+		rightDistance *= overlap/rightTotal	
+	if(leftTotal != 0)
+		leftDistance *= overlap/leftTotal 	
+	console.log(overlap + " " + leftTotal + " " +  rightTotal + " " + leftDistance + " " + rightDistance)
 	leftVenn.animate
 		properties: 
-			x: middleX + distanceFromCenter - leftVenn.width/2
+			x: leftDistance
 		time:0.5
 	rightVenn.animate
 		properties: 
-			x: middleX - distanceFromCenter + rightVenn.width/2
+			x: rightDistance
 		time:0.5
 
 formatThousand = (number) ->
