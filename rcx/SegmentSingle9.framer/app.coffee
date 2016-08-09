@@ -44,7 +44,7 @@ for checkboxGroup in rightCheckboxes
 
 # DOING THE NUMBERS
 myRecords = [300000, 100000, 75000, 25000]
-partnerRecords = [450000, 25000, 10000, 15000]
+partnerRecords = [450000, 16500, 8500, 25000]
 
 myText = sketch.MyNumber
 partnerText = sketch.PartnerNumber
@@ -74,21 +74,9 @@ placeText = () ->
 		overlap = Math.floor(Math.random()*leftTotal)
 	overlapText.html = formatThousand(overlap)
 	randomizeCenter(leftTotal,rightTotal, overlap)
-		
-randomizeCenter = (leftTotal,rightTotal,overlap) ->
-	#Changing venn to null if not selected
-	if(leftTotal == 0)
-		leftVenn.children[1].opacity = 0
-		leftVenn.children[0].opacity = 1
-	else
-		leftVenn.children[1].opacity = 1
-		leftVenn.children[0].opacity = 0
-	if(rightTotal == 0)
-		rightVenn.children[1].opacity = 0
-		rightVenn.children[0].opacity = 1
-	else
-		rightVenn.children[1].opacity = 1
-		rightVenn.children[0].opacity = 0
+	sizing(leftTotal, rightTotal)
+
+sizing = (leftTotal, rightTotal) ->		
 	#Animating on sizing
 	if(leftTotal == rightTotal)
 		leftVenn.scale = vennSize[2]
@@ -108,14 +96,29 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 			rightVenn.scale = vennSize[2]
 			leftVenn.scale = vennSize[1]
 
+randomizeCenter = (leftTotal,rightTotal,overlap) ->
+	#Changing venn to null if not selected
+	if(leftTotal == 0)
+		leftVenn.children[1].opacity = 0
+		leftVenn.children[0].opacity = 1
+	else
+		leftVenn.children[1].opacity = 1
+		leftVenn.children[0].opacity = 0
+	if(rightTotal == 0)
+		rightVenn.children[1].opacity = 0
+		rightVenn.children[0].opacity = 1
+	else
+		rightVenn.children[1].opacity = 1
+		rightVenn.children[0].opacity = 0
+	
 	#Randomize venn
 	leftDistance = - (leftVenn.width * leftVenn.scale)/2
 	rightDistance = (rightVenn.width * leftVenn.scale)/2
 	distanceFromCenter = 50
 	if(rightTotal != 0)
-		rightDistance *= overlap/rightTotal	
+		rightDistance *= (1 - overlap/rightTotal)
 	if(leftTotal != 0)
-		leftDistance *= overlap/leftTotal 	
+		leftDistance *= (1 - overlap/leftTotal)	
 	console.log(overlap + " " + leftTotal + " " +  rightTotal + " " + leftDistance + " " + rightDistance)
 	leftVenn.animate
 		properties: 
