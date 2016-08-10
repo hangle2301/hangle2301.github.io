@@ -74,7 +74,7 @@ placeText = () ->
 		overlap = Math.floor(Math.random()*leftTotal)
 	overlapText.html = formatThousand(overlap)
 	randomizeCenter(leftTotal,rightTotal, overlap)
-	sizing(leftTotal, rightTotal)
+	#sizing(leftTotal, rightTotal)
 
 sizing = (leftTotal, rightTotal) ->		
 	#Animating on sizing
