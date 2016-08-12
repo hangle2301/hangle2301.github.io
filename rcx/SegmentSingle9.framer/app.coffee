@@ -21,7 +21,7 @@ leftVenn.style =
 	"mix-blend-mode" : "multiply"
 rightVenn.style =
 	"mix-blend-mode" : "multiply"
-opacityValue = [0.25, 0.5, 0.75, 1]
+opacityValue = [0.7, 0.8, 0.9, 1]
 opacityMaxRange = [0.25, 0.5, 0.75, 1]
 leftOpacity = 1 
 rightOpacity = 1
@@ -111,10 +111,8 @@ sizing = (leftTotal, rightTotal) ->
 
 opacity = (total) ->	
 	calculatedOpacity = total/500000
-	
 	for max, index in opacityMaxRange
-		if(opacity < max)
-			console.log(calculatedOpacity + " " + index)
+		if(calculatedOpacity < max)
 			calculatedOpacity = opacityValue[index]
 			break
 	return calculatedOpacity
