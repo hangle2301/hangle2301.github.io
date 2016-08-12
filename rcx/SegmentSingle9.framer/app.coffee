@@ -21,7 +21,7 @@ leftVenn.style =
 	"mix-blend-mode" : "multiply"
 rightVenn.style =
 	"mix-blend-mode" : "multiply"
-opacityValue = [0.7, 0.8, 0.9, 1]
+opacityValue = [0.5, 0.66, 0.84, 1]
 opacityMaxRange = [0.25, 0.5, 0.75, 1]
 leftOpacity = 1 
 rightOpacity = 1
@@ -150,7 +150,7 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 			x: rightDistance
 			opacity: rightOpacity
 		time:0.5
-	console.log(leftOpacity, rightOpacity)
+	console.log("Left side opacity: " + leftOpacity + "; Right side opacity: " + rightOpacity)
 
 formatThousand = (number) ->
 	string = number
