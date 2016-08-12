@@ -21,6 +21,10 @@ leftVenn.style =
 	"mix-blend-mode" : "multiply"
 rightVenn.style =
 	"mix-blend-mode" : "multiply"
+opacityValue = [0.25, 0.5, 0.75, 1]
+opacityMaxRange = [0.25, 0.5, 0.75, 1]
+leftOpacity = 1 
+rightOpacity = 1
 
 
 for checkboxGroup in leftCheckboxes
@@ -79,7 +83,10 @@ placeText = () ->
 	else
 		overlap = Math.floor(Math.random()*leftTotal)
 	overlapText.html = formatThousand(overlap)
+	leftOpacity = opacity(leftTotal)
+	rightOpacity = opacity(rightTotal)
 	randomizeCenter(leftTotal,rightTotal, overlap)
+
 	#sizing(leftTotal, rightTotal)
 
 sizing = (leftTotal, rightTotal) ->		
@@ -102,8 +109,18 @@ sizing = (leftTotal, rightTotal) ->
 			rightVenn.scale = vennSize[2]
 			leftVenn.scale = vennSize[1]
 
+opacity = (total) ->	
+	calculatedOpacity = total/500000
+	
+	for max, index in opacityMaxRange
+		if(opacity < max)
+			console.log(calculatedOpacity + " " + index)
+			calculatedOpacity = opacityValue[index]
+			break
+	return calculatedOpacity
+
 randomizeCenter = (leftTotal,rightTotal,overlap) ->
-	#Changing venn to null if not selected
+	#Changing venn to null if not selected - doing opacity
 	if(leftTotal == 0)
 		leftVenn.children[1].opacity = 0
 		leftVenn.children[0].opacity = 1
@@ -125,15 +142,17 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 		rightDistance *= (1 - overlap/rightTotal)
 	if(leftTotal != 0)
 		leftDistance *= (1 - overlap/leftTotal)	
-	console.log(overlap + " " + leftTotal + " " +  rightTotal + " " + leftDistance + " " + rightDistance)
 	leftVenn.animate
 		properties: 
 			x: leftDistance
+			opacity: leftOpacity
 		time:0.5
 	rightVenn.animate
 		properties: 
 			x: rightDistance
+			opacity: rightOpacity
 		time:0.5
+	console.log(leftOpacity, rightOpacity)
 
 formatThousand = (number) ->
 	string = number
