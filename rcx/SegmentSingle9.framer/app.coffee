@@ -11,11 +11,17 @@ rightCheckboxes = [sketch.PartnerNew, sketch.PartnerOpen, sketch.PartnerWon, ske
 leftOnState = [true, false, false, false]
 RightOnState = [true, false, false, false]
 
+#Setting up venns
 leftVenn = sketch.LeftVenn
 rightVenn = sketch.RightVenn
 middleX = sketch.VennMaximum.width - leftVenn.width/2
 vennSize = [0.67,0.8,1] #in percentage
 maxDistance = sketch.VennMaximum.width
+leftVenn.style =
+	"mix-blend-mode" : "multiply"
+rightVenn.style =
+	"mix-blend-mode" : "multiply"
+
 
 for checkboxGroup in leftCheckboxes
 	checkboxGroup.onMouseOver ->
