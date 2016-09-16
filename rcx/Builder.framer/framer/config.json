@@ -11,7 +11,8 @@
   "deviceScale" : 1,
   "foldedCodeRanges" : [
     "{197, 196}",
-    "{496, 483}"
+    "{496, 483}",
+    "{1385, 729}"
   ],
   "orientation" : 0
 }

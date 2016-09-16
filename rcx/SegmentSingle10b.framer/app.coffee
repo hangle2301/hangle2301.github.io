@@ -1,8 +1,23 @@
+# Import file "Chart8"
+sketch = Framer.Importer.load("imported/Chart10b@1x")
 # Use desktop cursor
 document.body.style.cursor = "auto"
 
-# Import file "Chart8"
-sketch = Framer.Importer.load("imported/Chart10b@1x")
+#Make interactive
+makeInteractive = (object) ->
+	object.onMouseOver ->
+		document.body.style.cursor = "pointer"
+	object.onMouseOut ->
+		document.body.style.cursor = "auto"
+
+# Make scroll
+# Include a Layer 
+scroll = ScrollComponent.wrap(sketch.Venn_Multiselection)
+scroll.width = Screen.width
+scroll.height = Screen.height
+scroll.mouseWheelEnabled = true
+scroll.scrollHorizontal = false
+
 
 # Getting checkboxes
 leftCheckboxes = [sketch.MyNew, sketch.MyOpen, sketch.MyWon, sketch.MyLost]
@@ -189,3 +204,12 @@ tick = () ->
 	placeText()					
 # Initial run
 tick()
+
+#Deploy button
+DeployButton = sketch.DeployButton
+makeInteractive(DeployButton)
+DeployButton.onClick ->
+	#Go to deployment in Marvel
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224413'	
+
+

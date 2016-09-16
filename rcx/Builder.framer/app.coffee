@@ -89,7 +89,15 @@ doneButton.onClick ->
 		curve: "linear"
 		time: 0.25
 
-	
+# SAVE BUTTON
+saveButtonOn = sketch.button_save_on
+saveButtonOff = sketch.button_save_off
+makeInteractive(saveButtonOn)
+saveButtonOff.opacity = 0
+
+saveButtonOn.onClick ->
+	#Go to segment single
+	window.location.href = 'https://hangle2301.github.io/rcx/SegmentSingle10b.framer/'	
 	
 # BELL & WHISTLES
 industryRowClosed.onMouseOver ->
