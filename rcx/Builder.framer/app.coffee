@@ -1,5 +1,7 @@
 # Disable hints
 Framer.Extras.Hints.disable()
+Framer.Extras.Preloader.setLogo("https://radiusintel-wpengine.netdna-ssl.com/wp-content/themes/vate/src/serve/assets/images/common/radius-logo.svg")
+
 
 # Project Info
 # This info is presented in a widget when you share.
