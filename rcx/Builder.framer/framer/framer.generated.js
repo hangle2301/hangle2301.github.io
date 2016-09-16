@@ -3160,16 +3160,34 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 						"metadata": {
 							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-row_twitter-m0nemzux.png",
-							"frame": {
-								"x": 210,
-								"y": 755,
-								"width": 668,
-								"height": 54
-							}
-						},
 						"children": [
+							{
+								"objectId": "B5CE7726-AD30-4CEA-AFDA-18DF65F8859C",
+								"kind": "group",
+								"name": "Group",
+								"originalName": "Group",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 210,
+									"y": 765,
+									"width": 667,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group-qjvdrtc3.png",
+									"frame": {
+										"x": 210,
+										"y": 765,
+										"width": 667,
+										"height": 44
+									}
+								},
+								"children": []
+							},
 							{
 								"objectId": "83ADCE5F-C941-41B4-BFBF-1FDB82A19A91",
 								"kind": "group",
@@ -3215,16 +3233,34 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 						"metadata": {
 							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-row_facebook-mknemjbc.png",
-							"frame": {
-								"x": 210,
-								"y": 829,
-								"width": 668,
-								"height": 54
-							}
-						},
 						"children": [
+							{
+								"objectId": "EF7A5FEE-1FF8-4319-8E2C-97DF506EA8CC",
+								"kind": "group",
+								"name": "Group_2",
+								"originalName": "Group 2",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 210,
+									"y": 839,
+									"width": 667,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_2-ruy3qtvg.png",
+									"frame": {
+										"x": 210,
+										"y": 839,
+										"width": 667,
+										"height": 44
+									}
+								},
+								"children": []
+							},
 							{
 								"objectId": "D4B4B2DE-9864-411D-807F-982AEB79FAB6",
 								"kind": "group",
@@ -3270,16 +3306,34 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 						"metadata": {
 							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-row_web_presence-n0izmtq2.png",
-							"frame": {
-								"x": 210,
-								"y": 903,
-								"width": 668,
-								"height": 54
-							}
-						},
 						"children": [
+							{
+								"objectId": "7B89EDE5-0E41-4AA4-B7EF-DF1A30D1AD61",
+								"kind": "group",
+								"name": "Group_3",
+								"originalName": "Group 3",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 210,
+									"y": 913,
+									"width": 667,
+									"height": 44
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_3-n0i4ouve.png",
+									"frame": {
+										"x": 210,
+										"y": 913,
+										"width": 667,
+										"height": 44
+									}
+								},
+								"children": []
+							},
 							{
 								"objectId": "0D6AD706-6DF7-42A0-8AB8-77F87F938997",
 								"kind": "group",
