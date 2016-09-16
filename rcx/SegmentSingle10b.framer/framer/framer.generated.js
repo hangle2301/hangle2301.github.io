@@ -6661,9 +6661,9 @@ window.__imported__["Chart10b@1x/layers.json.js"] = [
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":-1,"selectedHand":"","deviceType":"custom","contentScale":1,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":1,"selectedHand":"","deviceType":"fullscreen","contentScale":1,"orientation":0};
 }
-if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"selectedHand":"","deviceType":"custom","contentScale":1,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":1,"selectedHand":"","deviceType":"fullscreen","contentScale":1,"orientation":0};
 }
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"SegmentSingle10b.framer"};
 
