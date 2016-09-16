@@ -97,7 +97,7 @@ saveButtonOff.opacity = 0
 
 saveButtonOn.onClick ->
 	#Go to segment single
-	window.location.href = 'https://hangle2301.github.io/rcx/SegmentSingle10b.framer/'	
+	window.location.href = 'https://hangle2301.github.io/rcx/California-Healthcare.framer/'	
 	
 # BELL & WHISTLES
 industryRowClosed.onMouseOver ->
