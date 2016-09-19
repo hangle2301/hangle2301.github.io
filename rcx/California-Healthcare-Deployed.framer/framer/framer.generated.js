@@ -2474,7 +2474,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 1093,
-							"y": 127,
+							"y": 121,
 							"width": 141,
 							"height": 172
 						},
@@ -2486,7 +2486,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 							"path": "images/Layer-Deploy_Dropdown-rjkxmdux.png",
 							"frame": {
 								"x": 1093,
-								"y": 127,
+								"y": 121,
 								"width": 141,
 								"height": 172
 							}
@@ -2500,7 +2500,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1110,
-									"y": 147,
+									"y": 141,
 									"width": 63,
 									"height": 12
 								},
@@ -2517,7 +2517,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 1110,
-											"y": 147,
+											"y": 141,
 											"width": 63,
 											"height": 12
 										},
@@ -2537,7 +2537,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 											"path": "images/Layer-Group_41-njdertfd.png",
 											"frame": {
 												"x": 1110,
-												"y": 147,
+												"y": 141,
 												"width": 63,
 												"height": 12
 											}
@@ -2552,7 +2552,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 1110,
-											"y": 147,
+											"y": 141,
 											"width": 63,
 											"height": 12
 										},
@@ -2572,7 +2572,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 											"path": "images/Layer-Group_41-rtu0mtfg.png",
 											"frame": {
 												"x": 1110,
-												"y": 147,
+												"y": 141,
 												"width": 63,
 												"height": 12
 											}
@@ -2589,7 +2589,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1111,
-									"y": 177,
+									"y": 171,
 									"width": 57,
 									"height": 96
 								},
@@ -2606,7 +2606,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 1111,
-											"y": 177,
+											"y": 171,
 											"width": 57,
 											"height": 96
 										},
@@ -2626,7 +2626,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 											"path": "images/Layer-Group_40-mjc2ndmx.png",
 											"frame": {
 												"x": 1111,
-												"y": 177,
+												"y": 171,
 												"width": 57,
 												"height": 96
 											}
@@ -4838,7 +4838,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 1032,
-							"y": 91,
+							"y": 85,
 							"width": 96,
 							"height": 34
 						},
@@ -4850,7 +4850,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 							"path": "images/Layer-Options-rda4mdk2.png",
 							"frame": {
 								"x": 1032,
-								"y": 91,
+								"y": 85,
 								"width": 96,
 								"height": 34
 							}
@@ -4865,7 +4865,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 1137,
-							"y": 92,
+							"y": 86,
 							"width": 94,
 							"height": 32
 						},
@@ -4877,7 +4877,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 							"path": "images/Layer-DeployButton-njiwouzd.png",
 							"frame": {
 								"x": 1137,
-								"y": 92,
+								"y": 86,
 								"width": 94,
 								"height": 32
 							}
