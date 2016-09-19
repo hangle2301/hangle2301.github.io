@@ -2060,7 +2060,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 							"x": 0,
 							"y": 0,
 							"width": 1441,
-							"height": 138
+							"height": 115
 						},
 						"visible": true,
 						"metadata": {
@@ -2238,23 +2238,14 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 								"originalName": "page-title",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 0,
+									"x": 211,
 									"y": 80,
-									"width": 1440,
-									"height": 58
+									"width": 1020,
+									"height": 35
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-page_title-qtc5mduy.png",
-									"frame": {
-										"x": 0,
-										"y": 80,
-										"width": 1440,
-										"height": 58
-									}
 								},
 								"children": [
 									{

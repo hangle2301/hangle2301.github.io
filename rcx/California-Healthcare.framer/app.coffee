@@ -33,6 +33,21 @@ scroll.height = Screen.height
 scroll.mouseWheelEnabled = true
 scroll.scrollHorizontal = false
 
+#Setting background color & alignment
+topMenu = sketch.Venn_Multiselection
+topMenu.html="<div id='top-bg'></div><div id='bottom-line'></div>"
+
+topBackground = topMenu.querySelectorAll("#top-bg")[0]
+topBackground.style["background-color"] = "#2b84c6"
+topBackground.style["width"] = "100%"
+topBackground.style["height"] = "60px"
+
+topLine = topMenu.querySelector('#bottom-line')
+topLine.style["border-bottom"] = "1px solid #D9DEE2"
+topLine.style["height"] = "85px"
+
+pageContent = sketch.everything
+pageContent.x = Align.center()
 
 # Getting checkboxes
 leftCheckboxes = [sketch.MyNew, sketch.MyOpen, sketch.MyWon, sketch.MyLost]
@@ -229,28 +244,22 @@ tick()
 DeployButton = sketch.DeployButton
 deployDropdown = sketch.Deploy_Dropdown
 sfdc = sketch.SF
-csv = sketch.CSV
 sfdc.children[1].opacity = 0
-csv.children[1].opacity = 0
 sfdc.onMouseOver ->
 	sfdc.children[1].opacity = 1
 	sfdc.children[0].opacity = 0
 sfdc.onMouseOut ->
 	sfdc.children[1].opacity = 0
 	sfdc.children[0].opacity = 1
-csv.onMouseOver ->
-	csv.children[1].opacity = 1
-	csv.children[0].opacity = 0
-csv.onMouseOut ->
-	csv.children[1].opacity = 0
-	csv.children[0].opacity = 1
 
 deployDropdown.opacity = 0
 makeInteractive(sfdc)
-makeInteractive(csv)
 makeInteractive(DeployButton)
 DeployButton.onClick ->
-	deployDropdown.opacity = 1
+	if(deployDropdown.opacity == 0)
+		deployDropdown.opacity = 1
+	else
+		deployDropdown.opacity = 0
 sfdc.onClick ->
 	#Go to deployment in Marvel
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224413'	
