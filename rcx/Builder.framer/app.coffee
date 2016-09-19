@@ -12,8 +12,6 @@ Framer.Info =
 	author: "Hang Le"
 	twitter: ""
 	description: ""
-
-
 # Import file "builder-prototype-2"
 sketch = Framer.Importer.load("imported/builder-prototype-2@1x")
 # Use desktop cursor
@@ -35,11 +33,26 @@ scroll.mouseWheelEnabled = true
 scroll.scrollHorizontal = false
 sketch.Builder_Open.draggable.enabled = false
 
+#Setting background color
+topMenu = sketch.Builder_Open
+topMenu.html="<div id='top-bg'></div><div id='bottom-line'></div>"
+
+topBackground = topMenu.querySelectorAll("#top-bg")[0]
+topBackground.style["background-color"] = "#2b84c6"
+topBackground.style["width"] = "100%"
+topBackground.style["height"] = "60px"
+
+topLine = topMenu.querySelector('#bottom-line')
+topLine.style["border-bottom"] = "1px solid #D9DEE2"
+topLine.style["height"] = "77px"
+
+pageContent = sketch.everything
+pageContent.x = Align.center()
 #Prep file
 industryRowClosed = sketch.row_industry
 industryRowOpen = sketch.row_industry_open
 doneButton = sketch.Button_Done
-bottomHalf = sketch.moveDown
+bottomHalf = sketch.moveDown_Industry
 #industryRowOpen.visible = false
 industryRowOpen.opacity = 0
 bottomHalf.closeY = bottomHalf.y
@@ -98,6 +111,23 @@ saveButtonOff.opacity = 0
 saveButtonOn.onClick ->
 	#Go to segment single
 	window.location.href = 'https://hangle2301.github.io/rcx/California-Healthcare.framer/'	
+# NAMING
+textLayer = sketch.input_on
+baseTextLayer = sketch.input_off
+textLayer.html = "<input id='segmentName' name='segmentName' type='text' value=''>"
+textInput = textLayer.querySelector("#segmentName")
+#textInput.style["border"] = "1px solid #d9dee2"
+textInput.style["background-color"] = "rgba(255,255,255,0)"
+textInput.style["border-radius"] = "3px"
+textInput.style["padding"] = "10px"
+textInput.style["font"] = "Apex New"
+textInput.style["font-size"] = "14px"
+textInput.style["color"] = "#303b3e"
+textInput.style["width"] = "470px"
+textLayer.opacity = 0
+
+textLayer.onClick ->
+	textLayer.opacity = 1
 	
 # BELL & WHISTLES
 industryRowClosed.onMouseOver ->
