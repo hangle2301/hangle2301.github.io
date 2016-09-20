@@ -55,7 +55,12 @@ rightCheckboxes = [sketch.PartnerNew, sketch.PartnerOpen, sketch.PartnerWon, ske
 
 leftOnState = [true, false, false, false]
 RightOnState = [true, false, false, false]
-overlaps = [[278000,1500,5000,16500],[48000,10000,2000,10000],[1000,6000,1000,2000],[5000,4800,7000,3000]]
+
+# DOING THE NUMBERS
+myRecords = [18158, 847, 132, 227]
+partnerRecords = [17143, 612, 0, 78]
+overlaps = [[16193,500,0,25],[700,97,0,10],[100,5,0,20],[150,10,0,23]]
+
 
 #Setting up venns
 leftVenn = sketch.LeftVenn
@@ -98,10 +103,6 @@ for checkboxGroup in rightCheckboxes
 			RightOnState[index] = true
 		tick()
 
-# DOING THE NUMBERS
-myRecords = [300000, 100000, 75000, 25000]
-partnerRecords = [450000, 16500, 8500, 25000]
-
 myText = sketch.MyNumber
 partnerText = sketch.PartnerNumber
 overlapText = sketch.OverlapNumber
@@ -124,7 +125,8 @@ placeText = () ->
 				if(value2)
 					overlap += overlaps[index][index2]
 	for value,index in RightOnState
-		rightTotal += partnerRecords[index]			
+		if(value)
+			rightTotal += partnerRecords[index]			
 	
 	#Generating random overlap & Sizing
 	#if(leftTotal > rightTotal)
@@ -167,6 +169,8 @@ opacity = (total) ->
 			break
 	return calculatedOpacity
 
+stepOverlapMin = 15
+stepOverlapMax = 43
 randomizeCenter = (leftTotal,rightTotal,overlap) ->
 	#Changing venn to null if not selected - doing opacity
 	if(leftTotal == 0)
@@ -185,15 +189,20 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 	#Randomize venn
 	leftDistance = (leftVenn.width * leftVenn.scale)/2
 	rightDistance = (rightVenn.width * leftVenn.scale)/2
-	distanceFromCenter = 50
+	distanceFromCenter = stepOverlapMax - stepOverlapMin
 	if(rightTotal < leftTotal)
 		if(rightTotal != 0)
 			rightDistance *= (1 - overlap/rightTotal)
-			distanceFromCenter = rightDistance
+			distanceFromCenter = rightDistance + stepOverlapMin
+			if (rightDistance > stepOverlapMax)
+				distanceFromCenter = stepOverlapMax
 	else
 		if(leftTotal != 0)
 			leftDistance *= (1 - overlap/leftTotal)
-			distanceFromCenter = leftDistance	
+			distanceFromCenter = leftDistance + stepOverlapMin
+			if (leftDistance > stepOverlapMax)
+				distanceFromCenter = stepOverlapMax	
+	
 	leftVenn.animate
 		properties: 
 			x: - distanceFromCenter
@@ -204,7 +213,6 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 			x: distanceFromCenter
 			opacity: rightOpacity
 		time:0.5
-	console.log("Left side opacity: " + leftOpacity + "; Right side opacity: " + rightOpacity)
 
 formatThousand = (number) ->
 	string = number
@@ -244,7 +252,6 @@ tick()
 DeployButton = sketch.DeployButton
 deployDropdown = sketch.Deploy_Dropdown
 sfdc = sketch.SF
-csv = sketch.CSV
 sfdc.children[1].opacity = 0
 sfdc.onMouseOver ->
 	sfdc.children[1].opacity = 1
@@ -252,15 +259,32 @@ sfdc.onMouseOver ->
 sfdc.onMouseOut ->
 	sfdc.children[1].opacity = 0
 	sfdc.children[0].opacity = 1
-
-deployDropdown.opacity = 0
 makeInteractive(sfdc)
 makeInteractive(DeployButton)
+deployDropdown.opacity = 0
 DeployButton.onClick ->
 	if(deployDropdown.opacity == 0)
 		deployDropdown.opacity = 1
 	else
 		deployDropdown.opacity = 0
+
+#Other Clicking buttons
+segmentsClick = sketch.SegmentsClick
+programsClick = sketch.ProgramsClick
+performanceClick = sketch.PerformanceClick
+makeInteractive(segmentsClick)
+makeInteractive(programsClick)
+makeInteractive(performanceClick)
+segmentsClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224411'	
+programsClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
+performanceClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
+
 sfdc.onClick ->
 	#Go to deployment in Marvel
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224413'	
