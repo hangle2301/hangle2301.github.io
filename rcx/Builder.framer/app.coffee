@@ -49,14 +49,14 @@ topLine.style["height"] = "77px"
 pageContent = sketch.everything
 pageContent.x = Align.center()
 #Prep file
-industryRowClosed = sketch.row_industry
-industryRowOpen = sketch.row_industry_open
+industryRowClosed = sketch.row_prod_tech
+industryRowOpen = sketch.row_tech_open
 doneButton = sketch.Button_Done
-bottomHalf = sketch.moveDown_Industry
+bottomHalf = sketch.moveDown
 #industryRowOpen.visible = false
 industryRowOpen.opacity = 0
 bottomHalf.closeY = bottomHalf.y
-bottomHalf.openY = bottomHalf.y + industryRowOpen.height
+bottomHalf.openY = bottomHalf.y + industryRowOpen.height - 20
 bottomHalf.y = bottomHalf.closeY
 
 makeInteractive(industryRowClosed)
