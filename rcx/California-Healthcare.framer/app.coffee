@@ -169,7 +169,7 @@ opacity = (total) ->
 			break
 	return calculatedOpacity
 
-stepOverlapMin = 10
+stepOverlapMin = 15
 stepOverlapMax = 43
 randomizeCenter = (leftTotal,rightTotal,overlap) ->
 	#Changing venn to null if not selected - doing opacity
