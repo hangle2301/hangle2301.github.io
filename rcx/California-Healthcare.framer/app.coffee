@@ -57,9 +57,10 @@ leftOnState = [true, false, false, false]
 RightOnState = [true, false, false, false]
 
 # DOING THE NUMBERS
-myRecords = [1038, 41, 6, 11]
-partnerRecords = [791, 21, 0, 4]
-overlaps = [[767,10,0,0],[20,7,0,1],[1,1,0,2],[4,3,0,1]]
+myRecords = [18158, 847, 132, 227]
+partnerRecords = [17143, 612, 0, 78]
+overlaps = [[16193,500,0,25],[700,97,0,10],[100,5,0,20],[150,10,0,23]]
+
 
 #Setting up venns
 leftVenn = sketch.LeftVenn
@@ -168,6 +169,8 @@ opacity = (total) ->
 			break
 	return calculatedOpacity
 
+stepOverlapMin = 10
+stepOverlapMax = 43
 randomizeCenter = (leftTotal,rightTotal,overlap) ->
 	#Changing venn to null if not selected - doing opacity
 	if(leftTotal == 0)
@@ -186,15 +189,20 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 	#Randomize venn
 	leftDistance = (leftVenn.width * leftVenn.scale)/2
 	rightDistance = (rightVenn.width * leftVenn.scale)/2
-	distanceFromCenter = 50
+	distanceFromCenter = stepOverlapMax - stepOverlapMin
 	if(rightTotal < leftTotal)
 		if(rightTotal != 0)
 			rightDistance *= (1 - overlap/rightTotal)
-			distanceFromCenter = rightDistance
+			distanceFromCenter = rightDistance + stepOverlapMin
+			if (rightDistance > stepOverlapMax)
+				distanceFromCenter = stepOverlapMax
 	else
 		if(leftTotal != 0)
 			leftDistance *= (1 - overlap/leftTotal)
-			distanceFromCenter = leftDistance	
+			distanceFromCenter = leftDistance + stepOverlapMin
+			if (leftDistance > stepOverlapMax)
+				distanceFromCenter = stepOverlapMax	
+	
 	leftVenn.animate
 		properties: 
 			x: - distanceFromCenter
@@ -205,7 +213,6 @@ randomizeCenter = (leftTotal,rightTotal,overlap) ->
 			x: distanceFromCenter
 			opacity: rightOpacity
 		time:0.5
-	console.log("Left side opacity: " + leftOpacity + "; Right side opacity: " + rightOpacity)
 
 formatThousand = (number) ->
 	string = number

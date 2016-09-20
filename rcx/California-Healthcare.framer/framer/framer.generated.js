@@ -2524,6 +2524,33 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
+						"objectId": "24A6FA19-5DAC-45B2-AED5-51D46640B69C",
+						"kind": "group",
+						"name": "PartnerWonJustToSee",
+						"originalName": "PartnerWonJustToSee",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 697,
+							"y": 467,
+							"width": 14,
+							"height": 14
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 0.5
+						},
+						"image": {
+							"path": "images/Layer-PartnerWonJustToSee-mjrbnkzb.png",
+							"frame": {
+								"x": 697,
+								"y": 467,
+								"width": 14,
+								"height": 14
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "DBA00C1A-AAC0-4E9E-BB78-D4D838F5BE09",
 						"kind": "group",
 						"name": "SegmentsClick",
@@ -2532,7 +2559,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 315,
 							"y": 87,
-							"width": 237,
+							"width": 218,
 							"height": 37
 						},
 						"visible": true,
@@ -2544,7 +2571,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 							"frame": {
 								"x": 315,
 								"y": 87,
-								"width": 237,
+								"width": 218,
 								"height": 37
 							}
 						},
@@ -3729,7 +3756,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 												},
 												"visible": true,
 												"metadata": {
-													"opacity": 1
+													"opacity": 0.5
 												},
 												"children": [
 													{
