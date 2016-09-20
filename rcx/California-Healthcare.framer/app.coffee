@@ -55,7 +55,11 @@ rightCheckboxes = [sketch.PartnerNew, sketch.PartnerOpen, sketch.PartnerWon, ske
 
 leftOnState = [true, false, false, false]
 RightOnState = [true, false, false, false]
-overlaps = [[278000,1500,5000,16500],[48000,10000,2000,10000],[1000,6000,1000,2000],[5000,4800,7000,3000]]
+
+# DOING THE NUMBERS
+myRecords = [1038, 41, 6, 11]
+partnerRecords = [791, 21, 0, 4]
+overlaps = [[767,10,0,0],[20,7,0,1],[1,1,0,2],[4,3,0,1]]
 
 #Setting up venns
 leftVenn = sketch.LeftVenn
@@ -98,10 +102,6 @@ for checkboxGroup in rightCheckboxes
 			RightOnState[index] = true
 		tick()
 
-# DOING THE NUMBERS
-myRecords = [300000, 100000, 75000, 25000]
-partnerRecords = [450000, 16500, 8500, 25000]
-
 myText = sketch.MyNumber
 partnerText = sketch.PartnerNumber
 overlapText = sketch.OverlapNumber
@@ -124,7 +124,8 @@ placeText = () ->
 				if(value2)
 					overlap += overlaps[index][index2]
 	for value,index in RightOnState
-		rightTotal += partnerRecords[index]			
+		if(value)
+			rightTotal += partnerRecords[index]			
 	
 	#Generating random overlap & Sizing
 	#if(leftTotal > rightTotal)

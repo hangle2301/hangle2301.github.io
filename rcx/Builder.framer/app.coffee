@@ -62,7 +62,6 @@ bottomHalf.y = bottomHalf.closeY
 makeInteractive(industryRowClosed)
 makeInteractive(doneButton)
 
-
 #Industry Row open and Close
 industryRowClosed.onClick ->
 	#industryRowOpen.visible = true
