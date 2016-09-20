@@ -42,7 +42,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 315,
 							"y": 87,
-							"width": 106,
+							"width": 237,
 							"height": 37
 						},
 						"visible": true,
@@ -54,7 +54,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 							"frame": {
 								"x": 315,
 								"y": 87,
-								"width": 106,
+								"width": 237,
 								"height": 37
 							}
 						},
@@ -1142,12 +1142,12 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 										"originalName": "PartnerWon",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 697,
+											"x": 696,
 											"y": 467,
-											"width": 14,
-											"height": 14
+											"width": 113,
+											"height": 15
 										},
-										"visible": true,
+										"visible": false,
 										"metadata": {
 											"opacity": 1
 										},

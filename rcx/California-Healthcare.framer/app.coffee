@@ -252,15 +252,32 @@ sfdc.onMouseOver ->
 sfdc.onMouseOut ->
 	sfdc.children[1].opacity = 0
 	sfdc.children[0].opacity = 1
-
-deployDropdown.opacity = 0
 makeInteractive(sfdc)
 makeInteractive(DeployButton)
+deployDropdown.opacity = 0
 DeployButton.onClick ->
 	if(deployDropdown.opacity == 0)
 		deployDropdown.opacity = 1
 	else
 		deployDropdown.opacity = 0
+
+#Other Clicking buttons
+segmentsClick = sketch.SegmentsClick
+programsClick = sketch.ProgramsClick
+performanceClick = sketch.PerformanceClick
+makeInteractive(segmentsClick)
+makeInteractive(programsClick)
+makeInteractive(performanceClick)
+segmentsClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224411'	
+programsClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
+performanceClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
+
 sfdc.onClick ->
 	#Go to deployment in Marvel
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224413'	
