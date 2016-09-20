@@ -57,9 +57,9 @@ leftOnState = [true, false, false, false]
 RightOnState = [true, false, false, false]
 
 # DOING THE NUMBERS
-myRecords = [18158, 847, 132, 227]
-partnerRecords = [17143, 612, 0, 78]
-overlaps = [[16193,500,0,25],[700,97,0,10],[100,5,0,20],[150,10,0,23]]
+myRecords = [17158, 1847, 132, 227]
+partnerRecords = [16143, 1612, 0, 78]
+overlaps = [[16193,500,0,25],[700,1097,0,10],[100,5,0,20],[150,10,0,23]]
 
 
 #Setting up venns
