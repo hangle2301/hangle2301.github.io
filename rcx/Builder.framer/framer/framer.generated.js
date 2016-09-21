@@ -4548,9 +4548,9 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 										"originalName": "preview-metrics",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
+											"x": 917,
 											"y": 242,
-											"width": 313,
+											"width": 312,
 											"height": 42
 										},
 										"visible": true,
@@ -4565,10 +4565,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"originalName": "metrics-total-records",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 916,
+													"x": 917,
 													"y": 242,
-													"width": 80,
-													"height": 39
+													"width": 99,
+													"height": 42
 												},
 												"visible": true,
 												"metadata": {
@@ -4577,10 +4577,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-metrics_total_records-qumwodiw.png",
 													"frame": {
-														"x": 916,
+														"x": 917,
 														"y": 242,
-														"width": 80,
-														"height": 39
+														"width": 99,
+														"height": 42
 													}
 												},
 												"children": []
@@ -4594,8 +4594,8 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"layerFrame": {
 													"x": 1028,
 													"y": 242,
-													"width": 77,
-													"height": 39
+													"width": 98,
+													"height": 42
 												},
 												"visible": true,
 												"metadata": {
@@ -4606,8 +4606,8 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 													"frame": {
 														"x": 1028,
 														"y": 242,
-														"width": 77,
-														"height": 39
+														"width": 98,
+														"height": 42
 													}
 												},
 												"children": [
@@ -4723,10 +4723,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 										"originalName": "record-breakdown",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
+											"x": 917,
 											"y": 307,
-											"width": 314,
-											"height": 108
+											"width": 313,
+											"height": 111
 										},
 										"visible": true,
 										"metadata": {
@@ -4743,7 +4743,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 													"x": 917,
 													"y": 307,
 													"width": 312,
-													"height": 15
+													"height": 17
 												},
 												"visible": true,
 												"metadata": {
@@ -4755,7 +4755,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 														"x": 917,
 														"y": 307,
 														"width": 312,
-														"height": 15
+														"height": 17
 													}
 												},
 												"children": []
@@ -4767,9 +4767,9 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"originalName": "open-breakdown",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 916,
+													"x": 917,
 													"y": 339,
-													"width": 313,
+													"width": 312,
 													"height": 17
 												},
 												"visible": true,
@@ -4779,9 +4779,9 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-open_breakdown-njyyndu3.png",
 													"frame": {
-														"x": 916,
+														"x": 917,
 														"y": 339,
-														"width": 313,
+														"width": 312,
 														"height": 17
 													}
 												},
@@ -4794,10 +4794,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"originalName": "won-breakdown",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 916,
+													"x": 917,
 													"y": 370,
-													"width": 314,
-													"height": 14
+													"width": 313,
+													"height": 17
 												},
 												"visible": true,
 												"metadata": {
@@ -4806,10 +4806,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-won_breakdown-nezfouy3.png",
 													"frame": {
-														"x": 916,
+														"x": 917,
 														"y": 370,
-														"width": 314,
-														"height": 14
+														"width": 313,
+														"height": 17
 													}
 												},
 												"children": []
@@ -4824,7 +4824,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 													"x": 917,
 													"y": 401,
 													"width": 312,
-													"height": 14
+													"height": 17
 												},
 												"visible": true,
 												"metadata": {
@@ -4836,7 +4836,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 														"x": 917,
 														"y": 401,
 														"width": 312,
-														"height": 14
+														"height": 17
 													}
 												},
 												"children": []
@@ -4924,9 +4924,9 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 										"originalName": "preview-metrics",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
+											"x": 917,
 											"y": 242,
-											"width": 313,
+											"width": 312,
 											"height": 42
 										},
 										"visible": true,
@@ -4941,10 +4941,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"originalName": "metrics-total-records",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 916,
+													"x": 917,
 													"y": 242,
-													"width": 80,
-													"height": 39
+													"width": 99,
+													"height": 42
 												},
 												"visible": true,
 												"metadata": {
@@ -4953,10 +4953,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-metrics_total_records-nki3mtq1.png",
 													"frame": {
-														"x": 916,
+														"x": 917,
 														"y": 242,
-														"width": 80,
-														"height": 39
+														"width": 99,
+														"height": 42
 													}
 												},
 												"children": []
@@ -4970,8 +4970,8 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"layerFrame": {
 													"x": 1028,
 													"y": 242,
-													"width": 87,
-													"height": 39
+													"width": 98,
+													"height": 42
 												},
 												"visible": true,
 												"metadata": {
@@ -4982,8 +4982,8 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 													"frame": {
 														"x": 1028,
 														"y": 242,
-														"width": 87,
-														"height": 39
+														"width": 98,
+														"height": 42
 													}
 												},
 												"children": [
@@ -5099,10 +5099,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 										"originalName": "record-breakdown",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
+											"x": 917,
 											"y": 307,
-											"width": 314,
-											"height": 108
+											"width": 313,
+											"height": 111
 										},
 										"visible": true,
 										"metadata": {
@@ -5119,7 +5119,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 													"x": 917,
 													"y": 307,
 													"width": 313,
-													"height": 15
+													"height": 17
 												},
 												"visible": true,
 												"metadata": {
@@ -5131,7 +5131,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 														"x": 917,
 														"y": 307,
 														"width": 313,
-														"height": 15
+														"height": 17
 													}
 												},
 												"children": []
@@ -5143,9 +5143,9 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"originalName": "open-breakdown",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 916,
+													"x": 917,
 													"y": 339,
-													"width": 314,
+													"width": 313,
 													"height": 17
 												},
 												"visible": true,
@@ -5155,9 +5155,9 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-open_breakdown-nufgrjze.png",
 													"frame": {
-														"x": 916,
+														"x": 917,
 														"y": 339,
-														"width": 314,
+														"width": 313,
 														"height": 17
 													}
 												},
@@ -5170,10 +5170,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"originalName": "won-breakdown",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 916,
+													"x": 917,
 													"y": 370,
-													"width": 314,
-													"height": 14
+													"width": 313,
+													"height": 17
 												},
 												"visible": true,
 												"metadata": {
@@ -5182,10 +5182,10 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-won_breakdown-qjjgqkmy.png",
 													"frame": {
-														"x": 916,
+														"x": 917,
 														"y": 370,
-														"width": 314,
-														"height": 14
+														"width": 313,
+														"height": 17
 													}
 												},
 												"children": []
@@ -5200,7 +5200,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 													"x": 917,
 													"y": 401,
 													"width": 313,
-													"height": 14
+													"height": 17
 												},
 												"visible": true,
 												"metadata": {
@@ -5212,7 +5212,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 														"x": 917,
 														"y": 401,
 														"width": 313,
-														"height": 14
+														"height": 17
 													}
 												},
 												"children": []
