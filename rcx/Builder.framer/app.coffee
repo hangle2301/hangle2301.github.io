@@ -51,9 +51,10 @@ pageContent.x = Align.center()
 #Prep file
 industryRowClosed = sketch.row_prod_tech
 industryRowOpen = sketch.row_tech_open
+industryRowEdit = sketch.row_prod_tech_edit
+industryRowEdit.opacity = 0
 doneButton = sketch.Button_Done
 bottomHalf = sketch.moveDown
-#industryRowOpen.visible = false
 industryRowOpen.opacity = 0
 bottomHalf.closeY = bottomHalf.y
 bottomHalf.openY = bottomHalf.y + industryRowOpen.height - 20
@@ -64,7 +65,7 @@ makeInteractive(doneButton)
 
 #Industry Row open and Close
 industryRowClosed.onClick ->
-	#industryRowOpen.visible = true
+	#Open Row
 	industryRowClosed.ignoreEvents = true
 	bottomHalf.animate
 		properties: 
@@ -83,6 +84,7 @@ industryRowClosed.onClick ->
 		time: 0.25
 	
 doneButton.onClick ->		
+	#Close Row
 	industryRowClosed.ignoreEvents = false
 	bottomHalf.animate
 		properties: 
@@ -95,11 +97,90 @@ doneButton.onClick ->
 			opacity: 0
 		curve: "linear"
 		time: 0.25
-	industryRowClosed.animate
+	industryRowEdit.animate
 		properties: 
 			opacity: 1
 		curve: "linear"
 		time: 0.25
+
+#Product search 
+prodSearchOn = sketch.input_prodsearch_on
+prodSearchOff = sketch.Input_prodsearch_off
+microsPOS = sketch.list_item_31
+prodSearchOn.opacity = 0
+makeInteractive(prodSearchOn)
+
+
+prodSearchOn.onClick ->
+	prodSearchOn.opacity = 1
+microsPOSListOn = sketch.Selected_Industries_on
+multiSelectBoxOn = sketch.Multi_Select_List_on
+multiSelectBoxOff = sketch.Multi_Select_List_off
+multiSelectBoxOn.opacity = 0
+pulsingAnimationA = new Animation
+	layer: multiSelectBoxOff
+	properties: 
+		opacity: 0.5
+	time: 1
+	curve: "ease-in-out"
+pulsingAnimationB = pulsingAnimationA.reverse()
+pulsingAnimationA.on(Events.AnimationEnd, pulsingAnimationB.start)
+pulsingAnimationB.on(Events.AnimationEnd, pulsingAnimationA.start)
+ 
+prodSearchOn.html = "<input id='prodSearch' type='text' value=''>"
+searchTextInput = prodSearchOn.querySelector("#prodSearch")
+searchTextInput.onkeyup = (event)->
+	# Faking loading Animation
+	pulsingAnimationA.stop()
+	pulsingAnimationB.stop()
+	if(event.keyCode != 13)
+		pulsingAnimationA.start()
+	else
+		multiSelectBoxOn.animate
+			properties:
+				opacity:1
+			time: 0.5	
+		multiSelectBoxOff.animate
+			properties:
+				opacity:0
+			time: 0.5	
+	
+searchTextInput.style["background-color"] = "rgba(255,255,255,0)"
+searchTextInput.style["font"] = "Apex New"
+searchTextInput.style["font-size"] = "14px"
+searchTextInput.style["color"] = "#303b3e"
+searchTextInput.style["width"] = "650px"
+searchTextInput.style["padding"] = "5px 10px 5px 10px"
+searchTextInput.style["margin-top"] = "8px" 
+
+#Micros POS click
+microsPOS.children[2].opacity = 0
+microsPOS.children[2].scale = 0.7
+microsItems = multiSelectBoxOn.children
+for item,index in microsItems
+	makeInteractive(item)
+	item.children[0].opacity = 0
+	item.onMouseOver ->
+		this.children[0].opacity = 1
+	item.onMouseOut ->
+		this.children[0].opacity = 0
+microsPOSListOn.opacity = 0
+microsPOS.onClick ->
+	#Animation
+	this.children[2].animate
+		properties:
+			opacity:1
+			scale: 1
+		time: 0.5
+		curve: "spring"
+	microsPOSListOn.animate
+		properties:
+			opacity:1
+		time: 0.5	
+	#Value on right side
+		
+	
+	
 
 # SAVE BUTTON
 saveButtonOn = sketch.button_save_on
