@@ -4490,7 +4490,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 							"x": 916,
 							"y": 188,
 							"width": 314,
-							"height": 490
+							"height": 489
 						},
 						"visible": true,
 						"metadata": {
@@ -4525,16 +4525,16 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 								"children": []
 							},
 							{
-								"objectId": "23591F41-CE3B-4FD3-82D9-247F8B28DAF7",
+								"objectId": "0B9651C7-9452-4061-9DA8-8524BABAFCFB",
 								"kind": "group",
-								"name": "preview_metrics",
-								"originalName": "preview-metrics",
+								"name": "sidebar_Before",
+								"originalName": "sidebar-Before",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 916,
 									"y": 242,
-									"width": 313,
-									"height": 42
+									"width": 314,
+									"height": 378
 								},
 								"visible": true,
 								"metadata": {
@@ -4542,135 +4542,135 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 								},
 								"children": [
 									{
-										"objectId": "6B7145C5-B485-496F-84F2-65F42D6B1272",
+										"objectId": "444B5B5B-8FA2-4F63-AEAC-0B1D9DB27B39",
 										"kind": "group",
-										"name": "metrics_total_records",
-										"originalName": "metrics-total-records",
+										"name": "preview_metrics",
+										"originalName": "preview-metrics",
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 916,
 											"y": 242,
-											"width": 80,
-											"height": 39
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-metrics_total_records-nki3mtq1.png",
-											"frame": {
-												"x": 916,
-												"y": 242,
-												"width": 80,
-												"height": 39
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "4B57B904-815D-48F1-AF08-0E3F53FE9E58",
-										"kind": "group",
-										"name": "metrics_hist_success",
-										"originalName": "metrics-hist-success",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 1028,
-											"y": 242,
-											"width": 77,
-											"height": 39
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-metrics_hist_success-nei1n0i5.png",
-											"frame": {
-												"x": 1028,
-												"y": 242,
-												"width": 77,
-												"height": 39
-											}
-										},
-										"children": [
-											{
-												"objectId": "ECB99CDC-B1DC-4E34-8747-DB2876CE5E4A",
-												"kind": "group",
-												"name": "icon_donut",
-												"originalName": "icon-donut",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 1028,
-													"y": 242,
-													"width": 18,
-													"height": 18
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-icon_donut-runcotld.png",
-													"frame": {
-														"x": 1028,
-														"y": 242,
-														"width": 18,
-														"height": 18
-													}
-												},
-												"children": []
-											}
-										]
-									},
-									{
-										"objectId": "C96F04A1-E332-4F27-8CE5-D1E749CE8ABA",
-										"kind": "group",
-										"name": "metrics_overlap",
-										"originalName": "metrics-overlap",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 1137,
-											"y": 242,
-											"width": 92,
+											"width": 313,
 											"height": 42
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
-										"image": {
-											"path": "images/Layer-metrics_overlap-qzk2rja0.png",
-											"frame": {
-												"x": 1137,
-												"y": 242,
-												"width": 92,
-												"height": 42
-											}
-										},
 										"children": [
 											{
-												"objectId": "5A56CDBA-7404-4970-B9D4-4F28EB365A8F",
+												"objectId": "AC08207C-4A29-4C69-9EDA-39FF389CB9B9",
 												"kind": "group",
-												"name": "icon_venn",
-												"originalName": "icon-venn",
+												"name": "metrics_total_records",
+												"originalName": "metrics-total-records",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 1137,
-													"y": 244,
-													"width": 18,
-													"height": 14
+													"x": 916,
+													"y": 242,
+													"width": 80,
+													"height": 39
 												},
 												"visible": true,
 												"metadata": {
 													"opacity": 1
 												},
+												"image": {
+													"path": "images/Layer-metrics_total_records-qumwodiw.png",
+													"frame": {
+														"x": 916,
+														"y": 242,
+														"width": 80,
+														"height": 39
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "0A6A5868-4853-486A-B8DE-C295CD92EB86",
+												"kind": "group",
+												"name": "metrics_hist_success",
+												"originalName": "metrics-hist-success",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 1028,
+													"y": 242,
+													"width": 77,
+													"height": 39
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-metrics_hist_success-mee2qtu4.png",
+													"frame": {
+														"x": 1028,
+														"y": 242,
+														"width": 77,
+														"height": 39
+													}
+												},
 												"children": [
 													{
-														"objectId": "8389AACF-36FB-4DBD-9B27-759753D8360F",
+														"objectId": "B4EBDC80-C050-494B-974E-27938D31D460",
 														"kind": "group",
-														"name": "Group_7",
-														"originalName": "Group 7",
+														"name": "icon_donut",
+														"originalName": "icon-donut",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 1028,
+															"y": 242,
+															"width": 18,
+															"height": 18
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-icon_donut-qjrfqkrd.png",
+															"frame": {
+																"x": 1028,
+																"y": 242,
+																"width": 18,
+																"height": 18
+															}
+														},
+														"children": []
+													}
+												]
+											},
+											{
+												"objectId": "FD28F7A4-B0CE-4259-AD96-3D89EDDD487E",
+												"kind": "group",
+												"name": "metrics_overlap",
+												"originalName": "metrics-overlap",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 1137,
+													"y": 242,
+													"width": 92,
+													"height": 42
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-metrics_overlap-rkqyoey3.png",
+													"frame": {
+														"x": 1137,
+														"y": 242,
+														"width": 92,
+														"height": 42
+													}
+												},
+												"children": [
+													{
+														"objectId": "22D440C4-1E40-4A2E-B42A-5A81E032353D",
+														"kind": "group",
+														"name": "icon_venn",
+														"originalName": "icon-venn",
 														"maskFrame": null,
 														"layerFrame": {
 															"x": 1137,
@@ -4682,202 +4682,597 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 														"metadata": {
 															"opacity": 1
 														},
-														"image": {
-															"path": "images/Layer-Group_7-odm4oufb.png",
-															"frame": {
-																"x": 1137,
-																"y": 244,
-																"width": 18,
-																"height": 14
+														"children": [
+															{
+																"objectId": "7408BE47-4062-4EE8-975A-8A79FEB1A336",
+																"kind": "group",
+																"name": "Group_7",
+																"originalName": "Group 7",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 1137,
+																	"y": 244,
+																	"width": 18,
+																	"height": 14
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-Group_7-nzqwoejf.png",
+																	"frame": {
+																		"x": 1137,
+																		"y": 244,
+																		"width": 18,
+																		"height": 14
+																	}
+																},
+																"children": []
 															}
-														},
-														"children": []
+														]
 													}
 												]
+											}
+										]
+									},
+									{
+										"objectId": "C20FBEA7-6B01-423C-989C-DA3AF8A2610B",
+										"kind": "group",
+										"name": "record_breakdown",
+										"originalName": "record-breakdown",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 916,
+											"y": 307,
+											"width": 314,
+											"height": 108
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "0140A66E-BE18-46D1-83D5-15E8447772FA",
+												"kind": "group",
+												"name": "new_breakdown",
+												"originalName": "new-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 917,
+													"y": 307,
+													"width": 312,
+													"height": 15
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-new_breakdown-mde0mee2.png",
+													"frame": {
+														"x": 917,
+														"y": 307,
+														"width": 312,
+														"height": 15
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "66245728-A610-49AC-837C-DDDAD82700EE",
+												"kind": "group",
+												"name": "open_breakdown",
+												"originalName": "open-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 339,
+													"width": 313,
+													"height": 17
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-open_breakdown-njyyndu3.png",
+													"frame": {
+														"x": 916,
+														"y": 339,
+														"width": 313,
+														"height": 17
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "4FE9F714-314D-4228-9B3F-775AD5B6B693",
+												"kind": "group",
+												"name": "won_breakdown",
+												"originalName": "won-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 370,
+													"width": 314,
+													"height": 14
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-won_breakdown-nezfouy3.png",
+													"frame": {
+														"x": 916,
+														"y": 370,
+														"width": 314,
+														"height": 14
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "184342AF-788C-4850-81EE-5EEA3E070793",
+												"kind": "group",
+												"name": "lost_breakdown",
+												"originalName": "lost-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 917,
+													"y": 401,
+													"width": 312,
+													"height": 14
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-lost_breakdown-mtg0mzqy.png",
+													"frame": {
+														"x": 917,
+														"y": 401,
+														"width": 312,
+														"height": 14
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "76DB42B6-FB0D-4BD1-B272-4AAF83BC42E8",
+										"kind": "group",
+										"name": "selected_signals",
+										"originalName": "selected-signals",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 916,
+											"y": 478,
+											"width": 314,
+											"height": 142
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-selected_signals-nzzeqjqy.png",
+											"frame": {
+												"x": 916,
+												"y": 478,
+												"width": 314,
+												"height": 142
+											}
+										},
+										"children": [
+											{
+												"objectId": "D686FA27-D876-4F27-ADBD-2C53669D0864",
+												"kind": "group",
+												"name": "heading_selected_signals",
+												"originalName": "heading-selected-signals",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 478,
+													"width": 314,
+													"height": 29
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-heading_selected_signals-rdy4nkzb.png",
+													"frame": {
+														"x": 916,
+														"y": 478,
+														"width": 314,
+														"height": 29
+													}
+												},
+												"children": []
 											}
 										]
 									}
 								]
 							},
 							{
-								"objectId": "553FA128-03E8-4C0D-8DD1-FC7DAE3D4483",
+								"objectId": "8435E933-CFE2-416C-94EE-5CFAC4D51530",
 								"kind": "group",
-								"name": "record_breakdown",
-								"originalName": "record-breakdown",
+								"name": "sidebar_After",
+								"originalName": "sidebar-After",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 916,
-									"y": 307,
-									"width": 313,
-									"height": 109
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"children": [
-									{
-										"objectId": "4F4B832C-DD18-491A-A903-110B05779A02",
-										"kind": "group",
-										"name": "new_breakdown",
-										"originalName": "new-breakdown",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 917,
-											"y": 307,
-											"width": 312,
-											"height": 15
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-new_breakdown-ney0qjgz.png",
-											"frame": {
-												"x": 917,
-												"y": 307,
-												"width": 312,
-												"height": 15
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "5AFF6D09-A35C-423C-8B8A-2DB90FBD2062",
-										"kind": "group",
-										"name": "open_breakdown",
-										"originalName": "open-breakdown",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 916,
-											"y": 339,
-											"width": 313,
-											"height": 17
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-open_breakdown-nufgrjze.png",
-											"frame": {
-												"x": 916,
-												"y": 339,
-												"width": 313,
-												"height": 17
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "B2FBC2ED-DEF2-4223-B566-EDEDBC23026D",
-										"kind": "group",
-										"name": "won_breakdown",
-										"originalName": "won-breakdown",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 916,
-											"y": 370,
-											"width": 313,
-											"height": 15
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-won_breakdown-qjjgqkmy.png",
-											"frame": {
-												"x": 916,
-												"y": 370,
-												"width": 313,
-												"height": 15
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "E38A6319-1189-449A-A780-57D065CEF4DA",
-										"kind": "group",
-										"name": "lost_breakdown",
-										"originalName": "lost-breakdown",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 917,
-											"y": 401,
-											"width": 312,
-											"height": 15
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-lost_breakdown-rtm4qtyz.png",
-											"frame": {
-												"x": 917,
-												"y": 401,
-												"width": 312,
-												"height": 15
-											}
-										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "C4B22BC6-0EA6-4607-AFB9-DE158BC623EC",
-								"kind": "group",
-								"name": "selected_signals",
-								"originalName": "selected-signals",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 916,
-									"y": 478,
+									"y": 242,
 									"width": 314,
-									"height": 200
+									"height": 435
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
-								"image": {
-									"path": "images/Layer-selected_signals-qzrcmjjc.png",
-									"frame": {
-										"x": 916,
-										"y": 478,
-										"width": 314,
-										"height": 200
-									}
-								},
 								"children": [
 									{
-										"objectId": "83B27465-0276-408F-9DF2-D1B5C1F0E354",
+										"objectId": "23591F41-CE3B-4FD3-82D9-247F8B28DAF7",
 										"kind": "group",
-										"name": "heading_selected_signals",
-										"originalName": "heading-selected-signals",
+										"name": "preview_metrics1",
+										"originalName": "preview-metrics",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 916,
+											"y": 242,
+											"width": 313,
+											"height": 42
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "6B7145C5-B485-496F-84F2-65F42D6B1272",
+												"kind": "group",
+												"name": "metrics_total_records1",
+												"originalName": "metrics-total-records",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 242,
+													"width": 80,
+													"height": 39
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-metrics_total_records-nki3mtq1.png",
+													"frame": {
+														"x": 916,
+														"y": 242,
+														"width": 80,
+														"height": 39
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "4B57B904-815D-48F1-AF08-0E3F53FE9E58",
+												"kind": "group",
+												"name": "metrics_hist_success1",
+												"originalName": "metrics-hist-success",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 1028,
+													"y": 242,
+													"width": 87,
+													"height": 39
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-metrics_hist_success-nei1n0i5.png",
+													"frame": {
+														"x": 1028,
+														"y": 242,
+														"width": 87,
+														"height": 39
+													}
+												},
+												"children": [
+													{
+														"objectId": "ECB99CDC-B1DC-4E34-8747-DB2876CE5E4A",
+														"kind": "group",
+														"name": "icon_donut1",
+														"originalName": "icon-donut",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 1028,
+															"y": 242,
+															"width": 18,
+															"height": 18
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-icon_donut-runcotld.png",
+															"frame": {
+																"x": 1028,
+																"y": 242,
+																"width": 18,
+																"height": 18
+															}
+														},
+														"children": []
+													}
+												]
+											},
+											{
+												"objectId": "C96F04A1-E332-4F27-8CE5-D1E749CE8ABA",
+												"kind": "group",
+												"name": "metrics_overlap1",
+												"originalName": "metrics-overlap",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 1137,
+													"y": 242,
+													"width": 92,
+													"height": 42
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-metrics_overlap-qzk2rja0.png",
+													"frame": {
+														"x": 1137,
+														"y": 242,
+														"width": 92,
+														"height": 42
+													}
+												},
+												"children": [
+													{
+														"objectId": "5A56CDBA-7404-4970-B9D4-4F28EB365A8F",
+														"kind": "group",
+														"name": "icon_venn1",
+														"originalName": "icon-venn",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 1137,
+															"y": 244,
+															"width": 18,
+															"height": 14
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"children": [
+															{
+																"objectId": "8389AACF-36FB-4DBD-9B27-759753D8360F",
+																"kind": "group",
+																"name": "Group_71",
+																"originalName": "Group 7",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 1137,
+																	"y": 244,
+																	"width": 18,
+																	"height": 14
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-Group_7-odm4oufb.png",
+																	"frame": {
+																		"x": 1137,
+																		"y": 244,
+																		"width": 18,
+																		"height": 14
+																	}
+																},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"objectId": "553FA128-03E8-4C0D-8DD1-FC7DAE3D4483",
+										"kind": "group",
+										"name": "record_breakdown1",
+										"originalName": "record-breakdown",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 916,
+											"y": 307,
+											"width": 314,
+											"height": 108
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "4F4B832C-DD18-491A-A903-110B05779A02",
+												"kind": "group",
+												"name": "new_breakdown1",
+												"originalName": "new-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 917,
+													"y": 307,
+													"width": 313,
+													"height": 15
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-new_breakdown-ney0qjgz.png",
+													"frame": {
+														"x": 917,
+														"y": 307,
+														"width": 313,
+														"height": 15
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "5AFF6D09-A35C-423C-8B8A-2DB90FBD2062",
+												"kind": "group",
+												"name": "open_breakdown1",
+												"originalName": "open-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 339,
+													"width": 314,
+													"height": 17
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-open_breakdown-nufgrjze.png",
+													"frame": {
+														"x": 916,
+														"y": 339,
+														"width": 314,
+														"height": 17
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "B2FBC2ED-DEF2-4223-B566-EDEDBC23026D",
+												"kind": "group",
+												"name": "won_breakdown1",
+												"originalName": "won-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 370,
+													"width": 314,
+													"height": 14
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-won_breakdown-qjjgqkmy.png",
+													"frame": {
+														"x": 916,
+														"y": 370,
+														"width": 314,
+														"height": 14
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "E38A6319-1189-449A-A780-57D065CEF4DA",
+												"kind": "group",
+												"name": "lost_breakdown1",
+												"originalName": "lost-breakdown",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 917,
+													"y": 401,
+													"width": 313,
+													"height": 14
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-lost_breakdown-rtm4qtyz.png",
+													"frame": {
+														"x": 917,
+														"y": 401,
+														"width": 313,
+														"height": 14
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "C4B22BC6-0EA6-4607-AFB9-DE158BC623EC",
+										"kind": "group",
+										"name": "selected_signals1",
+										"originalName": "selected-signals",
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 916,
 											"y": 478,
 											"width": 314,
-											"height": 29
+											"height": 199
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-heading_selected_signals-odncmjc0.png",
+											"path": "images/Layer-selected_signals-qzrcmjjc.png",
 											"frame": {
 												"x": 916,
 												"y": 478,
 												"width": 314,
-												"height": 29
+												"height": 199
 											}
 										},
-										"children": []
+										"children": [
+											{
+												"objectId": "83B27465-0276-408F-9DF2-D1B5C1F0E354",
+												"kind": "group",
+												"name": "heading_selected_signals1",
+												"originalName": "heading-selected-signals",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 916,
+													"y": 478,
+													"width": 314,
+													"height": 29
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-heading_selected_signals-odncmjc0.png",
+													"frame": {
+														"x": 916,
+														"y": 478,
+														"width": 314,
+														"height": 29
+													}
+												},
+												"children": []
+											}
+										]
 									}
 								]
 							}

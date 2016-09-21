@@ -159,6 +159,11 @@ searchTextInput.style["padding"] = "5px 10px 5px 10px"
 searchTextInput.style["margin-top"] = "8px" 
 searchTextInput.style["outline"] = "none" 
 
+#Sidebar
+sidebarBefore = sketch.sidebar_Before
+sidebarAfter = sketch.sidebar_After
+sidebarAfter.opacity = 0
+
 #Micros POS click
 microsPOS.children[2].opacity = 0
 microsPOS.children[2].scale = 0.7
@@ -184,7 +189,14 @@ microsPOS.onClick ->
 			opacity:1
 		time: 0.5	
 	#Value on right side
-		
+	sidebarBefore.animate
+		properties: 
+			opacity: 0
+		time: 1	
+	sidebarAfter.animate
+		properties: 
+			opacity: 1
+		time: 1
 	
 	
 
