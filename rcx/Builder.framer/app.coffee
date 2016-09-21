@@ -82,6 +82,11 @@ industryRowClosed.onClick ->
 			opacity: 0
 		curve: "linear"
 		time: 0.25
+	industryRowEdit.animate
+		properties: 
+			opacity: 0
+		curve: "linear"
+		time: 0.25
 	
 doneButton.onClick ->		
 	#Close Row
