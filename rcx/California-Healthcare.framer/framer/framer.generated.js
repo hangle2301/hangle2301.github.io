@@ -3091,7 +3091,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 322,
 							"y": 357,
-							"width": 517,
+							"width": 506,
 							"height": 160
 						},
 						"visible": true,
@@ -3103,7 +3103,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 							"frame": {
 								"x": 322,
 								"y": 357,
-								"width": 517,
+								"width": 506,
 								"height": 160
 							}
 						},
@@ -3418,27 +3418,35 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 						"children": [
 							{
 								"objectId": "5CE3269F-CE6B-4FD9-8486-D7DB4249DD34",
-								"kind": "group",
+								"kind": "text",
 								"name": "Group_31",
 								"originalName": "Group 3",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 514,
+									"x": 503,
 									"y": 357,
 									"width": 71,
-									"height": 44
+									"height": 15
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 1
+									"opacity": 1,
+									"string": "Overlapping",
+									"css": [
+										"/* Overlapping: */",
+										"font-family: ApexNew-Book;",
+										"font-size: 14px;",
+										"color: #303B3E;",
+										"line-height: 14px;"
+									]
 								},
 								"image": {
 									"path": "images/Layer-Group_3-nunfmzi2.png",
 									"frame": {
-										"x": 514,
+										"x": 503,
 										"y": 357,
 										"width": 71,
-										"height": 44
+										"height": 15
 									}
 								},
 								"children": []
@@ -3450,7 +3458,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"originalName": "OverlapNumber",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 504,
+									"x": 493,
 									"y": 327,
 									"width": 90,
 									"height": 25
@@ -3462,7 +3470,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-OverlapNumber-qjgwquqz.png",
 									"frame": {
-										"x": 504,
+										"x": 493,
 										"y": 327,
 										"width": 90,
 										"height": 25
