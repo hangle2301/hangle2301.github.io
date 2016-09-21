@@ -279,14 +279,14 @@ segmentsClick.onClick ->
 	#Go to segment dashboard
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224411'	
 programsClick.onClick ->
-	#Go to segment dashboard
+	#Go to programs dashboard
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
 performanceClick.onClick ->
-	#Go to segment dashboard
+	#Go to performance dashboard
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
 
 sfdc.onClick ->
 	#Go to deployment in Marvel
-	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224413'	
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15301577'	
 
 
