@@ -152,6 +152,7 @@ searchTextInput.style["color"] = "#303b3e"
 searchTextInput.style["width"] = "650px"
 searchTextInput.style["padding"] = "5px 10px 5px 10px"
 searchTextInput.style["margin-top"] = "8px" 
+searchTextInput.style["outline"] = "none" 
 
 #Micros POS click
 microsPOS.children[2].opacity = 0
@@ -204,6 +205,7 @@ textInput.style["font"] = "Apex New"
 textInput.style["font-size"] = "14px"
 textInput.style["color"] = "#303b3e"
 textInput.style["width"] = "470px"
+textInput.style["outline"] = "none" 
 textLayer.opacity = 0
 
 textLayer.onClick ->
