@@ -283,7 +283,7 @@ programsClick.onClick ->
 	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
 performanceClick.onClick ->
 	#Go to performance dashboard
-	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15364775'	
 
 sfdc.onClick ->
 	#Go to deployment in Marvel
