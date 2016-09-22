@@ -38,7 +38,7 @@ topMenu = sketch.Venn_Multiselection
 topMenu.html="<div id='top-bg'></div><div id='bottom-line'></div>"
 
 topBackground = topMenu.querySelectorAll("#top-bg")[0]
-topBackground.style["background-color"] = "#2b84c6"
+topBackground.style["background-color"] = "#2B84C6"
 topBackground.style["width"] = "100%"
 topBackground.style["height"] = "60px"
 
