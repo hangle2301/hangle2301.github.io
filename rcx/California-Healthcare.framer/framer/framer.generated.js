@@ -2893,7 +2893,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 							"x": 918,
 							"y": 200,
 							"width": 312,
-							"height": 573
+							"height": 593
 						},
 						"visible": true,
 						"metadata": {
@@ -2905,33 +2905,42 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"x": 918,
 								"y": 200,
 								"width": 312,
-								"height": 573
+								"height": 593
 							}
 						},
 						"children": [
 							{
 								"objectId": "8754D19A-F324-4437-B47C-707DD0AA31C5",
-								"kind": "group",
+								"kind": "text",
 								"name": "Group",
 								"originalName": "Group",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 919,
 									"y": 567,
-									"width": 73,
-									"height": 33
+									"width": 81,
+									"height": 54
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 1
+									"opacity": 1,
+									"string": "Industry\nFood Services\nRestaurants",
+									"css": [
+										"/* Industry Food Servic: */",
+										"font-family: ApexNew-Medium;",
+										"font-size: 14px;",
+										"color: #303B3E;",
+										"letter-spacing: 0px;",
+										"line-height: 21px;"
+									]
 								},
 								"image": {
 									"path": "images/Layer-Group-odc1neqx.png",
 									"frame": {
 										"x": 919,
 										"y": 567,
-										"width": 73,
-										"height": 33
+										"width": 81,
+										"height": 54
 									}
 								},
 								"children": []
@@ -2980,7 +2989,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1207,
-									"y": 706,
+									"y": 726,
 									"width": 23,
 									"height": 23
 								},
@@ -2992,7 +3001,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 									"path": "images/Layer-Question_Mark_3_Copy-qjqxqjqw.png",
 									"frame": {
 										"x": 1207,
-										"y": 706,
+										"y": 726,
 										"width": 23,
 										"height": 23
 									}

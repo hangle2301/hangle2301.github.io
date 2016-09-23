@@ -41,7 +41,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 917,
-							"y": 706,
+							"y": 727,
 							"width": 313,
 							"height": 92
 						},
@@ -53,7 +53,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 							"path": "images/Layer-Deployment-mkyzqjjf.png",
 							"frame": {
 								"x": 917,
-								"y": 706,
+								"y": 727,
 								"width": 313,
 								"height": 92
 							}
@@ -67,7 +67,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1206,
-									"y": 706,
+									"y": 727,
 									"width": 23,
 									"height": 23
 								},
@@ -79,7 +79,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 									"path": "images/Layer-Question_Mark_3_Copy-rue3mzy4.png",
 									"frame": {
 										"x": 1206,
-										"y": 706,
+										"y": 727,
 										"width": 23,
 										"height": 23
 									}
@@ -94,7 +94,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 1196,
-									"y": 771,
+									"y": 792,
 									"width": 34,
 									"height": 20
 								},
@@ -106,7 +106,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 									"path": "images/Layer-Group_12-rtkyqjix.png",
 									"frame": {
 										"x": 1196,
-										"y": 771,
+										"y": 792,
 										"width": 34,
 										"height": 20
 									}
@@ -485,7 +485,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 							"x": 918,
 							"y": 200,
 							"width": 312,
-							"height": 457
+							"height": 478
 						},
 						"visible": true,
 						"metadata": {
@@ -497,33 +497,42 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"x": 918,
 								"y": 200,
 								"width": 312,
-								"height": 457
+								"height": 478
 							}
 						},
 						"children": [
 							{
 								"objectId": "7AE83F76-6E47-4A22-9B6B-47A52765468E",
-								"kind": "group",
+								"kind": "text",
 								"name": "Group",
 								"originalName": "Group",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 919,
 									"y": 567,
-									"width": 73,
-									"height": 33
+									"width": 81,
+									"height": 54
 								},
 								"visible": true,
 								"metadata": {
-									"opacity": 1
+									"opacity": 1,
+									"string": "Industry\nFood Services\nRestaurants",
+									"css": [
+										"/* Industry Food Servic: */",
+										"font-family: ApexNew-Medium;",
+										"font-size: 14px;",
+										"color: #303B3E;",
+										"letter-spacing: 0px;",
+										"line-height: 21px;"
+									]
 								},
 								"image": {
 									"path": "images/Layer-Group-n0ffodng.png",
 									"frame": {
 										"x": 919,
 										"y": 567,
-										"width": 73,
-										"height": 33
+										"width": 81,
+										"height": 54
 									}
 								},
 								"children": []
