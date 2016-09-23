@@ -227,7 +227,20 @@ textLayer.opacity = 0
 
 textLayer.onClick ->
 	textLayer.opacity = 1
-	
-# BELL & WHISTLES
-industryRowClosed.onMouseOver ->
-	#some fancy animation
+
+#Other clicking on top	
+segmentsClick = sketch.SegmentsClick
+programsClick = sketch.ProgramsClick
+performanceClick = sketch.PerformanceClick
+makeInteractive(segmentsClick)
+makeInteractive(programsClick)
+makeInteractive(performanceClick)
+segmentsClick.onClick ->
+	#Go to segment dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224411'	
+programsClick.onClick ->
+	#Go to programs dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15224410'	
+performanceClick.onClick ->
+	#Go to performance dashboard
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15364775'

@@ -34,6 +34,87 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
+						"objectId": "0A367600-2ED3-40C6-9AC7-8069FE43B969",
+						"kind": "group",
+						"name": "SegmentsClick",
+						"originalName": "SegmentsClick",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 318,
+							"y": 83,
+							"width": 218,
+							"height": 37
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 0
+						},
+						"image": {
+							"path": "images/Layer-SegmentsClick-meeznjc2.png",
+							"frame": {
+								"x": 318,
+								"y": 83,
+								"width": 218,
+								"height": 37
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "A5313E48-5DCA-4B4F-ABAF-9DDE89A89534",
+						"kind": "group",
+						"name": "ProgramsClick",
+						"originalName": "ProgramsClick",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 202,
+							"y": 10,
+							"width": 232,
+							"height": 109
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 0
+						},
+						"image": {
+							"path": "images/Layer-ProgramsClick-qtuzmtnf.png",
+							"frame": {
+								"x": 202,
+								"y": 10,
+								"width": 232,
+								"height": 109
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "5C8F21BF-BEE4-492B-A194-12981AD72880",
+						"kind": "group",
+						"name": "PerformanceClick",
+						"originalName": "PerformanceClick",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 444,
+							"y": 12,
+							"width": 106,
+							"height": 37
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 0
+						},
+						"image": {
+							"path": "images/Layer-PerformanceClick-num4rjix.png",
+							"frame": {
+								"x": 444,
+								"y": 12,
+								"width": 106,
+								"height": 37
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "688E3E6B-51EC-4DDA-BAA5-3691B97F485B",
 						"kind": "group",
 						"name": "upperPart",
@@ -2473,7 +2554,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 							"x": 916,
 							"y": 188,
 							"width": 314,
-							"height": 489
+							"height": 510
 						},
 						"visible": true,
 						"metadata": {
@@ -2517,7 +2598,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 									"x": 916,
 									"y": 242,
 									"width": 314,
-									"height": 378
+									"height": 399
 								},
 								"visible": true,
 								"metadata": {
@@ -2836,7 +2917,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 											"x": 916,
 											"y": 478,
 											"width": 314,
-											"height": 142
+											"height": 163
 										},
 										"visible": true,
 										"metadata": {
@@ -2848,7 +2929,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"x": 916,
 												"y": 478,
 												"width": 314,
-												"height": 142
+												"height": 163
 											}
 										},
 										"children": [
@@ -2893,7 +2974,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 									"x": 916,
 									"y": 242,
 									"width": 314,
-									"height": 435
+									"height": 456
 								},
 								"visible": true,
 								"metadata": {
@@ -3212,7 +3293,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 											"x": 916,
 											"y": 478,
 											"width": 314,
-											"height": 199
+											"height": 220
 										},
 										"visible": true,
 										"metadata": {
@@ -3224,7 +3305,7 @@ window.__imported__["builder-prototype-2@1x/layers.json.js"] = [
 												"x": 916,
 												"y": 478,
 												"width": 314,
-												"height": 199
+												"height": 220
 											}
 										},
 										"children": [
