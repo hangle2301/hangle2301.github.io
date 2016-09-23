@@ -988,17 +988,17 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"originalName": "Group 3",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 507,
+									"x": 491,
 									"y": 357,
-									"width": 71,
-									"height": 15
+									"width": 103,
+									"height": 12
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1,
-									"string": "Overlapping",
+									"string": "Common Records",
 									"css": [
-										"/* Overlapping: */",
+										"/* Common Records: */",
 										"font-family: ApexNew-Book;",
 										"font-size: 14px;",
 										"color: #303B3E;",
@@ -1008,10 +1008,10 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Group_3-mzixodey.png",
 									"frame": {
-										"x": 507,
+										"x": 491,
 										"y": 357,
-										"width": 71,
-										"height": 15
+										"width": 103,
+										"height": 12
 									}
 								},
 								"children": []

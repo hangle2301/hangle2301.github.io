@@ -601,7 +601,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 322,
 							"y": 357,
-							"width": 506,
+							"width": 511,
 							"height": 160
 						},
 						"visible": true,
@@ -613,7 +613,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 							"frame": {
 								"x": 322,
 								"y": 357,
-								"width": 506,
+								"width": 511,
 								"height": 160
 							}
 						},
@@ -933,17 +933,17 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"originalName": "Group 3",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 503,
+									"x": 487,
 									"y": 357,
-									"width": 71,
-									"height": 15
+									"width": 103,
+									"height": 12
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1,
-									"string": "Overlapping",
+									"string": "Common Records",
 									"css": [
-										"/* Overlapping: */",
+										"/* Common Records: */",
 										"font-family: ApexNew-Book;",
 										"font-size: 14px;",
 										"color: #303B3E;",
@@ -953,10 +953,10 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Group_3-nunfmzi2.png",
 									"frame": {
-										"x": 503,
+										"x": 487,
 										"y": 357,
-										"width": 71,
-										"height": 15
+										"width": 103,
+										"height": 12
 									}
 								},
 								"children": []
