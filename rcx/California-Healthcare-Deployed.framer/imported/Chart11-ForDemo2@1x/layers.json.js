@@ -17,6 +17,33 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
+				"objectId": "26D64C60-2FD2-480B-BE1B-1290CE29FE16",
+				"kind": "group",
+				"name": "Group_17",
+				"originalName": "Group 17",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 492,
+					"y": 333,
+					"width": 11,
+					"height": 7
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group_17-mjzenjrd.png",
+					"frame": {
+						"x": 492,
+						"y": 333,
+						"width": 11,
+						"height": 7
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "382CF9AD-3C55-4BD5-BDDA-44EEE56C60E2",
 				"kind": "group",
 				"name": "everything",
@@ -2142,7 +2169,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 													{
 														"objectId": "A8984F03-7A56-4E14-B76F-2E12948E9B9A",
 														"kind": "group",
-														"name": "Group_17",
+														"name": "Group_171",
 														"originalName": "Group 17",
 														"maskFrame": null,
 														"layerFrame": {

@@ -34,6 +34,33 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
+						"objectId": "86429ABE-8A3D-468F-8EC7-164FEE9F01F3",
+						"kind": "group",
+						"name": "Group_17",
+						"originalName": "Group 17",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 492,
+							"y": 333,
+							"width": 11,
+							"height": 7
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_17-ody0mjlb.png",
+							"frame": {
+								"x": 492,
+								"y": 333,
+								"width": 11,
+								"height": 7
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "24A6FA19-5DAC-45B2-AED5-51D46640B69C",
 						"kind": "group",
 						"name": "PartnerWonJustToSee",
@@ -977,7 +1004,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"originalName": "OverlapNumber",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 493,
+									"x": 500,
 									"y": 327,
 									"width": 90,
 									"height": 25
@@ -989,7 +1016,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-OverlapNumber-qjgwquqz.png",
 									"frame": {
-										"x": 493,
+										"x": 500,
 										"y": 327,
 										"width": 90,
 										"height": 25
@@ -2087,7 +2114,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 													{
 														"objectId": "F2AA9536-0B06-4238-9FC7-6563515676FA",
 														"kind": "group",
-														"name": "Group_17",
+														"name": "Group_171",
 														"originalName": "Group 17",
 														"maskFrame": null,
 														"layerFrame": {
