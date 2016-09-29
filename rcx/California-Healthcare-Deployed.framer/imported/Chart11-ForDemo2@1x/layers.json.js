@@ -17,33 +17,6 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
-				"objectId": "26D64C60-2FD2-480B-BE1B-1290CE29FE16",
-				"kind": "group",
-				"name": "Group_17",
-				"originalName": "Group 17",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 492,
-					"y": 333,
-					"width": 11,
-					"height": 7
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-Group_17-mjzenjrd.png",
-					"frame": {
-						"x": 492,
-						"y": 333,
-						"width": 11,
-						"height": 7
-					}
-				},
-				"children": []
-			},
-			{
 				"objectId": "382CF9AD-3C55-4BD5-BDDA-44EEE56C60E2",
 				"kind": "group",
 				"name": "everything",
@@ -1008,15 +981,42 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 298,
-							"y": 357,
+							"y": 337,
 							"width": 413,
-							"height": 178
+							"height": 198
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"children": [
+							{
+								"objectId": "26D64C60-2FD2-480B-BE1B-1290CE29FE16",
+								"kind": "group",
+								"name": "Group_17",
+								"originalName": "Group 17",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 492,
+									"y": 337,
+									"width": 11,
+									"height": 7
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_17-mjzenjrd.png",
+									"frame": {
+										"x": 492,
+										"y": 337,
+										"width": 11,
+										"height": 7
+									}
+								},
+								"children": []
+							},
 							{
 								"objectId": "3218128F-475E-4098-ACF0-D11809DA5B09",
 								"kind": "text",
@@ -1059,7 +1059,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"originalName": "OverlapNumber",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 497,
+									"x": 500,
 									"y": 327,
 									"width": 90,
 									"height": 25
@@ -1071,7 +1071,7 @@ window.__imported__["Chart11-ForDemo2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-OverlapNumber-nte5oeuw.png",
 									"frame": {
-										"x": 497,
+										"x": 500,
 										"y": 327,
 										"width": 90,
 										"height": 25

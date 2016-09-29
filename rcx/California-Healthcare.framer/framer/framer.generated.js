@@ -2531,7 +2531,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 492,
-							"y": 333,
+							"y": 337,
 							"width": 11,
 							"height": 7
 						},
@@ -2543,7 +2543,7 @@ window.__imported__["Chart11-ForDemo1@1x/layers.json.js"] = [
 							"path": "images/Layer-Group_17-ody0mjlb.png",
 							"frame": {
 								"x": 492,
-								"y": 333,
+								"y": 337,
 								"width": 11,
 								"height": 7
 							}
