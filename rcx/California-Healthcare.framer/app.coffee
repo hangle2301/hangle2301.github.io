@@ -287,6 +287,6 @@ performanceClick.onClick ->
 
 sfdc.onClick ->
 	#Go to deployment in Marvel
-	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15301577'	
+	window.location.href = 'https://marvelapp.com/1c2bga9/screen/15301578'	
 
 
