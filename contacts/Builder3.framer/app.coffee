@@ -63,11 +63,14 @@ clickCompany.onClick ->
 titleCompany = sketch.title
 titleLocation = sketch.title1
 makeInteractive(titleCompany)
-makeInteractive(titleLocation)
+#makeInteractive(titleLocation)
 titleCompany.onClick ->
-	switcher.opacity = 1
-titleLocation.onClick ->
-	switcher.opacity = 1
+	if(switcher.opacity == 0)
+		switcher.opacity = 1
+	else
+		switcher.opacity = 0
+#titleLocation.onClick ->
+#	switcher.opacity = 1
 		
 
 
