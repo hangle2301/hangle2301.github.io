@@ -461,7 +461,7 @@ window.__imported__["Contacts-Prototype-Opt1@1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 916,
 									"y": 466,
-									"width": 316,
+									"width": 314,
 									"height": 24
 								},
 								"visible": true,
@@ -473,7 +473,7 @@ window.__imported__["Contacts-Prototype-Opt1@1x/layers.json.js"] = [
 									"frame": {
 										"x": 916,
 										"y": 466,
-										"width": 316,
+										"width": 314,
 										"height": 24
 									}
 								},
