@@ -20,6 +20,9 @@ scroll.height = Screen.height
 scroll.mouseWheelEnabled = true
 scroll.scrollHorizontal = false
 sketch.everything.draggable.enabled = false
+# Center all
+pageContent = sketch.everything
+pageContent.x = Align.center()
 # Project Info
 # This info is presented in a widget when you share.
 # http://framerjs.com/docs/#info.info
