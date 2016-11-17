@@ -18,11 +18,7 @@ scroll = ScrollComponent.wrap(sketch.everything)
 scroll.width = Screen.width
 scroll.height = Screen.height
 scroll.mouseWheelEnabled = true
-scroll.scrollHorizontal = false
 sketch.everything.draggable.enabled = false
-# Center all
-pageContent = sketch.Opt1
-pageContent.x = Align.center()
 # Project Info
 # This info is presented in a widget when you share.
 # http://framerjs.com/docs/#info.info
@@ -74,7 +70,11 @@ for stage, index in funnelStages
 			this.parent.children[1].opacity = 1
 			this.parent.children[0].opacity = 0
 		rePosition()
-	
+
+# Next bt click
+makeInteractive(sketch.nextBt)
+sketch.nextBt.onClick ->
+	window.location.href = 'https://hangle2301.github.io/contacts/Builder2.framer/'		
 
 
 

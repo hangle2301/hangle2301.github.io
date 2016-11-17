@@ -34,6 +34,33 @@ window.__imported__["Contacts-Prototype-Opt1@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
+						"objectId": "A2F77763-2187-46CF-B81F-7D5049EEE5AE",
+						"kind": "group",
+						"name": "nextBt",
+						"originalName": "nextBt",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1119,
+							"y": 1160,
+							"width": 115,
+							"height": 22
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-nextBt-qtjgnzc3.png",
+							"frame": {
+								"x": 1119,
+								"y": 1160,
+								"width": 115,
+								"height": 22
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "4EB9B41B-595B-42AF-9AED-DB8A3F70B742",
 						"kind": "group",
 						"name": "Lost",
@@ -1565,9 +1592,9 @@ window.__imported__["Contacts-Prototype-Opt1@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 916,
-							"y": 188,
+							"y": 187,
 							"width": 314,
-							"height": 107
+							"height": 108
 						},
 						"visible": true,
 						"metadata": {
@@ -1577,9 +1604,9 @@ window.__imported__["Contacts-Prototype-Opt1@1x/layers.json.js"] = [
 							"path": "images/Layer-Right-njkyodex.png",
 							"frame": {
 								"x": 916,
-								"y": 188,
+								"y": 187,
 								"width": 314,
-								"height": 107
+								"height": 108
 							}
 						},
 						"children": []

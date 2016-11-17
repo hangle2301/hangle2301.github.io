@@ -18,11 +18,8 @@ scroll = ScrollComponent.wrap(sketch.everything)
 scroll.width = Screen.width
 scroll.height = Screen.height
 scroll.mouseWheelEnabled = true
-scroll.scrollHorizontal = false
 sketch.everything.draggable.enabled = false
-# Center all
-pageContent = sketch.Opt3
-pageContent.x = Align.center()
+
 # Project Info
 # This info is presented in a widget when you share.
 # http://framerjs.com/docs/#info.info
@@ -71,7 +68,11 @@ titleCompany.onClick ->
 		switcher.opacity = 0
 #titleLocation.onClick ->
 #	switcher.opacity = 1
-		
+
+# Next bt click
+makeInteractive(sketch.nextBt)
+sketch.nextBt.onClick ->
+	window.location.href = 'https://hangle2301.github.io/contacts/Builder1.framer/'		
 
 
 

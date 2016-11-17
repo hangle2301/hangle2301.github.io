@@ -34,6 +34,33 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 				},
 				"children": [
 					{
+						"objectId": "4E1B7E38-E6BA-4301-9A62-BE9F3109DFA9",
+						"kind": "group",
+						"name": "nextBt",
+						"originalName": "nextBt",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1124,
+							"y": 1172,
+							"width": 115,
+							"height": 22
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-nextBt-neuxqjdf.png",
+							"frame": {
+								"x": 1124,
+								"y": 1172,
+								"width": 115,
+								"height": 22
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "27D4467C-0D2B-43FD-B96D-E8C7B153D485",
 						"kind": "group",
 						"name": "option",
@@ -1217,9 +1244,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 916,
-							"y": 188,
+							"y": 187,
 							"width": 314,
-							"height": 107
+							"height": 108
 						},
 						"visible": true,
 						"metadata": {
@@ -1229,9 +1256,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 							"path": "images/Layer-Right-njvfrjbe.png",
 							"frame": {
 								"x": 916,
-								"y": 188,
+								"y": 187,
 								"width": 314,
-								"height": 107
+								"height": 108
 							}
 						},
 						"children": []
