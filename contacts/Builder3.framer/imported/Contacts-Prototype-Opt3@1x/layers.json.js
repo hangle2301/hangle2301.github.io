@@ -312,9 +312,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 								"originalName": "company",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 1057,
+									"x": 1053,
 									"y": 324,
-									"width": 63,
+									"width": 67,
 									"height": 155
 								},
 								"visible": true,
@@ -324,36 +324,26 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 								"children": [
 									{
 										"objectId": "1DB4B2DB-E682-4004-91B9-E7A9D1607FBD",
-										"kind": "text",
+										"kind": "group",
 										"name": "title",
 										"originalName": "title",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1060,
+											"x": 1053,
 											"y": 324,
-											"width": 57,
+											"width": 67,
 											"height": 13
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1,
-											"string": "Companies",
-											"css": [
-												"/* Companies: */",
-												"opacity: 0.89;",
-												"font-family: ApexNew-Medium;",
-												"font-size: 12px;",
-												"color: #2B81C8;",
-												"letter-spacing: 0;",
-												"line-height: 12px;"
-											]
+											"opacity": 1
 										},
 										"image": {
 											"path": "images/Layer-title-murcneiy.png",
 											"frame": {
-												"x": 1060,
+												"x": 1053,
 												"y": 324,
-												"width": 57,
+												"width": 67,
 												"height": 13
 											}
 										},
@@ -366,9 +356,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 										"originalName": "Group 6",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1057,
+											"x": 1054,
 											"y": 342,
-											"width": 63,
+											"width": 66,
 											"height": 137
 										},
 										"visible": true,
@@ -378,9 +368,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Group_6-qti1mum0.png",
 											"frame": {
-												"x": 1057,
+												"x": 1054,
 												"y": 342,
-												"width": 63,
+												"width": 66,
 												"height": 137
 											}
 										},
@@ -407,36 +397,26 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 								"children": [
 									{
 										"objectId": "275BA83F-95AB-4A7A-B50E-0F519335F157",
-										"kind": "text",
+										"kind": "group",
 										"name": "title1",
 										"originalName": "title",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1067,
+											"x": 1063,
 											"y": 325,
-											"width": 50,
+											"width": 60,
 											"height": 10
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1,
-											"string": "Locations",
-											"css": [
-												"/* Locations: */",
-												"opacity: 0.89;",
-												"font-family: ApexNew-Medium;",
-												"font-size: 12px;",
-												"color: #2B81C8;",
-												"letter-spacing: 0;",
-												"line-height: 12px;"
-											]
+											"opacity": 1
 										},
 										"image": {
 											"path": "images/Layer-title-mjc1qke4.png",
 											"frame": {
-												"x": 1067,
+												"x": 1063,
 												"y": 325,
-												"width": 50,
+												"width": 60,
 												"height": 10
 											}
 										},
