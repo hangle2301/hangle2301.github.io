@@ -73,7 +73,7 @@ titleCompany.onClick ->
 # Next bt click
 makeInteractive(sketch.nextBt)
 sketch.nextBt.onClick ->
-	window.location.href = 'https://hangle2301.github.io/contacts/Builder1.framer/'		
+	window.location.href = 'https://hangle2301.github.io/contacts/Builder1-T.framer/'		
 
 
 

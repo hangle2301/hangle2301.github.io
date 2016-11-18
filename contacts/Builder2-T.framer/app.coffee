@@ -70,7 +70,7 @@ for stage, index in funnelStages
 # Next bt click
 makeInteractive(sketch.nextBt)
 sketch.nextBt.onClick ->
-	window.location.href = 'https://hangle2301.github.io/contacts/Builder3.framer/'			
+	window.location.href = 'https://hangle2301.github.io/contacts/Builder3-T.framer/'			
 
 
 
