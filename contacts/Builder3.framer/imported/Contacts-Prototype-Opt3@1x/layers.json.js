@@ -1244,9 +1244,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 916,
-							"y": 187,
+							"y": 188,
 							"width": 314,
-							"height": 108
+							"height": 107
 						},
 						"visible": true,
 						"metadata": {
@@ -1256,9 +1256,9 @@ window.__imported__["Contacts-Prototype-Opt3@1x/layers.json.js"] = [
 							"path": "images/Layer-Right-njvfrjbe.png",
 							"frame": {
 								"x": 916,
-								"y": 187,
+								"y": 188,
 								"width": 314,
-								"height": 108
+								"height": 107
 							}
 						},
 						"children": []

@@ -1699,8 +1699,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 				"originalName": "everything",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 0,
-					"y": 0,
+					"x": -3,
+					"y": -2,
 					"width": 1441,
 					"height": 1230
 				},
@@ -1746,7 +1746,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 							"x": 917,
 							"y": 554,
 							"width": 316,
-							"height": 79
+							"height": 90
 						},
 						"visible": true,
 						"metadata": {
@@ -1864,7 +1864,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 									"x": 917,
 									"y": 554,
 									"width": 316,
-									"height": 79
+									"height": 90
 								},
 								"visible": true,
 								"metadata": {
@@ -1880,8 +1880,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"layerFrame": {
 											"x": 917,
 											"y": 604,
-											"width": 142,
-											"height": 29
+											"width": 294,
+											"height": 40
 										},
 										"visible": true,
 										"metadata": {
@@ -1889,16 +1889,43 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										},
 										"children": [
 											{
+												"objectId": "21E4228A-48D7-42FE-A734-7FE3E1135DCD",
+												"kind": "group",
+												"name": "Group_5_Copy",
+												"originalName": "Group 5 Copy",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 1128,
+													"y": 604,
+													"width": 83,
+													"height": 40
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_5_Copy-mjffndiy.png",
+													"frame": {
+														"x": 1128,
+														"y": 604,
+														"width": 83,
+														"height": 40
+													}
+												},
+												"children": []
+											},
+											{
 												"objectId": "B2EF3641-1923-4E03-8D69-92FAD9D96EA1",
 												"kind": "group",
 												"name": "Group_5",
 												"originalName": "Group 5",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 1004,
+													"x": 1014,
 													"y": 604,
-													"width": 55,
-													"height": 29
+													"width": 83,
+													"height": 40
 												},
 												"visible": true,
 												"metadata": {
@@ -1907,10 +1934,10 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Group_5-qjjfrjm2.png",
 													"frame": {
-														"x": 1004,
+														"x": 1014,
 														"y": 604,
-														"width": 55,
-														"height": 29
+														"width": 83,
+														"height": 40
 													}
 												},
 												"children": []
@@ -1925,7 +1952,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 													"x": 917,
 													"y": 604,
 													"width": 59,
-													"height": 28
+													"height": 40
 												},
 												"visible": true,
 												"metadata": {
@@ -1937,7 +1964,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"x": 917,
 														"y": 604,
 														"width": 59,
-														"height": 28
+														"height": 40
 													}
 												},
 												"children": []
@@ -2040,7 +2067,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 							"x": 917,
 							"y": 441,
 							"width": 316,
-							"height": 78
+							"height": 79
 						},
 						"visible": true,
 						"metadata": {
@@ -2130,7 +2157,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 									"x": 917,
 									"y": 441,
 									"width": 316,
-									"height": 78
+									"height": 79
 								},
 								"visible": true,
 								"metadata": {
@@ -2147,7 +2174,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 											"x": 917,
 											"y": 492,
 											"width": 282,
-											"height": 27
+											"height": 28
 										},
 										"visible": true,
 										"metadata": {
@@ -2218,7 +2245,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 													"x": 998,
 													"y": 492,
 													"width": 55,
-													"height": 27
+													"height": 28
 												},
 												"visible": true,
 												"metadata": {
@@ -2230,7 +2257,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"x": 998,
 														"y": 492,
 														"width": 55,
-														"height": 27
+														"height": 28
 													}
 												},
 												"children": []
@@ -2351,7 +2378,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 							"x": 917,
 							"y": 331,
 							"width": 316,
-							"height": 78
+							"height": 79
 						},
 						"visible": true,
 						"metadata": {
@@ -2441,7 +2468,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 									"x": 917,
 									"y": 331,
 									"width": 316,
-									"height": 78
+									"height": 79
 								},
 								"visible": true,
 								"metadata": {
@@ -2513,7 +2540,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 											"x": 917,
 											"y": 382,
 											"width": 282,
-											"height": 27
+											"height": 28
 										},
 										"visible": true,
 										"metadata": {
@@ -2584,7 +2611,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 													"x": 998,
 													"y": 382,
 													"width": 55,
-													"height": 27
+													"height": 28
 												},
 												"visible": true,
 												"metadata": {
@@ -2596,7 +2623,7 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"x": 998,
 														"y": 382,
 														"width": 55,
-														"height": 27
+														"height": 28
 													}
 												},
 												"children": []
@@ -2641,8 +2668,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 						"originalName": "everything",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 0,
-							"y": 0,
+							"x": -3,
+							"y": -2,
 							"width": 1441,
 							"height": 1230
 						},
@@ -2658,8 +2685,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"originalName": "Left",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 209,
-									"y": 188,
+									"x": 206,
+									"y": 186,
 									"width": 667,
 									"height": 959
 								},
@@ -2670,8 +2697,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Left-oergodrg.png",
 									"frame": {
-										"x": 209,
-										"y": 188,
+										"x": 206,
+										"y": 186,
 										"width": 667,
 										"height": 959
 									}
@@ -2684,8 +2711,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"originalName": "Group 2",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 212,
-											"y": 525,
+											"x": 209,
+											"y": 523,
 											"width": 655,
 											"height": 26
 										},
@@ -2696,8 +2723,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Group_2-ouzbmjyz.png",
 											"frame": {
-												"x": 212,
-												"y": 525,
+												"x": 209,
+												"y": 523,
 												"width": 655,
 												"height": 26
 											}
@@ -2710,8 +2737,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 26",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 525,
+													"x": 814,
+													"y": 523,
 													"width": 50,
 													"height": 26
 												},
@@ -2722,8 +2749,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_26-rui3quu5.png",
 													"frame": {
-														"x": 817,
-														"y": 525,
+														"x": 814,
+														"y": 523,
 														"width": 50,
 														"height": 26
 													}
@@ -2739,8 +2766,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"originalName": "Contact BG",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 209,
-											"y": 475,
+											"x": 206,
+											"y": 473,
 											"width": 667,
 											"height": 216
 										},
@@ -2751,8 +2778,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Contact_BG-odhenzy5.png",
 											"frame": {
-												"x": 209,
-												"y": 475,
+												"x": 206,
+												"y": 473,
 												"width": 667,
 												"height": 216
 											}
@@ -2765,8 +2792,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Group 3",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 209,
-													"y": 574,
+													"x": 206,
+													"y": 572,
 													"width": 666,
 													"height": 117
 												},
@@ -2777,8 +2804,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Group_3-rue1nurf.png",
 													"frame": {
-														"x": 209,
-														"y": 574,
+														"x": 206,
+														"y": 572,
 														"width": 666,
 														"height": 117
 													}
@@ -2791,8 +2818,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"originalName": "Group Copy",
 														"maskFrame": null,
 														"layerFrame": {
-															"x": 510,
-															"y": 678,
+															"x": 507,
+															"y": 676,
 															"width": 66,
 															"height": 13
 														},
@@ -2803,8 +2830,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"image": {
 															"path": "images/Layer-Group_Copy-otezrjay.png",
 															"frame": {
-																"x": 510,
-																"y": 678,
+																"x": 507,
+																"y": 676,
 																"width": 66,
 																"height": 13
 															}
@@ -2818,8 +2845,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"originalName": "Button-Small Encouraged / Default Copy 30",
 														"maskFrame": null,
 														"layerFrame": {
-															"x": 817,
-															"y": 574,
+															"x": 814,
+															"y": 572,
 															"width": 50,
 															"height": 26
 														},
@@ -2830,8 +2857,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"image": {
 															"path": "images/Layer-Button_Small_Encouraged_Default_Copy_30-neneqzgx.png",
 															"frame": {
-																"x": 817,
-																"y": 574,
+																"x": 814,
+																"y": 572,
 																"width": 50,
 																"height": 26
 															}
@@ -2845,8 +2872,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"originalName": "Button-Small Encouraged / Default Copy 28",
 														"maskFrame": null,
 														"layerFrame": {
-															"x": 817,
-															"y": 621,
+															"x": 814,
+															"y": 619,
 															"width": 50,
 															"height": 26
 														},
@@ -2857,8 +2884,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 														"image": {
 															"path": "images/Layer-Button_Small_Encouraged_Default_Copy_28-nuy0mtu0.png",
 															"frame": {
-																"x": 817,
-																"y": 621,
+																"x": 814,
+																"y": 619,
 																"width": 50,
 																"height": 26
 															}
@@ -2874,8 +2901,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Question Mark 3 Copy 14",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 335,
-													"y": 475,
+													"x": 332,
+													"y": 473,
 													"width": 18,
 													"height": 18
 												},
@@ -2886,8 +2913,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Question_Mark_3_Copy_14-mjazrdcw.png",
 													"frame": {
-														"x": 335,
-														"y": 475,
+														"x": 332,
+														"y": 473,
 														"width": 18,
 														"height": 18
 													}
@@ -2903,8 +2930,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"originalName": "Industry",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 209,
-											"y": 287,
+											"x": 206,
+											"y": 285,
 											"width": 658,
 											"height": 26
 										},
@@ -2915,8 +2942,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Industry-rurerum1.png",
 											"frame": {
-												"x": 209,
-												"y": 287,
+												"x": 206,
+												"y": 285,
 												"width": 658,
 												"height": 26
 											}
@@ -2929,8 +2956,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 29",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 287,
+													"x": 814,
+													"y": 285,
 													"width": 50,
 													"height": 26
 												},
@@ -2941,8 +2968,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_29-ode3qtde.png",
 													"frame": {
-														"x": 817,
-														"y": 287,
+														"x": 814,
+														"y": 285,
 														"width": 50,
 														"height": 26
 													}
@@ -2958,8 +2985,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"originalName": "Business BG",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 209,
-											"y": 188,
+											"x": 206,
+											"y": 186,
 											"width": 667,
 											"height": 256
 										},
@@ -2970,8 +2997,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Business_BG-oufdmjux.png",
 											"frame": {
-												"x": 209,
-												"y": 188,
+												"x": 206,
+												"y": 186,
 												"width": 667,
 												"height": 256
 											}
@@ -2984,8 +3011,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Group",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 510,
-													"y": 431,
+													"x": 507,
+													"y": 429,
 													"width": 66,
 													"height": 13
 												},
@@ -2996,8 +3023,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Group-mee4rtc4.png",
 													"frame": {
-														"x": 510,
-														"y": 431,
+														"x": 507,
+														"y": 429,
 														"width": 66,
 														"height": 13
 													}
@@ -3011,8 +3038,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 31",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 381,
+													"x": 814,
+													"y": 379,
 													"width": 50,
 													"height": 26
 												},
@@ -3023,8 +3050,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-njbgqke4.png",
 													"frame": {
-														"x": 817,
-														"y": 381,
+														"x": 814,
+														"y": 379,
 														"width": 50,
 														"height": 26
 													}
@@ -3038,8 +3065,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 27",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 334,
+													"x": 814,
+													"y": 332,
 													"width": 50,
 													"height": 26
 												},
@@ -3050,8 +3077,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_27-quuyouqy.png",
 													"frame": {
-														"x": 817,
-														"y": 334,
+														"x": 814,
+														"y": 332,
 														"width": 50,
 														"height": 26
 													}
@@ -3065,8 +3092,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 25",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 238,
+													"x": 814,
+													"y": 236,
 													"width": 50,
 													"height": 26
 												},
@@ -3077,8 +3104,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_25-mdbemdm4.png",
 													"frame": {
-														"x": 817,
-														"y": 238,
+														"x": 814,
+														"y": 236,
 														"width": 50,
 														"height": 26
 													}
@@ -3092,8 +3119,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Question Mark 3 Copy 13",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 346,
-													"y": 188,
+													"x": 343,
+													"y": 186,
 													"width": 18,
 													"height": 18
 												},
@@ -3104,8 +3131,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Question_Mark_3_Copy_13-quu4mumz.png",
 													"frame": {
-														"x": 346,
-														"y": 188,
+														"x": 343,
+														"y": 186,
 														"width": 18,
 														"height": 18
 													}
@@ -3121,8 +3148,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"originalName": "Bottom",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 209,
-											"y": 732,
+											"x": 206,
+											"y": 730,
 											"width": 667,
 											"height": 415
 										},
@@ -3133,8 +3160,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 										"image": {
 											"path": "images/Layer-Bottom-nengrtbc.png",
 											"frame": {
-												"x": 209,
-												"y": 732,
+												"x": 206,
+												"y": 730,
 												"width": 667,
 												"height": 415
 											}
@@ -3147,8 +3174,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 36",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 925,
+													"x": 814,
+													"y": 923,
 													"width": 50,
 													"height": 26
 												},
@@ -3159,8 +3186,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_36-njc2rjky.png",
 													"frame": {
-														"x": 817,
-														"y": 925,
+														"x": 814,
+														"y": 923,
 														"width": 50,
 														"height": 26
 													}
@@ -3174,8 +3201,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 39",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 1110,
+													"x": 814,
+													"y": 1108,
 													"width": 50,
 													"height": 26
 												},
@@ -3186,8 +3213,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_39-quy1mda2.png",
 													"frame": {
-														"x": 817,
-														"y": 1110,
+														"x": 814,
+														"y": 1108,
 														"width": 50,
 														"height": 26
 													}
@@ -3201,8 +3228,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 35",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 831,
+													"x": 814,
+													"y": 829,
 													"width": 50,
 													"height": 26
 												},
@@ -3213,8 +3240,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_35-qku4oue0.png",
 													"frame": {
-														"x": 817,
-														"y": 831,
+														"x": 814,
+														"y": 829,
 														"width": 50,
 														"height": 26
 													}
@@ -3228,8 +3255,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 34",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 878,
+													"x": 814,
+													"y": 876,
 													"width": 50,
 													"height": 26
 												},
@@ -3240,8 +3267,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_34-rtcynjm0.png",
 													"frame": {
-														"x": 817,
-														"y": 878,
+														"x": 814,
+														"y": 876,
 														"width": 50,
 														"height": 26
 													}
@@ -3255,8 +3282,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 37",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 1061,
+													"x": 814,
+													"y": 1059,
 													"width": 50,
 													"height": 26
 												},
@@ -3267,8 +3294,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_37-nuy0qjqw.png",
 													"frame": {
-														"x": 817,
-														"y": 1061,
+														"x": 814,
+														"y": 1059,
 														"width": 50,
 														"height": 26
 													}
@@ -3282,8 +3309,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Button-Small Encouraged / Default Copy 33",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 817,
-													"y": 782,
+													"x": 814,
+													"y": 780,
 													"width": 50,
 													"height": 26
 												},
@@ -3294,8 +3321,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_33-rei2rdmw.png",
 													"frame": {
-														"x": 817,
-														"y": 782,
+														"x": 814,
+														"y": 780,
 														"width": 50,
 														"height": 26
 													}
@@ -3309,8 +3336,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Question Mark 3 Copy 16",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 333,
-													"y": 1011,
+													"x": 330,
+													"y": 1009,
 													"width": 18,
 													"height": 18
 												},
@@ -3321,8 +3348,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Question_Mark_3_Copy_16-rju4qjnb.png",
 													"frame": {
-														"x": 333,
-														"y": 1011,
+														"x": 330,
+														"y": 1009,
 														"width": 18,
 														"height": 18
 													}
@@ -3336,8 +3363,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"originalName": "Question Mark 3 Copy 15",
 												"maskFrame": null,
 												"layerFrame": {
-													"x": 319,
-													"y": 732,
+													"x": 316,
+													"y": 730,
 													"width": 18,
 													"height": 18
 												},
@@ -3348,8 +3375,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 												"image": {
 													"path": "images/Layer-Question_Mark_3_Copy_15-qju4rtcx.png",
 													"frame": {
-														"x": 319,
-														"y": 732,
+														"x": 316,
+														"y": 730,
 														"width": 18,
 														"height": 18
 													}
@@ -3367,10 +3394,10 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"originalName": "Right",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 916,
-									"y": 187,
+									"x": 913,
+									"y": 186,
 									"width": 314,
-									"height": 108
+									"height": 107
 								},
 								"visible": true,
 								"metadata": {
@@ -3379,10 +3406,10 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Right-nzu2nzjf.png",
 									"frame": {
-										"x": 916,
-										"y": 187,
+										"x": 913,
+										"y": 186,
 										"width": 314,
-										"height": 108
+										"height": 107
 									}
 								},
 								"children": []
@@ -3394,8 +3421,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"originalName": "Group 4",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 0,
-									"y": 0,
+									"x": -3,
+									"y": -2,
 									"width": 1441,
 									"height": 138
 								},
@@ -3406,8 +3433,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Group_4-oeu1qknb.png",
 									"frame": {
-										"x": 0,
-										"y": 0,
+										"x": -3,
+										"y": -2,
 										"width": 1441,
 										"height": 138
 									}
@@ -3421,8 +3448,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"originalName": "Button-Small Encouraged / Default Copy 12",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 1157,
-									"y": 80,
+									"x": 1154,
+									"y": 78,
 									"width": 74,
 									"height": 35
 								},
@@ -3433,8 +3460,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Button_Small_Encouraged_Default_Copy_12-menerdne.png",
 									"frame": {
-										"x": 1157,
-										"y": 80,
+										"x": 1154,
+										"y": 78,
 										"width": 74,
 										"height": 35
 									}
@@ -3448,8 +3475,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"originalName": "Group 5",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 0,
-									"y": 0,
+									"x": -3,
+									"y": -2,
 									"width": 1440,
 									"height": 1230
 								},
@@ -3460,8 +3487,8 @@ window.__imported__["Contacts-Prototype-Opt2@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Group_5-otg5mjk3.png",
 									"frame": {
-										"x": 0,
-										"y": 0,
+										"x": -3,
+										"y": -2,
 										"width": 1440,
 										"height": 1230
 									}
