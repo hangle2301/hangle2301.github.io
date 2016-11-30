@@ -95,7 +95,7 @@ titleCompany.onClick ->
 # Next bt click
 makeInteractive(sketch.nextBt)
 sketch.nextBt.onClick ->
-	window.location.href = 'https://hangle2301.github.io/contacts/Round-2/Option1.framer/index.html'		
+	window.location.href = 'https://hangle2301.github.io/contacts/Round-2/Option3.framer/index.html'		
 
 
 
