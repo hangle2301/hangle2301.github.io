@@ -1,0 +1,586 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Contacts-Prototype-R2-O3-T@1x/layers.json.js"] = [
+	{
+		"objectId": "ABFC2DB4-BA71-49AF-B5F4-D942FFBC7832",
+		"kind": "artboard",
+		"name": "Opt3",
+		"originalName": "Opt3",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 2612,
+			"y": -135,
+			"width": 799,
+			"height": 407
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "944C4F76-4BC6-4FA7-BDDA-D3522D8D85B7",
+				"kind": "text",
+				"name": "Group",
+				"originalName": "Group",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 370,
+					"y": 46,
+					"width": 75,
+					"height": 16
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "OPTION 3",
+					"css": [
+						"/* OPTION 3: */",
+						"font-family: ApexNew-Bold;",
+						"font-size: 18px;",
+						"color: #303B3E;",
+						"letter-spacing: 0;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-Group-otq0qzrg.png",
+					"frame": {
+						"x": 370,
+						"y": 46,
+						"width": 75,
+						"height": 16
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "0523B612-4066-46BD-B646-B1B5F3108074",
+				"kind": "group",
+				"name": "option",
+				"originalName": "option",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 374,
+					"y": 78,
+					"width": 314,
+					"height": 160
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "015964C1-A545-43DB-8C25-26EF20D34E8A",
+						"kind": "group",
+						"name": "switcher",
+						"originalName": "switcher",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 494,
+							"y": 95,
+							"width": 94,
+							"height": 70
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "18D055B3-0F4A-433A-A91F-FDE9BF92E788",
+								"kind": "group",
+								"name": "company1",
+								"originalName": "company",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 509,
+									"y": 109,
+									"width": 56,
+									"height": 13
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": [
+									{
+										"objectId": "026BD5F8-9B9B-4061-9F4C-8A6493CB1357",
+										"kind": "text",
+										"name": "selected",
+										"originalName": "selected",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 509,
+											"y": 109,
+											"width": 56,
+											"height": 13
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Companies",
+											"css": [
+												"/* Companies: */",
+												"opacity: 0.89;",
+												"font-family: ApexNew-Medium;",
+												"font-size: 12px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 24px;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-selected-mdi2qkq1.png",
+											"frame": {
+												"x": 509,
+												"y": 109,
+												"width": 56,
+												"height": 13
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "F4AD6F06-BB2F-463C-BC15-0034E7A2A8B6",
+										"kind": "text",
+										"name": "not",
+										"originalName": "not",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 509,
+											"y": 109,
+											"width": 56,
+											"height": 13
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Companies",
+											"css": [
+												"/* Companies: */",
+												"opacity: 0.89;",
+												"font-family: ApexNew-Book;",
+												"font-size: 12px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 24px;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-not-rjrbrdzg.png",
+											"frame": {
+												"x": 509,
+												"y": 109,
+												"width": 56,
+												"height": 13
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "ACBED9B5-8C58-4D35-923E-8AD7A2A3C7F3",
+								"kind": "group",
+								"name": "location1",
+								"originalName": "location",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 511,
+									"y": 134,
+									"width": 50,
+									"height": 10
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": [
+									{
+										"objectId": "C99ECDCF-0E84-4473-A5BF-B839D63BF781",
+										"kind": "text",
+										"name": "selected1",
+										"originalName": "selected",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 511,
+											"y": 134,
+											"width": 50,
+											"height": 10
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Locations",
+											"css": [
+												"/* Locations: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 12px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-selected-qzk5rune.png",
+											"frame": {
+												"x": 511,
+												"y": 134,
+												"width": 50,
+												"height": 10
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "A8D00E9D-5CBA-4785-A383-9DB94863D9A3",
+										"kind": "text",
+										"name": "not1",
+										"originalName": "not",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 511,
+											"y": 134,
+											"width": 49,
+											"height": 10
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Locations",
+											"css": [
+												"/* Locations: */",
+												"font-family: ApexNew-Book;",
+												"font-size: 12px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-not-qthemdbf.png",
+											"frame": {
+												"x": 511,
+												"y": 134,
+												"width": 49,
+												"height": 10
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "110BC36D-882C-4798-BD96-17DFB4B45989",
+								"kind": "group",
+								"name": "bg1",
+								"originalName": "bg",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 494,
+									"y": 95,
+									"width": 94,
+									"height": 70
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-bg-mtewqkmz.png",
+									"frame": {
+										"x": 494,
+										"y": 95,
+										"width": 94,
+										"height": 70
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "642E91F1-19F6-4FB2-8C78-A257C3513BD4",
+						"kind": "group",
+						"name": "company",
+						"originalName": "company",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 511,
+							"y": 78,
+							"width": 67,
+							"height": 155
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "FFB53B06-4631-407D-9768-B4323AE869D5",
+								"kind": "group",
+								"name": "title",
+								"originalName": "title",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 511,
+									"y": 78,
+									"width": 67,
+									"height": 13
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-title-rkzcntnc.png",
+									"frame": {
+										"x": 511,
+										"y": 78,
+										"width": 67,
+										"height": 13
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "E63340EB-A1B5-47A5-990B-4DFE2BAD0939",
+								"kind": "group",
+								"name": "Group_6",
+								"originalName": "Group 6",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 512,
+									"y": 96,
+									"width": 66,
+									"height": 137
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_6-rtyzmzqw.png",
+									"frame": {
+										"x": 512,
+										"y": 96,
+										"width": 66,
+										"height": 137
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "45F8B015-E327-495F-8223-42B957A5DE8C",
+						"kind": "group",
+						"name": "location",
+						"originalName": "location",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 520,
+							"y": 79,
+							"width": 63,
+							"height": 154
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "DD239F81-B32E-49B7-B09E-9DF7803E4FBC",
+								"kind": "group",
+								"name": "title1",
+								"originalName": "title",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 521,
+									"y": 79,
+									"width": 60,
+									"height": 10
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-title-reqymzlg.png",
+									"frame": {
+										"x": 521,
+										"y": 79,
+										"width": 60,
+										"height": 10
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "1A79986C-AB64-4B23-AA04-C74DDA2F1DA7",
+								"kind": "group",
+								"name": "Group_7",
+								"originalName": "Group 7",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 520,
+									"y": 96,
+									"width": 63,
+									"height": 137
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-Group_7-mue3otk4.png",
+									"frame": {
+										"x": 520,
+										"y": 96,
+										"width": 63,
+										"height": 137
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "291A9132-5711-4306-A95D-81D569FDCFAE",
+						"kind": "group",
+						"name": "contact",
+						"originalName": "contact",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 590,
+							"y": 78,
+							"width": 98,
+							"height": 155
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-contact-mjkxqtkx.png",
+							"frame": {
+								"x": 590,
+								"y": 78,
+								"width": 98,
+								"height": 155
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "5794E22D-129F-4411-B0D7-3884A7ADE74F",
+						"kind": "group",
+						"name": "bg",
+						"originalName": "bg",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 374,
+							"y": 78,
+							"width": 314,
+							"height": 160
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-bg-ntc5neuy.png",
+							"frame": {
+								"x": 374,
+								"y": 78,
+								"width": 314,
+								"height": 160
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "31DE3156-2234-474E-9F73-44064C38F169",
+				"kind": "group",
+				"name": "everything",
+				"originalName": "everything",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 62,
+					"y": 79,
+					"width": 195,
+					"height": 113
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "F8936868-6D00-4AB4-8265-E48ED0F98F22",
+						"kind": "text",
+						"name": "Right",
+						"originalName": "Right",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 66,
+							"y": 79,
+							"width": 191,
+							"height": 69
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "Selected Attributes:\n\nCompanies: IT Companies\nContacts: VP or Director",
+							"css": [
+								"/* Selected Attributes:: */",
+								"opacity: 0.89;",
+								"font-family: ApexNew-Medium;",
+								"font-size: 18px;",
+								"color: #303B3E;",
+								"letter-spacing: 0;",
+								"line-height: 18px;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-Right-rjg5mzy4.png",
+							"frame": {
+								"x": 66,
+								"y": 79,
+								"width": 191,
+								"height": 69
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "4E1B7E38-E6BA-4301-9A62-BE9F3109DFA9",
+						"kind": "group",
+						"name": "nextBt",
+						"originalName": "nextBt",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 62,
+							"y": 170,
+							"width": 115,
+							"height": 22
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-nextBt-neuxqjdf.png",
+							"frame": {
+								"x": 62,
+								"y": 170,
+								"width": 115,
+								"height": 22
+							}
+						},
+						"children": []
+					}
+				]
+			}
+		]
+	}
+]
