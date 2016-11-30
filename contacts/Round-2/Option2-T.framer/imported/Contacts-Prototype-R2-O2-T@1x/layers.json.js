@@ -152,7 +152,7 @@ window.__imported__["Contacts-Prototype-R2-O2-T@1x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 446,
 									"y": 132,
-									"width": 55,
+									"width": 58,
 									"height": 12
 								},
 								"visible": true,
@@ -169,15 +169,15 @@ window.__imported__["Contacts-Prototype-R2-O2-T@1x/layers.json.js"] = [
 										"layerFrame": {
 											"x": 446,
 											"y": 132,
-											"width": 55,
+											"width": 58,
 											"height": 12
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1,
-											"string": "Branches",
+											"string": "Locations",
 											"css": [
-												"/* Branches: */",
+												"/* Locations: */",
 												"opacity: 0.89;",
 												"font-family: ApexNew-Medium;",
 												"font-size: 14px;",
@@ -191,7 +191,7 @@ window.__imported__["Contacts-Prototype-R2-O2-T@1x/layers.json.js"] = [
 											"frame": {
 												"x": 446,
 												"y": 132,
-												"width": 55,
+												"width": 58,
 												"height": 12
 											}
 										},
@@ -206,15 +206,15 @@ window.__imported__["Contacts-Prototype-R2-O2-T@1x/layers.json.js"] = [
 										"layerFrame": {
 											"x": 447,
 											"y": 132,
-											"width": 53,
+											"width": 56,
 											"height": 12
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1,
-											"string": "Branches",
+											"string": "Locations",
 											"css": [
-												"/* Branches: */",
+												"/* Locations: */",
 												"opacity: 0.89;",
 												"font-family: ApexNew-Book;",
 												"font-size: 14px;",
@@ -228,7 +228,7 @@ window.__imported__["Contacts-Prototype-R2-O2-T@1x/layers.json.js"] = [
 											"frame": {
 												"x": 447,
 												"y": 132,
-												"width": 53,
+												"width": 56,
 												"height": 12
 											}
 										},
