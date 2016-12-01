@@ -72,12 +72,6 @@ for stage, index in funnelStages
 			this.parent.children[0].opacity = 0
 		rePosition()
 
-# Next bt click
-makeInteractive(sketch.nextBt)
-sketch.nextBt.onClick ->
-	window.location.href = 'https://hangle2301.github.io/contacts/Round-2/Option2.framer/index.html'		
-
-
 
 		
 
