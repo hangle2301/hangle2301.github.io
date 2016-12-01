@@ -92,13 +92,5 @@ titleCompany.onClick ->
 #titleLocation.onClick ->
 #	switcher.opacity = 1
 
-# Next bt click
-makeInteractive(sketch.nextBt)
-sketch.nextBt.onClick ->
-	window.location.href = 'https://hangle2301.github.io/contacts/Round-2/Option3.framer/index.html'		
-
-
-
-
 
 
