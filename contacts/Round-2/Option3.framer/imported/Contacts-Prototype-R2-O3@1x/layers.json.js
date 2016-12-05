@@ -1005,9 +1005,9 @@ window.__imported__["Contacts-Prototype-R2-O3@1x/layers.json.js"] = [
 								"originalName": "contact",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 1132,
+									"x": 1147,
 									"y": 324,
-									"width": 98,
+									"width": 83,
 									"height": 155
 								},
 								"visible": true,
@@ -1017,9 +1017,9 @@ window.__imported__["Contacts-Prototype-R2-O3@1x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-contact-njdfqjcx.png",
 									"frame": {
-										"x": 1132,
+										"x": 1147,
 										"y": 324,
-										"width": 98,
+										"width": 83,
 										"height": 155
 									}
 								},
