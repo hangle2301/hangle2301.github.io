@@ -696,6 +696,33 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"children": []
 									},
 									{
+										"objectId": "938223AF-DBE8-4437-8BCE-C81913BB63A2",
+										"kind": "group",
+										"name": "hover_line",
+										"originalName": "hover-line",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 1025,
+											"y": 287,
+											"width": 105,
+											"height": 2
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-hover_line-otm4mjiz.png",
+											"frame": {
+												"x": 1025,
+												"y": 287,
+												"width": 105,
+												"height": 2
+											}
+										},
+										"children": []
+									},
+									{
 										"objectId": "0678CAC5-ED32-46BA-A9AD-84D84134B049",
 										"kind": "group",
 										"name": "Group_13",
@@ -870,9 +897,9 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 916,
-									"y": 314,
+									"y": 346,
 									"width": 314,
-									"height": 201
+									"height": 169
 								},
 								"visible": true,
 								"metadata": {
@@ -1015,27 +1042,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "600D7BF7-CAB1-459C-AFB3-E1D254E17C39",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_14",
 										"originalName": "Group 14",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
-											"y": 314,
-											"width": 70,
-											"height": 130
+											"x": 920,
+											"y": 432,
+											"width": 63,
+											"height": 12
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "30.2K New",
+											"css": [
+												"/* 30.2K New: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_14-njawrddc.png",
 											"frame": {
-												"x": 916,
-												"y": 314,
-												"width": 70,
-												"height": 130
+												"x": 920,
+												"y": 432,
+												"width": 63,
+												"height": 12
 											}
 										},
 										"children": []
@@ -1069,27 +1105,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "81A2DF5E-0A3A-426E-A9DD-594689B48517",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_15",
 										"originalName": "Group 15",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 997,
-											"y": 314,
-											"width": 70,
-											"height": 132
+											"x": 1005,
+											"y": 432,
+											"width": 55,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "12K Open",
+											"css": [
+												"/* 12K Open: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_15-odfbmkrg.png",
 											"frame": {
-												"x": 997,
-												"y": 314,
-												"width": 70,
-												"height": 132
+												"x": 1005,
+												"y": 432,
+												"width": 55,
+												"height": 14
 											}
 										},
 										"children": []
@@ -1123,27 +1168,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "2E76126D-3C4F-4F7F-AC0D-8F668D981EC5",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_91",
 										"originalName": "Group 9",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1079,
-											"y": 314,
-											"width": 70,
-											"height": 131
+											"x": 1084,
+											"y": 432,
+											"width": 61,
+											"height": 13
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "1,600 Won",
+											"css": [
+												"/* 1,600 Won: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_9-mku3njey.png",
 											"frame": {
-												"x": 1079,
-												"y": 314,
-												"width": 70,
-												"height": 131
+												"x": 1084,
+												"y": 432,
+												"width": 61,
+												"height": 13
 											}
 										},
 										"children": []
@@ -1177,27 +1231,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "056D34C3-2584-4B84-9A63-DB4EF464FBC3",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_8",
 										"originalName": "Group 8",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1160,
-											"y": 314,
-											"width": 70,
-											"height": 130
+											"x": 1168,
+											"y": 432,
+											"width": 54,
+											"height": 12
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "745 Lost",
+											"css": [
+												"/* 745 Lost: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_8-mdu2rdm0.png",
 											"frame": {
-												"x": 1160,
-												"y": 314,
-												"width": 70,
-												"height": 130
+												"x": 1168,
+												"y": 432,
+												"width": 54,
+												"height": 12
 											}
 										},
 										"children": []
@@ -1212,9 +1275,9 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 916,
-									"y": 314,
+									"y": 361,
 									"width": 314,
-									"height": 132
+									"height": 85
 								},
 								"visible": true,
 								"metadata": {
@@ -1250,27 +1313,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "2820F26B-9252-46C7-9021-D882FAFA82B4",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_16",
 										"originalName": "Group 16",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
-											"y": 314,
-											"width": 70,
-											"height": 130
+											"x": 925,
+											"y": 432,
+											"width": 53,
+											"height": 12
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "43.5 New",
+											"css": [
+												"/* 43.5 New: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_16-mjgymeyy.png",
 											"frame": {
-												"x": 916,
-												"y": 314,
-												"width": 70,
-												"height": 130
+												"x": 925,
+												"y": 432,
+												"width": 53,
+												"height": 12
 											}
 										},
 										"children": []
@@ -1304,27 +1376,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "D016F612-BE5F-4EE6-B1F0-A560068D28C8",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_17",
 										"originalName": "Group 17",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 997,
-											"y": 314,
-											"width": 70,
-											"height": 132
+											"x": 1000,
+											"y": 432,
+											"width": 65,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "14.2K Open",
+											"css": [
+												"/* 14.2K Open: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_17-rdaxnky2.png",
 											"frame": {
-												"x": 997,
-												"y": 314,
-												"width": 70,
-												"height": 132
+												"x": 1000,
+												"y": 432,
+												"width": 65,
+												"height": 14
 											}
 										},
 										"children": []
@@ -1358,27 +1439,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "CA51B5FC-3610-4745-BC6C-B82ECDD81FA6",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_92",
 										"originalName": "Group 9",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1079,
-											"y": 314,
-											"width": 70,
-											"height": 131
+											"x": 1084,
+											"y": 432,
+											"width": 61,
+											"height": 13
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "1,750 Won",
+											"css": [
+												"/* 1,750 Won: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_9-q0e1mui1.png",
 											"frame": {
-												"x": 1079,
-												"y": 314,
-												"width": 70,
-												"height": 131
+												"x": 1084,
+												"y": 432,
+												"width": 61,
+												"height": 13
 											}
 										},
 										"children": []
@@ -1412,27 +1502,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "55BE169C-E151-4C76-AF3A-0DA16F86F984",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_81",
 										"originalName": "Group 8",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1160,
-											"y": 314,
-											"width": 70,
-											"height": 130
+											"x": 1168,
+											"y": 432,
+											"width": 54,
+											"height": 12
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "920 Lost",
+											"css": [
+												"/* 920 Lost: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_8-ntvcrte2.png",
 											"frame": {
-												"x": 1160,
-												"y": 314,
-												"width": 70,
-												"height": 130
+												"x": 1168,
+												"y": 432,
+												"width": 54,
+												"height": 12
 											}
 										},
 										"children": []
@@ -1447,9 +1546,9 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 916,
-									"y": 305,
+									"y": 304,
 									"width": 316,
-									"height": 169
+									"height": 170
 								},
 								"visible": true,
 								"metadata": {
@@ -1457,14 +1556,14 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 								},
 								"children": [
 									{
-										"objectId": "67CAC8C0-7F95-43D5-A7F1-53A39307729D",
+										"objectId": "1D74F3F6-CB61-4A79-8B74-D7CC4F323886",
 										"kind": "group",
 										"name": "hover",
 										"originalName": "hover",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 966,
-											"y": 305,
+											"x": 967,
+											"y": 304,
 											"width": 134,
 											"height": 81
 										},
@@ -1473,10 +1572,10 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-hover-njddqum4.png",
+											"path": "images/Layer-hover-muq3neyz.png",
 											"frame": {
-												"x": 966,
-												"y": 305,
+												"x": 967,
+												"y": 304,
 												"width": 134,
 												"height": 81
 											}
@@ -1512,27 +1611,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "381EF6C3-37EA-4FF1-95B2-DA95DD85FBE1",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_32",
 										"originalName": "Group 3",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 916,
-											"y": 314,
-											"width": 75,
-											"height": 130
+											"x": 922,
+											"y": 432,
+											"width": 63,
+											"height": 12
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "75.5K New",
+											"css": [
+												"/* 75.5K New: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_3-mzgxruy2.png",
 											"frame": {
-												"x": 916,
-												"y": 314,
-												"width": 75,
-												"height": 130
+												"x": 922,
+												"y": 432,
+												"width": 63,
+												"height": 12
 											}
 										},
 										"children": []
@@ -1566,27 +1674,36 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "FDA3141E-3132-4F39-9990-38CB0F8AC24F",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_41",
 										"originalName": "Group 4",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 996,
-											"y": 314,
-											"width": 75,
-											"height": 132
+											"x": 1001,
+											"y": 432,
+											"width": 65,
+											"height": 14
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "11.5K Open",
+											"css": [
+												"/* 11.5K Open: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_4-rkrbmze0.png",
 											"frame": {
-												"x": 996,
-												"y": 314,
-												"width": 75,
-												"height": 132
+												"x": 1001,
+												"y": 432,
+												"width": 65,
+												"height": 14
 											}
 										},
 										"children": []
@@ -1620,58 +1737,39 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									},
 									{
 										"objectId": "7B8F3F39-A65E-402A-B5DA-678F615FCE33",
-										"kind": "group",
+										"kind": "text",
 										"name": "Group_93",
 										"originalName": "Group 9",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 1077,
-											"y": 314,
-											"width": 75,
-											"height": 131
+											"x": 1083,
+											"y": 432,
+											"width": 62,
+											"height": 13
 										},
 										"visible": true,
 										"metadata": {
-											"opacity": 1
+											"opacity": 1,
+											"string": "7,250 Won",
+											"css": [
+												"/* 7,250 Won: */",
+												"font-family: ApexNew-Medium;",
+												"font-size: 14px;",
+												"color: #303B3E;",
+												"letter-spacing: 0;",
+												"line-height: 14px;"
+											]
 										},
 										"image": {
 											"path": "images/Layer-Group_9-n0i4rjng.png",
 											"frame": {
-												"x": 1077,
-												"y": 314,
-												"width": 75,
-												"height": 131
+												"x": 1083,
+												"y": 432,
+												"width": 62,
+												"height": 13
 											}
 										},
-										"children": [
-											{
-												"objectId": "64FE9B27-04F7-4635-B472-67D6C276EA97",
-												"kind": "group",
-												"name": "Group_61",
-												"originalName": "Group 6",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 1077,
-													"y": 314,
-													"width": 75,
-													"height": 110
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Group_6-njrgrtlc.png",
-													"frame": {
-														"x": 1077,
-														"y": 314,
-														"width": 75,
-														"height": 110
-													}
-												},
-												"children": []
-											}
-										]
+										"children": []
 									},
 									{
 										"objectId": "C64BE2B2-5F6D-4ABE-9462-FAE19D769651",
@@ -1696,33 +1794,6 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 												"y": 413,
 												"width": 75,
 												"height": 12
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "0DD8978F-1476-479B-9D51-57275DFDB3D8",
-										"kind": "group",
-										"name": "Group_10",
-										"originalName": "Group 10",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 1157,
-											"y": 314,
-											"width": 75,
-											"height": 110
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Group_10-mereodk3.png",
-											"frame": {
-												"x": 1157,
-												"y": 314,
-												"width": 75,
-												"height": 110
 											}
 										},
 										"children": []
@@ -1842,6 +1913,33 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"y": 188,
 										"width": 314,
 										"height": 29
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "844E3E20-E1A8-4066-B90B-9EE4294CB89C",
+								"kind": "group",
+								"name": "BG_chart",
+								"originalName": "BG-chart",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 916,
+									"y": 314,
+									"width": 314,
+									"height": 110
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-BG_chart-odq0rtnf.png",
+									"frame": {
+										"x": 916,
+										"y": 314,
+										"width": 314,
+										"height": 110
 									}
 								},
 								"children": []
