@@ -10,7 +10,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 			"x": 2612,
 			"y": -135,
 			"width": 1440,
-			"height": 1016
+			"height": 1628
 		},
 		"visible": true,
 		"metadata": {},
@@ -68,79 +68,15 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 209,
-							"y": 188,
+							"y": 187,
 							"width": 667,
-							"height": 694
+							"height": 845
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-Left-odjfndde.png",
-							"frame": {
-								"x": 209,
-								"y": 188,
-								"width": 667,
-								"height": 694
-							}
-						},
 						"children": [
-							{
-								"objectId": "8FDB64FC-0B2A-4CE9-8D0A-5D0B1729D38A",
-								"kind": "group",
-								"name": "Group_21",
-								"originalName": "Group 2",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 212,
-									"y": 525,
-									"width": 655,
-									"height": 26
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Group_2-oezeqjy0.png",
-									"frame": {
-										"x": 212,
-										"y": 525,
-										"width": 655,
-										"height": 26
-									}
-								},
-								"children": [
-									{
-										"objectId": "43E318D7-0BE9-4041-904E-F086AFAE828C",
-										"kind": "group",
-										"name": "Button_Small_Encouraged_Default_Copy_26",
-										"originalName": "Button-Small Encouraged / Default Copy 26",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 817,
-											"y": 525,
-											"width": 50,
-											"height": 26
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_26-ndnfmze4.png",
-											"frame": {
-												"x": 817,
-												"y": 525,
-												"width": 50,
-												"height": 26
-											}
-										},
-										"children": []
-									}
-								]
-							},
 							{
 								"objectId": "26EDE985-9489-4230-BBBE-444D1C253A6B",
 								"kind": "group",
@@ -149,9 +85,9 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 209,
-									"y": 475,
+									"y": 187,
 									"width": 667,
-									"height": 216
+									"height": 173
 								},
 								"visible": true,
 								"metadata": {
@@ -161,12 +97,67 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									"path": "images/Layer-Contact_BG-mjzfreu5.png",
 									"frame": {
 										"x": 209,
-										"y": 475,
+										"y": 187,
 										"width": 667,
-										"height": 216
+										"height": 173
 									}
 								},
 								"children": [
+									{
+										"objectId": "8FDB64FC-0B2A-4CE9-8D0A-5D0B1729D38A",
+										"kind": "group",
+										"name": "Group_21",
+										"originalName": "Group 2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 212,
+											"y": 227,
+											"width": 655,
+											"height": 26
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_2-oezeqjy0.png",
+											"frame": {
+												"x": 212,
+												"y": 227,
+												"width": 655,
+												"height": 26
+											}
+										},
+										"children": [
+											{
+												"objectId": "43E318D7-0BE9-4041-904E-F086AFAE828C",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_26",
+												"originalName": "Button-Small Encouraged / Default Copy 26",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 227,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_26-ndnfmze4.png",
+													"frame": {
+														"x": 817,
+														"y": 227,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
 									{
 										"objectId": "5FB966D5-4931-4D38-AC1B-830B6805644F",
 										"kind": "group",
@@ -175,9 +166,9 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 209,
-											"y": 574,
+											"y": 276,
 											"width": 666,
-											"height": 117
+											"height": 84
 										},
 										"visible": true,
 										"metadata": {
@@ -187,39 +178,12 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Group_3-nuzcoty2.png",
 											"frame": {
 												"x": 209,
-												"y": 574,
+												"y": 276,
 												"width": 666,
-												"height": 117
+												"height": 84
 											}
 										},
 										"children": [
-											{
-												"objectId": "40F43B8A-17E1-4D2D-ADC7-F45E38801D41",
-												"kind": "group",
-												"name": "Group_Copy",
-												"originalName": "Group Copy",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 510,
-													"y": 678,
-													"width": 66,
-													"height": 13
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Group_Copy-ndbgndnc.png",
-													"frame": {
-														"x": 510,
-														"y": 678,
-														"width": 66,
-														"height": 13
-													}
-												},
-												"children": []
-											},
 											{
 												"objectId": "9C373ACD-79AE-4775-8EB8-11B0F1BB7B3C",
 												"kind": "group",
@@ -228,7 +192,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 												"maskFrame": null,
 												"layerFrame": {
 													"x": 817,
-													"y": 574,
+													"y": 276,
 													"width": 50,
 													"height": 26
 												},
@@ -240,7 +204,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_30-oumznznb.png",
 													"frame": {
 														"x": 817,
-														"y": 574,
+														"y": 276,
 														"width": 50,
 														"height": 26
 													}
@@ -255,7 +219,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 												"maskFrame": null,
 												"layerFrame": {
 													"x": 817,
-													"y": 621,
+													"y": 323,
 													"width": 50,
 													"height": 26
 												},
@@ -267,7 +231,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_28-rki2nzg2.png",
 													"frame": {
 														"x": 817,
-														"y": 621,
+														"y": 323,
 														"width": 50,
 														"height": 26
 													}
@@ -284,7 +248,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 335,
-											"y": 475,
+											"y": 187,
 											"width": 18,
 											"height": 18
 										},
@@ -296,7 +260,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Question_Mark_3_Copy_14-n0jequq2.png",
 											"frame": {
 												"x": 335,
-												"y": 475,
+												"y": 187,
 												"width": 18,
 												"height": 18
 											}
@@ -306,41 +270,41 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 								]
 							},
 							{
-								"objectId": "B64AB301-042B-47CE-B40A-AAFCAE4FDD55",
+								"objectId": "897416E4-FE32-44D1-A68C-CEE6D7CC43EF",
 								"kind": "group",
-								"name": "Industry",
-								"originalName": "Industry",
+								"name": "Business_BG_short",
+								"originalName": "Business_BG_short",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 209,
-									"y": 287,
-									"width": 658,
-									"height": 26
+									"y": 422,
+									"width": 667,
+									"height": 259
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Industry-qjy0quiz.png",
+									"path": "images/Layer-Business_BG_short-odk3nde2.png",
 									"frame": {
 										"x": 209,
-										"y": 287,
-										"width": 658,
-										"height": 26
+										"y": 422,
+										"width": 667,
+										"height": 259
 									}
 								},
 								"children": [
 									{
-										"objectId": "335E7BDB-DFFB-4D9B-A810-09BA66B2AA33",
+										"objectId": "B64AB301-042B-47CE-B40A-AAFCAE4FDD55",
 										"kind": "group",
-										"name": "Button_Small_Encouraged_Default_Copy_29",
-										"originalName": "Button-Small Encouraged / Default Copy 29",
+										"name": "Industry",
+										"originalName": "Industry",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 817,
-											"y": 287,
-											"width": 50,
+											"x": 209,
+											"y": 521,
+											"width": 658,
 											"height": 26
 										},
 										"visible": true,
@@ -348,70 +312,43 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"opacity": 1
 										},
 										"image": {
-											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_29-mzm1rtdc.png",
+											"path": "images/Layer-Industry-qjy0quiz.png",
 											"frame": {
-												"x": 817,
-												"y": 287,
-												"width": 50,
+												"x": 209,
+												"y": 521,
+												"width": 658,
 												"height": 26
 											}
 										},
-										"children": []
-									}
-								]
-							},
-							{
-								"objectId": "897416E4-FE32-44D1-A68C-CEE6D7CC43EF",
-								"kind": "group",
-								"name": "Business_BG",
-								"originalName": "Business BG",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 209,
-									"y": 188,
-									"width": 667,
-									"height": 256
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Business_BG-odk3nde2.png",
-									"frame": {
-										"x": 209,
-										"y": 188,
-										"width": 667,
-										"height": 256
-									}
-								},
-								"children": [
-									{
-										"objectId": "954094B8-CCE7-4F58-9097-F2E6FD4267EA",
-										"kind": "group",
-										"name": "Group",
-										"originalName": "Group",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 510,
-											"y": 431,
-											"width": 66,
-											"height": 13
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Group-otu0mdk0.png",
-											"frame": {
-												"x": 510,
-												"y": 431,
-												"width": 66,
-												"height": 13
+										"children": [
+											{
+												"objectId": "335E7BDB-DFFB-4D9B-A810-09BA66B2AA33",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_29",
+												"originalName": "Button-Small Encouraged / Default Copy 29",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 521,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_29-mzm1rtdc.png",
+													"frame": {
+														"x": 817,
+														"y": 521,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
 											}
-										},
-										"children": []
+										]
 									},
 									{
 										"objectId": "A816D130-09BB-434E-880F-BCCA4C6C2FBE",
@@ -421,7 +358,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 817,
-											"y": 381,
+											"y": 615,
 											"width": 50,
 											"height": 26
 										},
@@ -433,7 +370,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-qtgxnkqx.png",
 											"frame": {
 												"x": 817,
-												"y": 381,
+												"y": 615,
 												"width": 50,
 												"height": 26
 											}
@@ -448,7 +385,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 817,
-											"y": 334,
+											"y": 568,
 											"width": 50,
 											"height": 26
 										},
@@ -460,7 +397,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_27-nencmzfd.png",
 											"frame": {
 												"x": 817,
-												"y": 334,
+												"y": 568,
 												"width": 50,
 												"height": 26
 											}
@@ -475,7 +412,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 817,
-											"y": 238,
+											"y": 472,
 											"width": 50,
 											"height": 26
 										},
@@ -487,7 +424,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_25-mzm0rjnd.png",
 											"frame": {
 												"x": 817,
-												"y": 238,
+												"y": 472,
 												"width": 50,
 												"height": 26
 											}
@@ -502,7 +439,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 346,
-											"y": 188,
+											"y": 422,
 											"width": 18,
 											"height": 18
 										},
@@ -514,9 +451,467 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Question_Mark_3_Copy_13-mti2reqz.png",
 											"frame": {
 												"x": 346,
-												"y": 188,
+												"y": 422,
 												"width": 18,
 												"height": 18
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "3B88A4DE-652C-4BD6-A873-B5D7C06AD2F1",
+										"kind": "group",
+										"name": "show_more",
+										"originalName": "show-more",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 482,
+											"y": 668,
+											"width": 94,
+											"height": 13
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-show_more-m0i4oee0.png",
+											"frame": {
+												"x": 482,
+												"y": 668,
+												"width": 94,
+												"height": 13
+											}
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"objectId": "DEE367F1-7B86-4B08-912F-271328CD276B",
+								"kind": "group",
+								"name": "Business_BG_expand",
+								"originalName": "Business_BG_expand",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 209,
+									"y": 665,
+									"width": 666,
+									"height": 367
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": [
+									{
+										"objectId": "293D7268-AF2B-441A-872E-EB5FEF4331BB",
+										"kind": "group",
+										"name": "Group_Copy_6",
+										"originalName": "Group Copy 6",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 967,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_Copy_6-mjkzrdcy.png",
+											"frame": {
+												"x": 209,
+												"y": 967,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "AF711079-377F-4D7F-BB20-A720E62A63F0",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_311",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 967,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-quy3mtew.png",
+													"frame": {
+														"x": 817,
+														"y": 967,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "51555B54-C41F-4AB5-A338-669CBA4183AC",
+										"kind": "group",
+										"name": "Group_Copy_5",
+										"originalName": "Group Copy 5",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 917,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_Copy_5-nte1ntvc.png",
+											"frame": {
+												"x": 209,
+												"y": 917,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "F87BC15A-2C76-42E0-B064-51BED404FC86",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_312",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 917,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-rjg3qkmx.png",
+													"frame": {
+														"x": 817,
+														"y": 917,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "98CBEEF3-C0B2-4D65-A378-014455D8F96C",
+										"kind": "group",
+										"name": "Group_Copy_4",
+										"originalName": "Group Copy 4",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 867,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_Copy_4-othdqkvf.png",
+											"frame": {
+												"x": 209,
+												"y": 867,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "5C41EE52-08DD-4DF1-A41B-C6075942B536",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_313",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 867,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-num0muvf.png",
+													"frame": {
+														"x": 817,
+														"y": 867,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "4847DE85-CF74-48FC-93DA-26E8534FBADD",
+										"kind": "group",
+										"name": "Group_Copy_3",
+										"originalName": "Group Copy 3",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 817,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_Copy_3-ndg0n0rf.png",
+											"frame": {
+												"x": 209,
+												"y": 817,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "368CD033-A78C-4986-884A-9D5620188FE1",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_314",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 817,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-mzy4q0qw.png",
+													"frame": {
+														"x": 817,
+														"y": 817,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "ED75E7EE-7070-4FC5-83EC-389BEEFA56B6",
+										"kind": "group",
+										"name": "Group_Copy_2",
+										"originalName": "Group Copy 2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 768,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_Copy_2-ruq3nuu3.png",
+											"frame": {
+												"x": 209,
+												"y": 768,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "8978A52D-ECDD-4DDF-9517-D4707C3042C7",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_315",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 768,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-odk3oee1.png",
+													"frame": {
+														"x": 817,
+														"y": 768,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "058C8F07-B72C-4D05-ABF5-3549FEE89FF2",
+										"kind": "group",
+										"name": "Group_Copy",
+										"originalName": "Group Copy",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 715,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_Copy-mdu4qzhg.png",
+											"frame": {
+												"x": 209,
+												"y": 715,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "58816D4C-F289-4358-820A-18C47D04FA6D",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_316",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 715,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-ntg4mtze.png",
+													"frame": {
+														"x": 817,
+														"y": 715,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "4F07946F-29A0-4123-98FF-59FD47589853",
+										"kind": "group",
+										"name": "Group",
+										"originalName": "Group",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 209,
+											"y": 665,
+											"width": 666,
+											"height": 37
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group-neywnzk0.png",
+											"frame": {
+												"x": 209,
+												"y": 665,
+												"width": 666,
+												"height": 37
+											}
+										},
+										"children": [
+											{
+												"objectId": "BDDD1E2B-BF7A-41E8-AE61-3457F8B0B575",
+												"kind": "group",
+												"name": "Button_Small_Encouraged_Default_Copy_317",
+												"originalName": "Button-Small Encouraged / Default Copy 31",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 817,
+													"y": 665,
+													"width": 50,
+													"height": 26
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Button_Small_Encouraged_Default_Copy_31-qkrerdff.png",
+													"frame": {
+														"x": 817,
+														"y": 665,
+														"width": 50,
+														"height": 26
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "954094B8-CCE7-4F58-9097-F2E6FD4267EA",
+										"kind": "group",
+										"name": "collapse",
+										"originalName": "collapse",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 505,
+											"y": 1017,
+											"width": 66,
+											"height": 15
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-collapse-otu0mdk0.png",
+											"frame": {
+												"x": 505,
+												"y": 1017,
+												"width": 66,
+												"height": 15
 											}
 										},
 										"children": []
@@ -526,12 +921,12 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 							{
 								"objectId": "2AA9121D-90FD-4D26-B456-2A261C20AD9A",
 								"kind": "group",
-								"name": "Group_6",
-								"originalName": "Group 6",
+								"name": "bottom",
+								"originalName": "bottom",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 209,
-									"y": 746,
+									"y": 711,
 									"width": 667,
 									"height": 136
 								},
@@ -540,10 +935,10 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									"opacity": 1
 								},
 								"image": {
-									"path": "images/Layer-Group_6-mkfbotey.png",
+									"path": "images/Layer-bottom-mkfbotey.png",
 									"frame": {
 										"x": 209,
-										"y": 746,
+										"y": 711,
 										"width": 667,
 										"height": 136
 									}
@@ -557,7 +952,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 817,
-											"y": 845,
+											"y": 810,
 											"width": 50,
 											"height": 26
 										},
@@ -569,7 +964,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_39-qzixnefe.png",
 											"frame": {
 												"x": 817,
-												"y": 845,
+												"y": 810,
 												"width": 50,
 												"height": 26
 											}
@@ -584,7 +979,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 817,
-											"y": 796,
+											"y": 761,
 											"width": 50,
 											"height": 26
 										},
@@ -596,7 +991,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Button_Small_Encouraged_Default_Copy_37-qjhcqzk2.png",
 											"frame": {
 												"x": 817,
-												"y": 796,
+												"y": 761,
 												"width": 50,
 												"height": 26
 											}
@@ -611,7 +1006,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 333,
-											"y": 746,
+											"y": 711,
 											"width": 18,
 											"height": 18
 										},
@@ -623,7 +1018,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 											"path": "images/Layer-Question_Mark_3_Copy_16-odc1mtuw.png",
 											"frame": {
 												"x": 333,
-												"y": 746,
+												"y": 711,
 												"width": 18,
 												"height": 18
 											}

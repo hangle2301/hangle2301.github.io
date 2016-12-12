@@ -31,10 +31,58 @@ Framer.Info =
 	description: ""
 
 
-#Company by default
-switcher = sketch.switcher
+# ---- LEFT SIDE ------ #
+showMore = sketch.show_more
+collapse = sketch.collapse
+leftTopShort = sketch.Business_BG_short
+leftTopExpand = sketch.Business_BG_expand
+leftlist = leftTopExpand.children
+leftBottom = sketch.bottom
+space = 40
+leftBottom.xy= leftTopShort.y + space
+leftBottom.originalY = leftBottom.y
+leftTopExpand.opacity = 0
 
+makeInteractive(showMore)
+makeInteractive(collapse)
+
+for listItem in leftlist
+	listItem.opacity = 0
+	
+showMore.onClick ->
+	leftTopExpand.opacity = 1
+	showMore.opacity = 0
+	for listItem2,itemIndex in leftlist	
+		listItem2.animate
+			properties:
+				opacity: 1
+			time: 0.35
+			delay: itemIndex * 0.1
+	leftBottom.animate
+		properties:
+			y: leftTopExpand.y + leftTopExpand.height + space
+		time: 0.5	
+collapse.onClick ->
+	collapse.opacity = 0
+	for listItem2,itemIndex in leftlist	
+		listItem2.animate
+			properties:
+				opacity: 0
+			time: 0.4
+	leftBottom.animate
+		properties:
+			y: leftBottom.originalY
+		time: 0.3	
+		delay:0.2
+	showMore.animate
+		properties:
+			opacity: 1
+		time: 0.3
+		delay: 0.3
+
+# ---- RIGHT SIDE ------ #
 # Clicking 
+switcher = sketch.switcher
 clickLocation = sketch.locations
 clickCompany = sketch.accounts
 clickContact = sketch.contacts
@@ -53,7 +101,6 @@ clickContact.panel.charts = [sketch.new2, sketch.open2, sketch.won2, sketch.lost
 makeInteractive(clickLocation)
 makeInteractive(clickCompany)
 makeInteractive(clickContact)
-
 #Hovering
 titles = [clickCompany, clickLocation, clickContact]
 current = 0
@@ -101,12 +148,12 @@ for titleBlock in titles
 					properties:
 						opacity: 0
 					time: 0.1
-					delay: 0.4
+					delay: 0.5
 		this.panel.animate
 			properties:
 				opacity: 1
 			time: 0.1
-			delay: 0.4
+			delay: 0.5
 		line.animate
 			properties:
 				x: titles[current].x
