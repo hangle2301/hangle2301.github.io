@@ -10173,7 +10173,7 @@ window.__imported__["Contacts-Prototype-Final@1x/layers.json.js"] = [
 									"width": 314,
 									"height": 132
 								},
-								"visible": false,
+								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},

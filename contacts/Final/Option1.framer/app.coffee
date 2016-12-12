@@ -78,7 +78,7 @@ for titleBlock in titles
 	titleBlock.onClick ->		
 		# Chart animation
 		for chartLine,chartIndex in titles[current].panel.charts
-			console.log("Current scale " + chartLine.scaleX)
+			console.log("Starting animation: Current scale " + chartLine.scaleX + "to " + this.panel.charts[chartIndex].height / chartLine.height)
 			chartLine.animate
 				properties:
 					scaleY: this.panel.charts[chartIndex].height / chartLine.height
@@ -86,28 +86,26 @@ for titleBlock in titles
 			chartLine.animate
 				properties:
 					scaleY: 1
-				time: 0.1
-				delay: 0.5
+				time: 0.2
+				delay: 0.6
 		# Title animation
 		current = titles.indexOf(this)
-		for titleBlock2, indexBlock in titles
-			if(indexBlock != current)
+		for titleBlock2, indexBlock2 in titles
+			if(indexBlock2 != current)
 				titleBlock2.panel.animate
 					properties:
 						opacity: 0
 					time: 0.5
 		this.panel.animate
 			properties:
-				opacity:1
+				opacity: 1
 			time: 0.5
-			delay: 0.3
+			delay: 0.2
 		line.animate
 			properties:
 				x: titles[current].x
 			time: 0.3	
-		
-		
-			
+					
 #Defaulting on Accounts
 clickCompany.panel.opacity = 1	
 
