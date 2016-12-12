@@ -72,7 +72,8 @@ for titleBlock in titles
 			hoverLine.animate
 				properties:
 					opacity: 1
-				time: 0.3
+				time: 0.5
+				curve: "bezier-curve"
 	titleBlock.onMouseOut ->
 		if(this.panel.opacity == 0)
 			hoverLine.animate
@@ -110,6 +111,7 @@ for titleBlock in titles
 			properties:
 				x: titles[current].x
 			time: 0.3	
+			curve: "spring"
 					
 #Defaulting on Accounts
 clickCompany.panel.opacity = 1	
