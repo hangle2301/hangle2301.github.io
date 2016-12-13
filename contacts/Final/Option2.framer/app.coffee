@@ -56,8 +56,8 @@ showMore.onClick ->
 		listItem2.animate
 			properties:
 				opacity: 1
-			time: 0.3
-			delay: itemIndex * 0.07
+			time: 0.2
+			delay: itemIndex * 0.05
 	leftBottom.animate
 		properties:
 			y: leftTopExpand.y + leftTopExpand.height + space
@@ -68,16 +68,16 @@ collapse.onClick ->
 		listItem2.animate
 			properties:
 				opacity: 0
-			time: 0.3
+			time: 0.2
 	leftBottom.animate
 		properties:
 			y: leftBottom.originalY
-		time: 0.3	
+		time: 0.2	
 		delay:0.2
 	showMore.animate
 		properties:
 			opacity: 1
-		time: 0.3
+		time: 0.2
 		delay: 0.2
 
 # ---- RIGHT SIDE ------ #
