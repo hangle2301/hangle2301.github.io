@@ -93,6 +93,7 @@ clickContact.panel = sketch.contactPanel
 line = sketch.line
 hoverLine = sketch.hover_line
 hoverLine.opacity = 0
+hoverChart = sketch.hover
 # Charts
 clickCompany.panel.charts = [sketch.new, sketch.open, sketch.won, sketch.lost]
 clickLocation.panel.charts = [sketch.new1, sketch.open1, sketch.won1, sketch.lost1]
@@ -101,6 +102,22 @@ clickContact.panel.charts = [sketch.new2, sketch.open2, sketch.won2, sketch.lost
 makeInteractive(clickLocation)
 makeInteractive(clickCompany)
 makeInteractive(clickContact)
+hoverChart.opacity = 0
+for chart in clickContact.panel.charts	
+	makeInteractive(chart)
+	chart.onMouseOver ->
+		hoverChart.animateStop()
+		hoverChart.x = this.x - 1/4*hoverChart.width
+		hoverChart.animate
+			properties:
+				opacity: 1
+			time: 0.3
+	
+	chart.onMouseOut ->
+		hoverChart.animate
+			properties:
+				opacity: 0
+			time: 0.3
 #Hovering
 titles = [clickCompany, clickLocation, clickContact]
 current = 0
@@ -110,7 +127,8 @@ for titleBlock in titles
 	
 	for chart in titleBlock.panel.charts
 		chart.originY = 1
-		chart.originalHeight = chart.height
+		chart.originalScale = chart.scaleY
+		console.log(chart.originalScale)
 	
 	titleBlock.onMouseOver ->
 		if(this.panel.opacity == 0)
@@ -130,35 +148,34 @@ for titleBlock in titles
 	titleBlock.onClick ->		
 		# Chart animation
 		for chartLine,chartIndex in titles[current].panel.charts
-			chartLine.animateStop()
+			toScaleY = this.panel.charts[chartIndex].height/chartLine.height
+			console.log("Animating " + chartLine + " to " + toScaleY)
 			chartLine.animate
 				properties:
-					scaleY: this.panel.charts[chartIndex].height / chartLine.height
+					scaleY: toScaleY
 				time: 0.5
 			chartLine.animate
 				properties:
-					scaleY: 1
+					scaleY: chartLine.originalScale
 				time: 0.1
-				delay: 0.5
-		# Title animation
-		current = titles.indexOf(this)
-		for titleBlock2, indexBlock2 in titles
-			if(indexBlock2 != current)
-				titleBlock2.panel.animate
-					properties:
-						opacity: 0
-					time: 0.1
-					delay: 0.5
+				delay: 0.8
 		this.panel.animate
 			properties:
 				opacity: 1
-			time: 0.1
+			time: 0.3
+			delay: 0.5
+		titles[current].panel.animate
+			properties:
+				opacity: 0
+			time: 0.3
 			delay: 0.5
 		line.animate
 			properties:
-				x: titles[current].x
+				x: this.x
 			time: 0.3	
 			curve: "spring"
+		# Title animation
+		current = titles.indexOf(this)
 					
 #Defaulting on Accounts
 clickCompany.panel.opacity = 1	
